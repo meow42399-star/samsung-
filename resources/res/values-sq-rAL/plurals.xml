@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contact_list_pd_groups">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d grup</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d grupe</item>
+    </plurals>
+    <plurals name="count_calls">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d thirrje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d thirrje</item>
+    </plurals>
+    <plurals name="delete_logs_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të hiqet %d gjë nga historia jote e thirrjeve?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Të hiqen %d gjëra nga historia jote e thirrjeve?</item>
+    </plurals>
+    <plurals name="delete_n_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Do të heqësh %d kontakt?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Do të heqësh %d kontakte?</item>
+    </plurals>
+    <plurals name="delete_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të hiqet %d etiketë?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Të hiqen %d etiketa?</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s nuk mund t’u bashkohet chat-eve në grup. Largoje nga marrësit e përzgjedhur, ose dërgo një mesazh tekst te deri %2$d marrës.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s nuk mund t’u bashkohet chat-eve në grup. Largoje nga marrësit e përzgjedhur, ose dërgo një mesazh tekst te deri %2$d marrës.</item>
+    </plurals>
+    <plurals name="group_list_pd_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d anëtar</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d anëtarë</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kontakt me numër telefoni</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kontakte me numra telefoni</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kontakt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kontakte</item>
+    </plurals>
+    <plurals name="max_available_contacts_count_linked_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nuk mund të çosh më shumë se %d kontakt te karta jote SIM. Edhe kontaktet e bashkëlidhura me kontakte të caktuara do të numërohen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nuk mund të çosh më shumë se %d kontakte te karta jote SIM. Edhe kontaktet e bashkëlidhura me kontakte të caktuara do të numërohen.</item>
+    </plurals>
+    <plurals name="merge_contact_tip_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ke %d kontakt të dyzuar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ke %d kontakte të dyzuara.</item>
+    </plurals>
+    <plurals name="min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minutë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d minuta</item>
+    </plurals>
+    <plurals name="missed_call_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d thirrje e humbur</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d thirrje të humbura</item>
+    </plurals>
+    <plurals name="missed_call_suggestion">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d thirrje e humbur nga %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d thirrje të humbura nga %2$s.</item>
+    </plurals>
+    <plurals name="more_birthdays">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ditëlindje tjetër</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ditëlindje të tjera</item>
+    </plurals>
+    <plurals name="move_multi_contact_delete_one_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet %d kontakt te Koshi i mbeturinave dhe të hiqet 1 objekt së fundi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Të çohen %d kontakte te Koshi i mbeturinave dhe të hiqet 1 objekt së fundi?</item>
+    </plurals>
+    <plurals name="move_n_contact_to_the_trash">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çoj %d kontakt te Koshi i mbeturinave?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Të çoj %d kontakte te Koshi i mbeturinave?</item>
+    </plurals>
+    <plurals name="move_one_contact_delete_multi_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet 1 kontakt te Koshi i mbeturinave dhe të hiqet %d objekt së fundi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Të çohet 1 kontakt te Koshi i mbeturinave dhe të hiqen %d objekte së fundi?</item>
+    </plurals>
+    <plurals name="my_profile_emergency_contacts_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kontakt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kontakte</item>
+    </plurals>
+    <plurals name="new_voice_mail_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d postë e re zanore</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d posta të reja zanore</item>
+    </plurals>
+    <plurals name="notification_contacts_export_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d kontakt u çua te %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d kontakte u çuan te %2$s</item>
+    </plurals>
+    <plurals name="notification_contacts_import_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kontakt u importua</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kontakte u importuan</item>
+    </plurals>
+    <plurals name="notification_move_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kontakt u zhvendos</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kontakte u zhvendosën</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d person</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d persona</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d u gjet</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d u gjetën</item>
+    </plurals>
+    <plurals name="sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekondë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sekonda</item>
+    </plurals>
+    <plurals name="some_contacts_not_Export_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kontakt nuk u eksportua dot në SIM, sepse numri përkatës i telefonit është më i gjatë se 20 shifra.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kontakte nuk u eksportuan dot në SIM, sepse numrat përkatës të telefonit janë më të gjatë se 20 shifra.</item>
+    </plurals>
+    <plurals name="some_contacts_not_moved_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kontakt nuk u zhvendos dot në SIM, sepse numrat e tij të telefonit janë më të gjatë se 20 shifra.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kontakte nuk u zhvendosën dot në SIM, sepse numrat e tyre të telefonit janë më të gjatë se 20 shifra.</item>
+    </plurals>
+    <plurals name="total_blocked_count_one">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 telefonatë e bllokuar në (%d) ditën e fundit</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 telefonatë e bllokuar në %d ditët e fundit</item>
+    </plurals>
+    <plurals name="total_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d etiketë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d etiketa</item>
+    </plurals>
+    <plurals name="trash_detail_delete_info">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">U hoqën nga %1$s më %2$s. Duhet %3$d ditë deri sa të hiqen përgjithnjë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">U hoqën nga %1$s më %2$s. Duhen %3$d ditë deri sa të hiqen përgjithnjë.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:inset="5dp">
+    <drawable
+        android:gravity="center"
+        android:drawable="@drawable/check_box_bg_ghost"
+        class="com.samsung.android.dialtacts.common.photo.DrawableWrapper"/>
+</inset>

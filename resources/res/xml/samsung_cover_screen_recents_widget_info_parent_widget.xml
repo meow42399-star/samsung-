@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<samsung-appwidget-provider
+    display="sub_screen"
+    migrateCellHeight="2"
+    migrateCellWidth="2"
+    migrateComponentName="com.samsung.android.dialer/com.samsung.android.dialer.widget.glance.RecentCallsWidgetProvider"
+    privacyWidget="true"
+    supportFullScreenFrontSubDisplay="true"/>

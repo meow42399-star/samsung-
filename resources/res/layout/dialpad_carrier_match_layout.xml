@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/dialpad_carrier_match_container"
+    android:focusable="true"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="@dimen/carrier_match_prefix_text_size"
+        android:textColor="@color/carrier_match_text_color"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:id="@+id/dialpad_carrier_match_suggestion"
+        android:duplicateParentState="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"/>
+</LinearLayout>

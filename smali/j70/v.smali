@@ -1,0 +1,8 @@
+###### Class j70.v (j70.v)
+.class public interface abstract Lj70/v;
+.super Ljava/lang/Object;
+.source "r8-map-id-a7353cfb79c11d52bee1cfbeda32e9327d9a3375cf680eb05b4dd51932f0324c"
+
+# interfaces
+.implements Lj70/q;
+.implements Lc70/n;

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/two_phone_mode_conversion_checkbox_margin">
+    <CheckBox
+        android:id="@+id/two_phone_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/two_phone_switch_dialog_dont_show_again"
+        android:paddingStart="@dimen/two_phone_mode_conversion_checkbox_padding"/>
+</LinearLayout>

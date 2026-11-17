@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialtacts.common.widget.RoundedCornerConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/detail_suggest_relationship_tip_card"
+    android:background="@color/detail_view_card_background_color"
+    android:paddingTop="14dp"
+    android:paddingBottom="@dimen/detail_relationship_suggested_card_padding_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="18dp">
+    <ImageView
+        android:id="@+id/detail_suggest_relationship_tip_card_image"
+        android:layout_width="@dimen/detail_relationship_suggested_card_photo_size"
+        android:layout_height="@dimen/detail_relationship_suggested_card_photo_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textAppearance="@style/Regular"
+        android:textSize="@dimen/contact_detail_text_size_15"
+        android:textColor="@color/tw_description_text_color"
+        android:id="@+id/detail_suggest_relationship_tip_card_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/detail_relationship_suggested_card_item_vertical_padding"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detail_suggest_relationship_tip_card_image"/>
+    <Button
+        android:id="@+id/detail_suggest_relationship_tip_card_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/detail_suggest_relationship_tip_card_add"
+        app:layout_constraintTop_toBottomOf="@+id/detail_suggest_relationship_tip_card_description"
+        style="@style/DetailSuggestTipCardButton"/>
+    <Button
+        android:id="@+id/detail_suggest_relationship_tip_card_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detail_suggest_relationship_tip_card_description"
+        style="@style/DetailSuggestTipCardButton"/>
+</com.samsung.android.dialtacts.common.widget.RoundedCornerConstraintLayout>

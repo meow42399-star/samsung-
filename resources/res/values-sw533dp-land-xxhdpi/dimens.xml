@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialpad_digits_text_size_tab">46dp</dimen>
+    <dimen name="dialpad_key_letters_sub_text_size_foldable">8dp</dimen>
+    <dimen name="dialpad_key_letters_text_size_foldable">10dp</dimen>
+    <dimen name="dialpad_key_number_text_size_foldable">30dp</dimen>
+</resources>

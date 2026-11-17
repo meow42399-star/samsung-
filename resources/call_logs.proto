@@ -1,0 +1,94 @@
+// Copyright 2024 Copyright 2024 The OS Migration Authors
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     https://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+edition = "2023";
+
+package os_migration_data_types.v1;
+
+import "export_failure.proto";
+
+option java_multiple_files = true;
+
+// Represents a single call log entry.
+message CallLog {
+  // Unique identifier for the call.
+  string call_id = 1;
+  // Type of the call.
+  CallType call_type = 2;
+  // Call participant phone numbers/emails (repeated e.g. for conference calls). Self not included.
+  repeated string participants = 3;
+  // Indicates whether the call has been read.
+  bool call_is_read = 4;
+  // Timestamp of the call in milliseconds since the epoch.
+  int64 call_date_millis_since_epoch = 5;
+  // Duration of the call in seconds.
+  uint64 call_duration_sec = 6;
+  // Country code associated with the call.
+  string call_country_code = 7;
+  // Name of the phone component associated with the call.
+  string call_phone_component_name = 8;
+  // Media type of the call (e.g., audio, video).
+  MediaType media_type = 9;
+  // TTY type of the call.
+  TTYType tty_type = 10;
+  // Account ID associated with the call.
+  string call_account_id = 11;
+}
+
+// Enum representing the different types of calls.
+enum CallType {
+  // Default value, should not be used.
+  CALL_TYPE_UNSPECIFIED = 0;
+  // Incoming call.
+  CALL_TYPE_INCOMING = 1;
+  // Outgoing call.
+  CALL_TYPE_OUTGOING = 2;
+  // Call answered externally.
+  CALL_TYPE_ANSWERED_EXTERNALLY = 3;
+  // Missed call.
+  CALL_TYPE_MISSED = 4;
+  // Cancelled call.
+  CALL_TYPE_CANCELLED = 5;
+  // Blocked call.
+  CALL_TYPE_BLOCKED = 6;
+}
+
+// Enum representing the media type of the call.
+enum MediaType {
+  // Default value, should not be used.
+  MEDIA_TYPE_UNSPECIFIED = 0;
+  // Audio call.
+  MEDIA_TYPE_AUDIO = 1;
+  // Video call.
+  MEDIA_TYPE_VIDEO = 2;
+}
+
+// Enum representing the TTY type of the call.
+enum TTYType {
+  // Default value, should not be used.
+  TTY_TYPE_UNSPECIFIED = 0;
+  // No TTY.
+  TTY_TYPE_NONE = 1;
+  // Direct TTY.
+  TTY_TYPE_DIRECT = 2;
+  // Relay TTY.
+  TTY_TYPE_RELAY = 3;
+}
+
+// Represents an array of call logs.
+message CallLogArray {
+  // List of call log entries.
+  repeated CallLog call_log = 1;
+  ExportFailureSummary export_failure_summary = 2;
+}

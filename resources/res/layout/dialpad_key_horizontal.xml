@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialer.dialpad.view.keypadbutton.binder.DialpadKeypadButtonLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cp="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:soundEffectsEnabled="false"
+    cp:useDefaultRippleSize="false">
+    <TextView style="@style/DialpadKeyNumberTextViewStyleHorizontal"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@+id/dialpad_key_letters_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="no">
+        <TextView style="@style/DialpadKeyLetterTextViewStyleHorizontal"/>
+        <ViewStub
+            android:id="@+id/dialpad_key_image_stub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ViewStub
+            android:id="@+id/dialpad_sub_letter_text_stub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</com.samsung.android.dialer.dialpad.view.keypadbutton.binder.DialpadKeypadButtonLayout>

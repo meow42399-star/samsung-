@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/phone_logs_detail_action_bar_info_detail"
+        android:id="@+id/menu_contact_info"
+        android:visible="false"
+        android:title="@string/more_info"
+        app:showAsAction="always"/>
+    <item
+        android:icon="@drawable/phone_logs_detail_bottom_bar_delete"
+        android:id="@+id/menu_delete"
+        android:visible="false"
+        android:title="@string/delete_contact"
+        app:showAsAction="always"/>
+    <item
+        android:icon="@drawable/ic_cancel_close_xmark"
+        android:id="@+id/menu_cancel"
+        android:visible="false"
+        android:title="@string/cancel"
+        app:showAsAction="always"/>
+</menu>

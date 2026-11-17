@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.samsung.android.dialtacts.common.widget.RoundedCornerRecyclerView
+        android:scrollbarStyle="outsideOverlay"
+        android:id="@+id/history_list_view"
+        android:scrollbars="vertical"
+        android:fadingEdge="none"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:overScrollMode="ifContentScrolls"
+        android:nestedScrollingEnabled="true"
+        android:paddingHorizontal="@dimen/call_history_list_left_right_margin"/>
+    <ViewStub
+        android:id="@+id/history_empty_view_stub"
+        android:layout="@layout/history_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="@dimen/call_history_list_left_right_margin"/>
+</LinearLayout>

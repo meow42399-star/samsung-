@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/c_photo_rect_rounded_corner"/>
+            <size
+                android:height="@dimen/c_photo_size"
+                android:width="@dimen/c_photo_size"/>
+            <solid android:color="?attr/colorPrimary"/>
+        </shape>
+    </item>
+</layer-list>

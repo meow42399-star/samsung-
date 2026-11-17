@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="48dp"
+    android:width="48dp"
+    android:drawable="@drawable/phone_places_ic_list_loading"
+    class="com.samsung.android.dialtacts.common.photo.DrawableWrapper"/>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialtacts.common.widget.ContactSearchView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contact_list_search_view"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:iconifiedByDefault="false"
+    style="@style/Base.Widget.AppCompat.SearchView.Bottom"/>

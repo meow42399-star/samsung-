@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contact_list_pd_groups">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ghrúpa</item>
+        <item quantity="two">%d ghrúpa</item>
+        <item quantity="few">%d ghrúpa</item>
+        <item quantity="many">%d ngrúpa</item>
+        <item quantity="other">%d grúpa</item>
+    </plurals>
+    <plurals name="count_calls">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ghlao</item>
+        <item quantity="two">%d ghlao</item>
+        <item quantity="few">%d ghlao</item>
+        <item quantity="many">%d nglao</item>
+        <item quantity="other">%d glao</item>
+    </plurals>
+    <plurals name="delete_logs_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d mhír ó do stair glaonna?</item>
+        <item quantity="two">Scrios %d mhír ó do stair glaonna?</item>
+        <item quantity="few">Scrios %d mhír ó do stair glaonna?</item>
+        <item quantity="many">Scrios %d mír ó do stair glaonna?</item>
+        <item quantity="other">Scrios %d mír ó do stair glaonna?</item>
+    </plurals>
+    <plurals name="delete_n_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d teagmhálaí?</item>
+        <item quantity="two">Scrios %d theagmhálaí?</item>
+        <item quantity="few">Scrios %d theagmhálaí?</item>
+        <item quantity="many">Scrios %d dteagmhálaí?</item>
+        <item quantity="other">Scrios %d teagmhálaí?</item>
+    </plurals>
+    <plurals name="delete_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d chlib?</item>
+        <item quantity="two">Scrios %d chlib?</item>
+        <item quantity="few">Scrios %d chlib?</item>
+        <item quantity="many">Scrios %d gclib?</item>
+        <item quantity="other">Scrios %d clib?</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir le %1$s dul isteach i ngrúpchomhráite. Bain é/í ó na faighteoirí roghnaithe nó seol teachtaireacht téacs chuig suas le %2$d fhaighteoir ina ionad sin.</item>
+        <item quantity="two">Ní féidir le %1$s dul isteach i ngrúpchomhráite. Bain é/í ó na faighteoirí roghnaithe nó seol teachtaireacht téacs chuig suas le %2$d fhaighteoir ina ionad sin.</item>
+        <item quantity="few">Ní féidir le %1$s dul isteach i ngrúpchomhráite. Bain é/í ó na faighteoirí roghnaithe nó seol teachtaireacht téacs chuig suas le %2$d fhaighteoir ina ionad sin.</item>
+        <item quantity="many">Ní féidir le %1$s dul isteach i ngrúpchomhráite. Bain é/í ó na faighteoirí roghnaithe nó seol teachtaireacht téacs chuig suas le %2$d bhfaighteoir ina ionad sin.</item>
+        <item quantity="other">Ní féidir le %1$s dul isteach i ngrúpchomhráite. Bain é/í ó na faighteoirí roghnaithe nó seol teachtaireacht téacs chuig suas le %2$d faighteoir ina ionad sin.</item>
+    </plurals>
+    <plurals name="group_list_pd_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bhall</item>
+        <item quantity="two">%d bhall</item>
+        <item quantity="few">%d bhall</item>
+        <item quantity="many">%d mball</item>
+        <item quantity="other">%d ball</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d teagmhálaí ag a bhfuil uimhir fóin</item>
+        <item quantity="two">%d theagmhálaí ag a bhfuil uimhir fóin</item>
+        <item quantity="few">%d theagmhálaí ag a bhfuil uimhir fóin</item>
+        <item quantity="many">%d dteagmhálaí ag a bhfuil uimhir fóin</item>
+        <item quantity="other">%d teagmhálaí ag a bhfuil uimhir fóin</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d teagmhálaí</item>
+        <item quantity="two">%d theagmhálaí</item>
+        <item quantity="few">%d theagmhálaí</item>
+        <item quantity="many">%d dteagmhálaí</item>
+        <item quantity="other">%d teagmhálaí</item>
+    </plurals>
+    <plurals name="max_available_contacts_count_linked_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d teagmhálaí a bhogadh chuig do chárta SIM. Cuirtear teagmhálaithe atá nasctha le do theagmhálaithe roghnaithe san áireamh freisin.</item>
+        <item quantity="two">Ní féidir níos mó ná %d theagmhálaí a bhogadh chuig do chárta SIM. Cuirtear teagmhálaithe atá nasctha le do theagmhálaithe roghnaithe san áireamh freisin.</item>
+        <item quantity="few">Ní féidir níos mó ná %d theagmhálaí a bhogadh chuig do chárta SIM. Cuirtear teagmhálaithe atá nasctha le do theagmhálaithe roghnaithe san áireamh freisin.</item>
+        <item quantity="many">Ní féidir níos mó ná %d dteagmhálaí a bhogadh chuig do chárta SIM. Cuirtear teagmhálaithe atá nasctha le do theagmhálaithe roghnaithe san áireamh freisin.</item>
+        <item quantity="other">Ní féidir níos mó ná %d teagmhálaí a bhogadh chuig do chárta SIM. Cuirtear teagmhálaithe atá nasctha le do theagmhálaithe roghnaithe san áireamh freisin.</item>
+    </plurals>
+    <plurals name="merge_contact_tip_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá %d teagmhálaí dúblach agat.</item>
+        <item quantity="two">Tá %d theagmhálaí dhúblacha agat.</item>
+        <item quantity="few">Tá %d theagmhálaí dhúblacha agat.</item>
+        <item quantity="many">Tá %d dteagmhálaí dhúblacha agat.</item>
+        <item quantity="other">Tá %d teagmhálaí dúblach agat.</item>
+    </plurals>
+    <plurals name="min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nóiméad</item>
+        <item quantity="two">%d nóiméad</item>
+        <item quantity="few">%d nóiméad</item>
+        <item quantity="many">%d nóiméad</item>
+        <item quantity="other">%d nóiméad</item>
+    </plurals>
+    <plurals name="missed_call_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ghlao caillte</item>
+        <item quantity="two">%d ghlao caillte</item>
+        <item quantity="few">%d ghlao caillte</item>
+        <item quantity="many">%d nglao caillte</item>
+        <item quantity="other">%d glao caillte</item>
+    </plurals>
+    <plurals name="missed_call_suggestion">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ghlao caillte ó %2$s.</item>
+        <item quantity="two">%1$d ghlao chaillte ó %2$s.</item>
+        <item quantity="few">%1$d ghlao chaillte ó %2$s.</item>
+        <item quantity="many">%1$d nglao chaillte ó %2$s.</item>
+        <item quantity="other">%1$d glao chaillte ó %2$s.</item>
+    </plurals>
+    <plurals name="more_birthdays">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bhreithlá eile</item>
+        <item quantity="two">%d bhreithlá eile</item>
+        <item quantity="few">%d bhreithlá eile</item>
+        <item quantity="many">%d mbreithlá eile</item>
+        <item quantity="other">%d breithlá eile</item>
+    </plurals>
+    <plurals name="move_multi_contact_delete_one_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog %d teagmhálaí chuig an mBruscar agus scrios 1 mhír le déanaí?</item>
+        <item quantity="two">Bog %d theagmhálaí chuig an mBruscar agus scrios 1 mhír le déanaí?</item>
+        <item quantity="few">Bog %d theagmhálaí chuig an mBruscar agus scrios 1 mhír le déanaí?</item>
+        <item quantity="many">Bog %d dteagmhálaí chuig an mBruscar agus scrios 1 mhír le déanaí?</item>
+        <item quantity="other">Bog %d teagmhálaí chuig an mBruscar agus scrios 1 mhír le déanaí?</item>
+    </plurals>
+    <plurals name="move_n_contact_to_the_trash">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog %d teagmhálaí chuig an mBruscar?</item>
+        <item quantity="two">Bog %d theagmhálaí chuig an mBruscar?</item>
+        <item quantity="few">Bog %d theagmhálaí chuig an mBruscar?</item>
+        <item quantity="many">Bog %d dteagmhálaí chuig an mBruscar?</item>
+        <item quantity="other">Bog %d teagmhálaí chuig an mBruscar?</item>
+    </plurals>
+    <plurals name="move_one_contact_delete_multi_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog 1 teagmhálaí chuig an mBruscar agus scrios %d mhír le déanaí?</item>
+        <item quantity="two">Bog 1 teagmhálaí chuig an mBruscar agus scrios %d mhír le déanaí?</item>
+        <item quantity="few">Bog 1 teagmhálaí chuig an mBruscar agus scrios %d mhír le déanaí?</item>
+        <item quantity="many">Bog 1 teagmhálaí chuig an mBruscar agus scrios %d mír le déanaí?</item>
+        <item quantity="other">Bog 1 teagmhálaí chuig an mBruscar agus scrios %d mír le déanaí?</item>
+    </plurals>
+    <plurals name="my_profile_emergency_contacts_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d teagmhálaí</item>
+        <item quantity="two">%d theagmhálaí</item>
+        <item quantity="few">%d theagmhálaí</item>
+        <item quantity="many">%d dteagmhálaí</item>
+        <item quantity="other">%d teagmhálaí</item>
+    </plurals>
+    <plurals name="new_voice_mail_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ghlórphost nua</item>
+        <item quantity="two">%d ghlórphost nua</item>
+        <item quantity="few">%d ghlórphost nua</item>
+        <item quantity="many">%d nglórphost nua</item>
+        <item quantity="other">%d glórphost nua</item>
+    </plurals>
+    <plurals name="notification_contacts_export_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d easpórtáilte chuig %2$s</item>
+        <item quantity="two">%1$d easpórtáilte chuig %2$s</item>
+        <item quantity="few">%1$d easpórtáilte chuig %2$s</item>
+        <item quantity="many">%1$d easpórtáilte chuig %2$s</item>
+        <item quantity="other">%1$d easpórtáilte chuig %2$s</item>
+    </plurals>
+    <plurals name="notification_contacts_import_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d teagmhálaí iompórtáilte</item>
+        <item quantity="two">%d theagmhálaí iompórtáilte</item>
+        <item quantity="few">%d theagmhálaí iompórtáilte</item>
+        <item quantity="many">%d dteagmhálaí iompórtáilte</item>
+        <item quantity="other">%d teagmhálaí iompórtáilte</item>
+    </plurals>
+    <plurals name="notification_move_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d teagmhálaí bogtha</item>
+        <item quantity="two">%d theagmhálaí bogtha</item>
+        <item quantity="few">%d theagmhálaí bogtha</item>
+        <item quantity="many">%d dteagmhálaí bogtha</item>
+        <item quantity="other">%d teagmhálaí bogtha</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d duine</item>
+        <item quantity="two">%d dhuine</item>
+        <item quantity="few">%d dhuine</item>
+        <item quantity="many">%d nduine</item>
+        <item quantity="other">%d duine</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aimsithe</item>
+        <item quantity="two">%d aimsithe</item>
+        <item quantity="few">%d aimsithe</item>
+        <item quantity="many">%d aimsithe</item>
+        <item quantity="other">%d aimsithe</item>
+    </plurals>
+    <plurals name="sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d soicind</item>
+        <item quantity="two">%d shoicind</item>
+        <item quantity="few">%d shoicind</item>
+        <item quantity="many">%d soicind</item>
+        <item quantity="other">%d soicind</item>
+    </plurals>
+    <plurals name="some_contacts_not_Export_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Níorbh fhéidir %d teagmhálaí a easpórtáil chuig SIM toisc gur faide uimhir fóin an teagmhálaí sin ná 20 digit.</item>
+        <item quantity="two">Níorbh fhéidir %d theagmhálaí a easpórtáil chuig SIM toisc gur faide uimhreacha fóin na dteagmhálaithe sin ná 20 digit.</item>
+        <item quantity="few">Níorbh fhéidir %d theagmhálaí a easpórtáil chuig SIM toisc gur faide uimhreacha fóin na dteagmhálaithe sin ná 20 digit.</item>
+        <item quantity="many">Níorbh fhéidir %d dteagmhálaí a easpórtáil chuig SIM toisc gur faide uimhreacha fóin na dteagmhálaithe sin ná 20 digit.</item>
+        <item quantity="other">Níorbh fhéidir %d teagmhálaí a easpórtáil chuig SIM toisc gur faide uimhreacha fóin na dteagmhálaithe sin ná 20 digit.</item>
+    </plurals>
+    <plurals name="some_contacts_not_moved_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Níorbh fhéidir %d teagmhálaí a bhogadh chuig SIM toisc gur faide a uimhreacha fóin ná 20 digit.</item>
+        <item quantity="two">Níorbh fhéidir %d theagmhálaí chuig SIM toisc gur faide a n-uimhreacha fóin ná 20 digit.</item>
+        <item quantity="few">Níorbh fhéidir %d theagmhálaí chuig SIM toisc gur faide a n-uimhreacha fóin ná 20 digit.</item>
+        <item quantity="many">Níorbh fhéidir %d dteagmhálaí chuig SIM toisc gur faide a n-uimhreacha fóin ná 20 digit.</item>
+        <item quantity="other">Níorbh fhéidir %d teagmhálaí chuig SIM toisc gur faide a n-uimhreacha fóin ná 20 digit.</item>
+    </plurals>
+    <plurals name="total_blocked_count_one">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ghlao bactha le %d lá anuas</item>
+        <item quantity="two">1 ghlao bactha le %d lá anuas</item>
+        <item quantity="few">1 ghlao bactha le %d lá anuas</item>
+        <item quantity="many">1 ghlao bactha le %d lá anuas</item>
+        <item quantity="other">1 ghlao bactha le %d lá anuas</item>
+    </plurals>
+    <plurals name="total_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d chlib</item>
+        <item quantity="two">%d chlib</item>
+        <item quantity="few">%d chlib</item>
+        <item quantity="many">%d gclib</item>
+        <item quantity="other">%d clib</item>
+    </plurals>
+    <plurals name="trash_detail_delete_info">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scriosadh ó %1$s ar an %2$s iad. %3$d lá go dtí go scriosfar go buan iad.</item>
+        <item quantity="two">Scriosadh ó %1$s ar an %2$s iad. %3$d lá go dtí go scriosfar go buan iad.</item>
+        <item quantity="few">Scriosadh ó %1$s ar an %2$s iad. %3$d lá go dtí go scriosfar go buan iad.</item>
+        <item quantity="many">Scriosadh ó %1$s ar an %2$s iad. %3$d lá go dtí go scriosfar go buan iad.</item>
+        <item quantity="other">Scriosadh ó %1$s ar an %2$s iad. %3$d lá go dtí go scriosfar go buan iad.</item>
+    </plurals>
+</resources>

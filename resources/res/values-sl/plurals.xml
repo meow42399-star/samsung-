@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contact_list_pd_groups">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d skupina</item>
+        <item quantity="two">%d skupini</item>
+        <item quantity="few">%d skupine</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d skupin</item>
+    </plurals>
+    <plurals name="count_calls">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d klic</item>
+        <item quantity="two">%d klica</item>
+        <item quantity="few">%d klici</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d klicev</item>
+    </plurals>
+    <plurals name="delete_logs_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite izbrisati %d element iz zgodovine klicev?</item>
+        <item quantity="two">Želite izbrisati %d elementa iz zgodovine klicev?</item>
+        <item quantity="few">Želite izbrisati %d elemente iz zgodovine klicev?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite izbrisati %d elementov iz zgodovine klicev?</item>
+    </plurals>
+    <plurals name="delete_n_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite izbrisati %d stik?</item>
+        <item quantity="two">Želite izbrisati %d stika?</item>
+        <item quantity="few">Želite izbrisati %d stike?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite izbrisati %d stikov?</item>
+    </plurals>
+    <plurals name="delete_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite izbrisati %d oznako?</item>
+        <item quantity="two">Želite izbrisati %d oznaki?</item>
+        <item quantity="few">Želite izbrisati %d oznake?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite izbrisati %d oznak?</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Oseba %1$s se ne more pridružiti skupinskim klepetom. Osebo odstranite iz izbranih prejemnikov ali pa namesto tega pošljite besedilno sporočilo največ %2$d prejemniku.</item>
+        <item quantity="two">Oseba %1$s se ne more pridružiti skupinskim klepetom. Osebo odstranite iz izbranih prejemnikov ali pa namesto tega pošljite besedilno sporočilo največ %2$d prejemnikoma.</item>
+        <item quantity="few">Oseba %1$s se ne more pridružiti skupinskim klepetom. Osebo odstranite iz izbranih prejemnikov ali pa namesto tega pošljite besedilno sporočilo največ %2$d prejemnikom.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Oseba %1$s se ne more pridružiti skupinskim klepetom. Osebo odstranite iz izbranih prejemnikov ali pa namesto tega pošljite besedilno sporočilo največ %2$d prejemnikom.</item>
+    </plurals>
+    <plurals name="group_list_pd_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d član</item>
+        <item quantity="two">%d člana</item>
+        <item quantity="few">%d člani</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d članov</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d stik s telefonsko številko</item>
+        <item quantity="two">%d stika s telefonskimi številkami</item>
+        <item quantity="few">%d stiki s telefonskimi številkami</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d stikov s telefonskimi številkami</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d stik</item>
+        <item quantity="two">%d stika</item>
+        <item quantity="few">%d stiki</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d stikov</item>
+    </plurals>
+    <plurals name="max_available_contacts_count_linked_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Na kartico SIM je mogoče premakniti največ %d stik. Štejejo se tudi stiki, povezani z izbranimi stiki.</item>
+        <item quantity="two">Na kartico SIM je mogoče premakniti največ %d stika. Štejejo se tudi stiki, povezani z izbranimi stiki.</item>
+        <item quantity="few">Na kartico SIM je mogoče premakniti največ %d stike. Štejejo se tudi stiki, povezani z izbranimi stiki.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Na kartico SIM je mogoče premakniti največ %d stikov. Štejejo se tudi stiki, povezani z izbranimi stiki.</item>
+    </plurals>
+    <plurals name="merge_contact_tip_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Imate %d podvojen stik.</item>
+        <item quantity="two">Imate %d podvojena stika.</item>
+        <item quantity="few">Imate %d podvojene stike.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Imate %d podvojenih stikov.</item>
+    </plurals>
+    <plurals name="min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="two">%d minuti</item>
+        <item quantity="few">%d minute</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d minut</item>
+    </plurals>
+    <plurals name="missed_call_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zgrešen klic</item>
+        <item quantity="two">%d zgrešena klica</item>
+        <item quantity="few">%d zgrešeni klici</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d zgrešenih klicev</item>
+    </plurals>
+    <plurals name="missed_call_suggestion">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d neodgovorjen klic osebe %2$s.</item>
+        <item quantity="two">%1$d neodgovorjena klica osebe %2$s.</item>
+        <item quantity="few">%1$d neodgovorjeni klici osebe %2$s.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d neodgovorjenih klicev osebe %2$s.</item>
+    </plurals>
+    <plurals name="more_birthdays">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Še %d rojstni dan</item>
+        <item quantity="two">Še %d rojstna dneva</item>
+        <item quantity="few">Še %d rojstni dnevi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Še %d rojstnih dni</item>
+    </plurals>
+    <plurals name="move_multi_contact_delete_one_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite premakniti %d stik v mapo Koš in izbrisati 1 nedavni element?</item>
+        <item quantity="two">Želite premakniti %d stika v mapo Koš in izbrisati 1 nedavni element?</item>
+        <item quantity="few">Želite premakniti %d stike v mapo Koš in izbrisati 1 nedavni element?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite premakniti %d stikov v mapo Koš in izbrisati 1 nedavni element?</item>
+    </plurals>
+    <plurals name="move_n_contact_to_the_trash">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite %d stik premakniti v mapo Koš?</item>
+        <item quantity="two">Želite %d stika premakniti v mapo Koš?</item>
+        <item quantity="few">Želite %d stike premakniti v mapo Koš?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite %d stikov premakniti v mapo Koš?</item>
+    </plurals>
+    <plurals name="move_one_contact_delete_multi_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite premakniti 1 stik v mapo Koš in izbrisati %d nedavni element?</item>
+        <item quantity="two">Želite premakniti 1 stik v mapo Koš in izbrisati %d nedavna elementa?</item>
+        <item quantity="few">Želite premakniti 1 stik v mapo Koš in izbrisati %d nedavne elemente?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite premakniti 1 stik v mapo Koš in izbrisati %d nedavnih elementov?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d novo obvestilo</item>
+        <item quantity="two">%d novi obvestili</item>
+        <item quantity="few">%d nova obvestila</item>
+        <item quantity="other">%d novih obvestil</item>
+    </plurals>
+    <plurals name="my_profile_emergency_contacts_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d stik</item>
+        <item quantity="two">%d stika</item>
+        <item quantity="few">%d stiki</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d stikov</item>
+    </plurals>
+    <plurals name="new_voice_mail_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d novo sporočilo odzivnika</item>
+        <item quantity="two">%d novi sporočili odzivnika</item>
+        <item quantity="few">%d nova sporočila odzivnika</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d novih sporočil odzivnika</item>
+    </plurals>
+    <plurals name="notification_contacts_export_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d stik je izvožen v %2$s</item>
+        <item quantity="two">%1$d stika sta izvožena v %2$s</item>
+        <item quantity="few">%1$d stiki so izvoženi v %2$s</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d stikov je izvoženih v %2$s</item>
+    </plurals>
+    <plurals name="notification_contacts_import_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d stik je uvožen</item>
+        <item quantity="two">%d stika sta uvožena</item>
+        <item quantity="few">%d stiki so uvoženi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d stikov je uvoženih</item>
+    </plurals>
+    <plurals name="notification_move_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d stik je premaknjen</item>
+        <item quantity="two">%d stika sta premaknjena</item>
+        <item quantity="few">%d stiki so premaknjeni</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d stikov je premaknjenih</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oseba</item>
+        <item quantity="two">%d osebi</item>
+        <item quantity="few">%d osebe</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d oseb</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Najden je %d</item>
+        <item quantity="two">Najdena sta %d</item>
+        <item quantity="few">Najdeni so %d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Najdenih je %d</item>
+    </plurals>
+    <plurals name="sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="two">%d sekundi</item>
+        <item quantity="few">%d sekunde</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sekund</item>
+    </plurals>
+    <plurals name="some_contacts_not_Export_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d stika ni bilo mogoče izvoziti na kartico SIM, ker je njegova telefonska številka daljša od 20 števk.</item>
+        <item quantity="two">%d stikov ni bilo mogoče izvoziti na kartico SIM, ker sta njuni telefonski številki daljši od 20 števk.</item>
+        <item quantity="few">%d stikov ni bilo mogoče izvoziti na kartico SIM, ker so njihove telefonske številke daljše od 20 števk.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d stikov ni bilo mogoče izvoziti na kartico SIM, ker so njihove telefonske številke daljše od 20 števk.</item>
+    </plurals>
+    <plurals name="some_contacts_not_moved_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d stika ni bilo mogoče premakniti na kartico SIM, ker so njegove telefonske številke daljše od 20 števk.</item>
+        <item quantity="two">%d stikov ni bilo mogoče premakniti na kartico SIM, ker so njune telefonske številke daljše od 20 števk.</item>
+        <item quantity="few">%d stikov ni bilo mogoče premakniti na kartico SIM, ker so njihove telefonske številke daljše od 20 števk.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d stikov ni bilo mogoče premakniti na kartico SIM, ker so njihove telefonske številke daljše od 20 števk.</item>
+    </plurals>
+    <plurals name="total_blocked_count_one">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 klic blokiran v zadnjem %d dnevu</item>
+        <item quantity="two">1 klic blokiran v zadnjih %d dnevih</item>
+        <item quantity="few">1 klic blokiran v zadnjih %d dnevih</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 klic blokiran v zadnjih %d dnevih</item>
+    </plurals>
+    <plurals name="total_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oznaka</item>
+        <item quantity="two">%d oznaki</item>
+        <item quantity="few">%d oznake</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d oznak</item>
+    </plurals>
+    <plurals name="trash_detail_delete_info">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Izbrisano iz aplikacije %1$s dne %2$s. Podatki bodo trajno izbrisani čez %3$d dan.</item>
+        <item quantity="two">Izbrisano iz aplikacije %1$s dne %2$s. Podatki bodo trajno izbrisani čez %3$d dneva.</item>
+        <item quantity="few">Izbrisano iz aplikacije %1$s dne %2$s. Podatki bodo trajno izbrisani čez %3$d dni.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izbrisano iz aplikacije %1$s dne %2$s. Podatki bodo trajno izbrisani čez %3$d dni.</item>
+    </plurals>
+</resources>

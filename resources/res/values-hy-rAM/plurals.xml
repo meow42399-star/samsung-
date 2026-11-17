@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contact_list_pd_groups">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d խումբ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d խումբ</item>
+    </plurals>
+    <plurals name="count_calls">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d զանգ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d զանգ</item>
+    </plurals>
+    <plurals name="delete_logs_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d տարր վերացնե՞լ կանչերի պատմությունից:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d տարր վերացնե՞լ կանչերի պատմությունից:</item>
+    </plurals>
+    <plurals name="delete_n_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Վերացնե՞լ %d կոնտակտ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Վերացնե՞լ %d կոնտակտ:</item>
+    </plurals>
+    <plurals name="delete_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Վերացնե՞լ %d հատկորոշիչ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Վերացնե՞լ %d հատկորոշիչ:</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-ը չի կարող միանալ խմբազրույցներին: Նրան հեռացրեք ընտրված հասցեատերերից կամ, փոխարենը, տեքստային հաղորդագրություն ուղարկեք մինչև %2$d հասցեատիրոջ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s-ը չի կարող միանալ խմբազրույցներին: Նրան հեռացրեք ընտրված հասցեատերերից կամ, փոխարենը, տեքստային հաղորդագրություն ուղարկեք մինչև %2$d հասցեատիրոջ:</item>
+    </plurals>
+    <plurals name="group_list_pd_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d անդամ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d անդամ</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d կոնտակտ հեռախոսահամարով</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d կոնտակտ հեռախոսահամարներով</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d կոնտակտ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d կոնտակտ</item>
+    </plurals>
+    <plurals name="max_available_contacts_count_linked_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Հնարավոր չէ SIM քարտի մեջ տեղափոխել %d կոնտակտից ավելի: Հաշվի են առնվում նաև ընտրված կոնտակտների հետ կապված կոնտակտները:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Հնարավոր չէ SIM քարտի մեջ տեղափոխել %d կոնտակտից ավելի: Հաշվի են առնվում նաև ընտրված կոնտակտների հետ կապված կոնտակտները:</item>
+    </plurals>
+    <plurals name="merge_contact_tip_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Դուք ունեք %d կրկնակ կոնտակտ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Դուք ունեք %d կրկնակ կոնտակտ:</item>
+    </plurals>
+    <plurals name="min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d րոպե</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d րոպե</item>
+    </plurals>
+    <plurals name="missed_call_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d կորսված կանչ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d կորսված կանչ</item>
+    </plurals>
+    <plurals name="missed_call_suggestion">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d կորսված կանչ %2$s-ից:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d կորսված կանչ %2$s-ից:</item>
+    </plurals>
+    <plurals name="more_birthdays">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Եվս %d ծննդյան օր</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Եվս %d ծննդյան օր</item>
+    </plurals>
+    <plurals name="move_multi_contact_delete_one_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d կոնտակտ տեղափոխե՞լ Աղբարկղ և վերացնել վերջերս օգտագործված 1 տարր:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d կոնտակտ տեղափոխե՞լ Աղբարկղ և վերացնել վերջերս օգտագործված 1 տարր:</item>
+    </plurals>
+    <plurals name="move_n_contact_to_the_trash">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d կոնտակտ տեղափոխե՞լ Աղբարկղ:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d կոնտակտ տեղափոխե՞լ Աղբարկղ:</item>
+    </plurals>
+    <plurals name="move_one_contact_delete_multi_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 կոնտակտ տեղափոխե՞լ Աղբարկղ և վերացնել վերջերս օգտագործված %d տարր:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 կոնտակտ տեղափոխե՞լ Աղբարկղ և վերացնել վերջերս օգտագործված %d տարր:</item>
+    </plurals>
+    <plurals name="my_profile_emergency_contacts_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d կոնտակտ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d կոնտակտ</item>
+    </plurals>
+    <plurals name="new_voice_mail_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d նոր ձայնային նամակ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d նոր ձայնային նամակներ</item>
+    </plurals>
+    <plurals name="notification_contacts_export_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d կոնտակտ արտահանվել է %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d կոնտակտ արտահանվել է %2$s</item>
+    </plurals>
+    <plurals name="notification_contacts_import_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d կոնտակտ ներմուծված է</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d կոնտակտ ներմուծված է</item>
+    </plurals>
+    <plurals name="notification_move_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d կոնտակտ տեղափոխված է</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d կոնտակտ տեղափոխված է</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d հոգի</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d հոգի</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d գտնված</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d գտնված</item>
+    </plurals>
+    <plurals name="sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d վայրկյան</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d վայրկյան</item>
+    </plurals>
+    <plurals name="some_contacts_not_Export_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Չհաջողվեց %d կոնտակտ արտահանել SIM-ի մեջ, որովհետև նրա հեռախոսահամարը 20 նիշից ավելի երկար է:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Չհաջողվեց %d կոնտակտ արտահանել SIM-ի մեջ, որովհետև նրանց հեռախոսահամարները 20 նիշից ավելի երկար են:</item>
+    </plurals>
+    <plurals name="some_contacts_not_moved_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Չհաջողվեց %d կոնտակտ տեղափոխել SIM-ի մեջ, որովհետև նրա հեռախոսահամարը 20 նիշից ավելի երկար է:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Չհաջողվեց %d կոնտակտ տեղափոխել SIM-ի մեջ, որովհետև նրանց հեռախոսահամարները 20 նիշից ավելի երկար են:</item>
+    </plurals>
+    <plurals name="total_blocked_count_one">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Վերջին %d օրվա ընթացքում արգելափակվել է 1 զանգ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Վերջին %d օրվա ընթացքում արգելափակվել է 1 զանգ</item>
+    </plurals>
+    <plurals name="total_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d հատկորոշիչ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d հատկորոշիչ</item>
+    </plurals>
+    <plurals name="trash_detail_delete_info">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-ից վերացվել է %2$s-ին: %3$d օր է մնացել մինչև ընդմիշտ վերացումը:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s-ից վերացվել է %2$s-ին: %3$d օր է մնացել մինչև ընդմիշտ վերացումը:</item>
+    </plurals>
+</resources>

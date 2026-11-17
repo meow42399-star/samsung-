@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/contactsList"
+    android:hint="@string/viewContactDesription"
+    android:voiceSearchMode="launchRecognizer|showVoiceSearchButton"
+    android:imeOptions="flagNoExtractUi|flagNoFullscreen|actionSearch"/>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/divider"
+        android:visibility="gone"
+        style="@style/ContactDetailDividerStyle"/>
+    <TextView
+        android:textSize="@dimen/contact_detail_text_size_13"
+        android:textColor="@color/quickcontact_entry_header_text_color"
+        android:id="@+id/my_relationship_title"
+        android:paddingTop="@dimen/expanding_entry_card_item_padding_top_for_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_relationships"
+        android:textAlignment="viewStart"
+        android:paddingHorizontal="@dimen/contact_detail_card_padding_start_end"
+        android:accessibilityHeading="true"/>
+    <include layout="@layout/add_relationship_view_item"/>
+    <com.samsung.android.dialtacts.common.contactdetail.view.widget.MyRelationGridView
+        android:id="@+id/my_relationship_gridview"
+        android:visibility="gone"
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchMode="spacingWidth"
+        android:columnWidth="@dimen/relationship_grid_item_column_width"
+        android:numColumns="auto_fit"
+        android:layout_marginHorizontal="@dimen/contact_detail_card_padding_start_end"
+        android:layout_marginVertical="@dimen/relationship_grid_item_vertical_margin"/>
+</LinearLayout>

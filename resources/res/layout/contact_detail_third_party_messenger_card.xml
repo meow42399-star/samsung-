@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialtacts.common.contactdetail.view.ThirdPartyMessengerCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/third_party_messenger_card"
+    android:background="@color/detail_view_card_background_color"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/third_party_messenger_card_content_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/contact_detail_list_divider"
+        android:showDividers="middle"/>
+</com.samsung.android.dialtacts.common.contactdetail.view.ThirdPartyMessengerCardView>

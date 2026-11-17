@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.view.menu.ListMenuItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/sesl_icon"
+        android:padding="2dp"
+        android:visibility="gone"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:scaleType="centerInside"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="-16dp"/>
+    <androidx.appcompat.widget.SeslDropDownItemTextView
+        android:ellipsize="marquee"
+        android:id="@+id/sub_menu_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:minHeight="?attr/dropdownListPreferredItemHeight"
+        android:singleLine="true"
+        style="?attr/spinnerDropDownItemStyle"/>
+</androidx.appcompat.view.menu.ListMenuItemView>

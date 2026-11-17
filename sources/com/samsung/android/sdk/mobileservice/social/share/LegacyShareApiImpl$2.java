@@ -1,0 +1,21 @@
+package com.samsung.android.sdk.mobileservice.social.share;
+
+/* JADX INFO: compiled from: r8-map-id-a7353cfb79c11d52bee1cfbeda32e9327d9a3375cf680eb05b4dd51932f0324c */
+/* JADX INFO: loaded from: classes.dex */
+class LegacyShareApiImpl$2 extends IShareSyncResultCallback.Stub {
+    final /* synthetic */ a this$0;
+    final /* synthetic */ f val$callback;
+
+    public LegacyShareApiImpl$2(a aVar, f fVar) {
+    }
+
+    @Override // com.samsung.android.sdk.mobileservice.social.share.IShareSyncResultCallback
+    public void onFailure(long j3, String str) {
+        throw null;
+    }
+
+    @Override // com.samsung.android.sdk.mobileservice.social.share.IShareSyncResultCallback
+    public void onSuccess() {
+        throw null;
+    }
+}

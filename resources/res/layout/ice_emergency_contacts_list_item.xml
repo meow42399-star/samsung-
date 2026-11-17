@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.samsung.android.dialtacts.common.widget.RoundedCornerLinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/rounded_corner_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="?android:attr/listChoiceBackgroundIndicator"
+        android:minHeight="@dimen/w_list_one_line_min_height"
+        android:paddingEnd="@dimen/w_list_left_right_padding"
+        android:paddingHorizontal="@dimen/list_default_padding"
+        app:rounded_corner_paddingHorizontal="@dimen/list_default_padding">
+        <ImageView
+            android:id="@+id/emergency_icon"
+            android:background="@drawable/emergency_icon_bg"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="@dimen/contact_photo_size"
+            android:layout_height="@dimen/contact_photo_size"
+            android:src="@drawable/contacts_default_caller_id_emergency"
+            android:tint="@color/emergency_icon_tint_color"
+            android:layout_marginStart="@dimen/contact_list_icon_margin_start"/>
+        <TextView
+            android:textAppearance="@style/Regular"
+            android:textSize="?attr/list_item_primary_text_size"
+            android:textColor="?attr/list_item_primary_text_color"
+            android:ellipsize="marquee"
+            android:id="@+id/emergency_contact_header_text"
+            android:duplicateParentState="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/contact_list_item_name_margin_top"
+            android:layout_marginBottom="@dimen/contact_list_item_name_margin_top"
+            android:text="@string/emergency_contacts"
+            android:singleLine="true"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="@dimen/contact_list_item_name_margin_start"/>
+    </com.samsung.android.dialtacts.common.widget.RoundedCornerLinearLayout>
+</LinearLayout>

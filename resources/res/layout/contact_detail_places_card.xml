@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialtacts.common.contactdetail.view.PlacesCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textAppearance="@style/SemiBold"
+        android:textSize="@dimen/contact_detail_text_size_13"
+        android:textColor="@color/contact_detail_sub_header_color"
+        android:id="@+id/title"
+        android:paddingBottom="@dimen/contact_detail_sub_header_padding_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/places_card_view_title"
+        android:textAlignment="viewStart"
+        android:paddingHorizontal="@dimen/contact_detail_sub_header_padding_start_end"
+        android:accessibilityHeading="true"/>
+    <com.samsung.android.dialtacts.common.widget.RoundedCornerLayout
+        android:orientation="vertical"
+        android:id="@+id/place_area_linear_layout"
+        android:background="@color/detail_view_card_background_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</com.samsung.android.dialtacts.common.contactdetail.view.PlacesCardView>

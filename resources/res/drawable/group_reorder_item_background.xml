@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/card_view_background_color"/>
+    <stroke
+        android:width="@dimen/reorder_favorites_corner_border"
+        android:color="@color/contact_color_primary"/>
+    <corners android:radius="@dimen/reorder_group_corner_radius"/>
+</shape>

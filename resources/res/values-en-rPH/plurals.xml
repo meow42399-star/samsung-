@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contact_list_pd_groups">
+        <item quantity="zero">%d groups</item>
+        <item quantity="one">%d group</item>
+        <item quantity="two">%d groups</item>
+        <item quantity="few">%d groups</item>
+        <item quantity="many">%d groups</item>
+        <item quantity="other">%d groups</item>
+    </plurals>
+    <plurals name="count_calls">
+        <item quantity="zero">%d calls</item>
+        <item quantity="one">%d call</item>
+        <item quantity="two">%d calls</item>
+        <item quantity="few">%d calls</item>
+        <item quantity="many">%d calls</item>
+        <item quantity="other">%d calls</item>
+    </plurals>
+    <plurals name="delete_logs_count">
+        <item quantity="zero">Delete %d items from your call history?</item>
+        <item quantity="one">Delete %d item from your call history?</item>
+        <item quantity="two">Delete %d items from your call history?</item>
+        <item quantity="few">Delete %d items from your call history?</item>
+        <item quantity="many">Delete %d items from your call history?</item>
+        <item quantity="other">Delete %d items from your call history?</item>
+    </plurals>
+    <plurals name="delete_n_contacts">
+        <item quantity="zero">Delete %d contacts?</item>
+        <item quantity="one">Delete %d contact?</item>
+        <item quantity="two">Delete %d contacts?</item>
+        <item quantity="few">Delete %d contacts?</item>
+        <item quantity="many">Delete %d contacts?</item>
+        <item quantity="other">Delete %d contacts?</item>
+    </plurals>
+    <plurals name="delete_tag">
+        <item quantity="zero">Delete %d tags?</item>
+        <item quantity="one">Delete %d tag?</item>
+        <item quantity="two">Delete %d tags?</item>
+        <item quantity="few">Delete %d tags?</item>
+        <item quantity="many">Delete %d tags?</item>
+        <item quantity="other">Delete %d tags?</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">%1$s can&apos;t join group chats. Remove them from the selected recipients, or send a text message to up to %2$d recipients instead.</item>
+        <item quantity="one">%1$s can&apos;t join group chats. Remove them from the selected recipients, or send a text message to up to %2$d recipient instead.</item>
+        <item quantity="two">%1$s can&apos;t join group chats. Remove them from the selected recipients, or send a text message to up to %2$d recipients instead.</item>
+        <item quantity="few">%1$s can&apos;t join group chats. Remove them from the selected recipients, or send a text message to up to %2$d recipients instead.</item>
+        <item quantity="many">%1$s can&apos;t join group chats. Remove them from the selected recipients, or send a text message to up to %2$d recipients instead.</item>
+        <item quantity="other">%1$s can&apos;t join group chats. Remove them from the selected recipients, or send a text message to up to %2$d recipients instead.</item>
+    </plurals>
+    <plurals name="group_list_pd_members">
+        <item quantity="zero">%d members</item>
+        <item quantity="one">%d member</item>
+        <item quantity="two">%d members</item>
+        <item quantity="few">%d members</item>
+        <item quantity="many">%d members</item>
+        <item quantity="other">%d members</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="zero">%d contacts with phone numbers</item>
+        <item quantity="one">%d contact with phone number</item>
+        <item quantity="two">%d contacts with phone numbers</item>
+        <item quantity="few">%d contacts with phone numbers</item>
+        <item quantity="many">%d contacts with phone numbers</item>
+        <item quantity="other">%d contacts with phone numbers</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">%d contacts</item>
+        <item quantity="one">%d contact</item>
+        <item quantity="two">%d contacts</item>
+        <item quantity="few">%d contacts</item>
+        <item quantity="many">%d contacts</item>
+        <item quantity="other">%d contacts</item>
+    </plurals>
+    <plurals name="max_available_contacts_count_linked_contacts">
+        <item quantity="zero">Can&apos;t move more than %d contacts to your SIM card. Contacts linked to selected contacts are also counted.</item>
+        <item quantity="one">Can&apos;t move more than %d contact to your SIM card. Contacts linked to selected contacts are also counted.</item>
+        <item quantity="two">Can&apos;t move more than %d contacts to your SIM card. Contacts linked to selected contacts are also counted.</item>
+        <item quantity="few">Can&apos;t move more than %d contacts to your SIM card. Contacts linked to selected contacts are also counted.</item>
+        <item quantity="many">Can&apos;t move more than %d contacts to your SIM card. Contacts linked to selected contacts are also counted.</item>
+        <item quantity="other">Can&apos;t move more than %d contacts to your SIM card. Contacts linked to selected contacts are also counted.</item>
+    </plurals>
+    <plurals name="merge_contact_tip_text">
+        <item quantity="zero">You have %d duplicate contacts.</item>
+        <item quantity="one">You have %d duplicate contact.</item>
+        <item quantity="two">You have %d duplicate contacts.</item>
+        <item quantity="few">You have %d duplicate contacts.</item>
+        <item quantity="many">You have %d duplicate contacts.</item>
+        <item quantity="other">You have %d duplicate contacts.</item>
+    </plurals>
+    <plurals name="min">
+        <item quantity="zero">%d minutes</item>
+        <item quantity="one">%d minute</item>
+        <item quantity="two">%d minutes</item>
+        <item quantity="few">%d minutes</item>
+        <item quantity="many">%d minutes</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="missed_call_count">
+        <item quantity="zero">%d missed calls</item>
+        <item quantity="one">%d missed call</item>
+        <item quantity="two">%d missed calls</item>
+        <item quantity="few">%d missed calls</item>
+        <item quantity="many">%d missed calls</item>
+        <item quantity="other">%d missed calls</item>
+    </plurals>
+    <plurals name="missed_call_suggestion">
+        <item quantity="zero">%1$d missed calls from %2$s.</item>
+        <item quantity="one">%1$d missed call from %2$s.</item>
+        <item quantity="two">%1$d missed calls from %2$s.</item>
+        <item quantity="few">%1$d missed calls from %2$s.</item>
+        <item quantity="many">%1$d missed calls from %2$s.</item>
+        <item quantity="other">%1$d missed calls from %2$s.</item>
+    </plurals>
+    <plurals name="more_birthdays">
+        <item quantity="zero">%d more birthdays</item>
+        <item quantity="one">%d more birthday</item>
+        <item quantity="two">%d more birthdays</item>
+        <item quantity="few">%d more birthdays</item>
+        <item quantity="many">%d more birthdays</item>
+        <item quantity="other">%d more birthdays</item>
+    </plurals>
+    <plurals name="move_multi_contact_delete_one_log_confirmation">
+        <item quantity="zero">Move %d contacts to the Trash and delete 1 recent item?</item>
+        <item quantity="one">Move %d contact to the Trash and delete 1 recent item?</item>
+        <item quantity="two">Move %d contacts to the Trash and delete 1 recent item?</item>
+        <item quantity="few">Move %d contacts to the Trash and delete 1 recent item?</item>
+        <item quantity="many">Move %d contacts to the Trash and delete 1 recent item?</item>
+        <item quantity="other">Move %d contacts to the Trash and delete 1 recent item?</item>
+    </plurals>
+    <plurals name="move_n_contact_to_the_trash">
+        <item quantity="zero">Move %d contacts to the Trash?</item>
+        <item quantity="one">Move %d contact to the Trash?</item>
+        <item quantity="two">Move %d contacts to the Trash?</item>
+        <item quantity="few">Move %d contacts to the Trash?</item>
+        <item quantity="many">Move %d contacts to the Trash?</item>
+        <item quantity="other">Move %d contacts to the Trash?</item>
+    </plurals>
+    <plurals name="move_one_contact_delete_multi_log_confirmation">
+        <item quantity="zero">Move 1 contact to the Trash and delete %d recent items?</item>
+        <item quantity="one">Move 1 contact to the Trash and delete %d recent item?</item>
+        <item quantity="two">Move 1 contact to the Trash and delete %d recent items?</item>
+        <item quantity="few">Move 1 contact to the Trash and delete %d recent items?</item>
+        <item quantity="many">Move 1 contact to the Trash and delete %d recent items?</item>
+        <item quantity="other">Move 1 contact to the Trash and delete %d recent items?</item>
+    </plurals>
+    <plurals name="my_profile_emergency_contacts_count">
+        <item quantity="zero">%d contacts</item>
+        <item quantity="one">%d contact</item>
+        <item quantity="two">%d contacts</item>
+        <item quantity="few">%d contacts</item>
+        <item quantity="many">%d contacts</item>
+        <item quantity="other">%d contacts</item>
+    </plurals>
+    <plurals name="new_voice_mail_count">
+        <item quantity="zero">%d new voicemails</item>
+        <item quantity="one">%d new voicemail</item>
+        <item quantity="two">%d new voicemails</item>
+        <item quantity="few">%d new voicemails</item>
+        <item quantity="many">%d new voicemails</item>
+        <item quantity="other">%d new voicemails</item>
+    </plurals>
+    <plurals name="notification_contacts_export_completed">
+        <item quantity="zero">%1$d contacts exported to %2$s</item>
+        <item quantity="one">%1$d contact exported to %2$s</item>
+        <item quantity="two">%1$d contacts exported to %2$s</item>
+        <item quantity="few">%1$d contacts exported to %2$s</item>
+        <item quantity="many">%1$d contacts exported to %2$s</item>
+        <item quantity="other">%1$d contacts exported to %2$s</item>
+    </plurals>
+    <plurals name="notification_contacts_import_completed">
+        <item quantity="zero">%d contacts imported</item>
+        <item quantity="one">%d contact imported</item>
+        <item quantity="two">%d contacts imported</item>
+        <item quantity="few">%d contacts imported</item>
+        <item quantity="many">%d contacts imported</item>
+        <item quantity="other">%d contacts imported</item>
+    </plurals>
+    <plurals name="notification_move_completed">
+        <item quantity="zero">%d contacts moved</item>
+        <item quantity="one">%d contact moved</item>
+        <item quantity="two">%d contacts moved</item>
+        <item quantity="few">%d contacts moved</item>
+        <item quantity="many">%d contacts moved</item>
+        <item quantity="other">%d contacts moved</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="zero">%d people</item>
+        <item quantity="one">%d person</item>
+        <item quantity="two">%d people</item>
+        <item quantity="few">%d people</item>
+        <item quantity="many">%d people</item>
+        <item quantity="other">%d people</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">%d found</item>
+        <item quantity="one">%d found</item>
+        <item quantity="two">%d found</item>
+        <item quantity="few">%d found</item>
+        <item quantity="many">%d found</item>
+        <item quantity="other">%d found</item>
+    </plurals>
+    <plurals name="sec">
+        <item quantity="zero">%d seconds</item>
+        <item quantity="one">%d second</item>
+        <item quantity="two">%d seconds</item>
+        <item quantity="few">%d seconds</item>
+        <item quantity="many">%d seconds</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+    <plurals name="some_contacts_not_Export_to_sim">
+        <item quantity="zero">Couldn&apos;t export %d contacts to SIM because their phone numbers are longer than 20 digits.</item>
+        <item quantity="one">Couldn&apos;t export %d contact to SIM because their phone number is longer than 20 digits.</item>
+        <item quantity="two">Couldn&apos;t export %d contacts to SIM because their phone numbers are longer than 20 digits.</item>
+        <item quantity="few">Couldn&apos;t export %d contacts to SIM because their phone numbers are longer than 20 digits.</item>
+        <item quantity="many">Couldn&apos;t export %d contacts to SIM because their phone numbers are longer than 20 digits.</item>
+        <item quantity="other">Couldn&apos;t export %d contacts to SIM because their phone numbers are longer than 20 digits.</item>
+    </plurals>
+    <plurals name="some_contacts_not_moved_to_sim">
+        <item quantity="zero">Couldn&apos;t move %d contacts to SIM because their phone numbers are longer than 20 digits.</item>
+        <item quantity="one">Couldn&apos;t move %d contact to SIM because their phone numbers are longer than 20 digits.</item>
+        <item quantity="two">Couldn&apos;t move %d contacts to SIM because their phone numbers are longer than 20 digits.</item>
+        <item quantity="few">Couldn&apos;t move %d contacts to SIM because their phone numbers are longer than 20 digits.</item>
+        <item quantity="many">Couldn&apos;t move %d contacts to SIM because their phone numbers are longer than 20 digits.</item>
+        <item quantity="other">Couldn&apos;t move %d contacts to SIM because their phone numbers are longer than 20 digits.</item>
+    </plurals>
+    <plurals name="total_blocked_count_one">
+        <item quantity="zero">1 call blocked in the last %d days</item>
+        <item quantity="one">1 call blocked in the last %d day</item>
+        <item quantity="two">1 call blocked in the last %d days</item>
+        <item quantity="few">1 call blocked in the last %d days</item>
+        <item quantity="many">1 call blocked in the last %d days</item>
+        <item quantity="other">1 call blocked in the last %d days</item>
+    </plurals>
+    <plurals name="total_tag">
+        <item quantity="zero">%d tags</item>
+        <item quantity="one">%d tag</item>
+        <item quantity="two">%d tags</item>
+        <item quantity="few">%d tags</item>
+        <item quantity="many">%d tags</item>
+        <item quantity="other">%d tags</item>
+    </plurals>
+    <plurals name="trash_detail_delete_info">
+        <item quantity="zero">Deleted from %1$s on %2$s. %3$d days until they&apos;re deleted forever.</item>
+        <item quantity="one">Deleted from %1$s on %2$s. %3$d day until they&apos;re deleted forever.</item>
+        <item quantity="two">Deleted from %1$s on %2$s. %3$d days until they&apos;re deleted forever.</item>
+        <item quantity="few">Deleted from %1$s on %2$s. %3$d days until they&apos;re deleted forever.</item>
+        <item quantity="many">Deleted from %1$s on %2$s. %3$d days until they&apos;re deleted forever.</item>
+        <item quantity="other">Deleted from %1$s on %2$s. %3$d days until they&apos;re deleted forever.</item>
+    </plurals>
+</resources>

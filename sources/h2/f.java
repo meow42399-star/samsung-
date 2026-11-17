@@ -1,0 +1,28 @@
+package h2;
+
+import android.graphics.Canvas;
+import android.graphics.NinePatch;
+import android.graphics.Paint;
+import android.graphics.Rect;
+import android.graphics.RectF;
+import android.graphics.fonts.Font;
+
+/* JADX INFO: compiled from: r8-map-id-a7353cfb79c11d52bee1cfbeda32e9327d9a3375cf680eb05b4dd51932f0324c */
+/* JADX INFO: loaded from: classes.dex */
+public final class f {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final f f12892a = new f();
+
+    public final void a(Canvas canvas, int[] iArr, int i, float[] fArr, int i6, int i9, Font font, Paint paint) {
+        canvas.drawGlyphs(iArr, i, fArr, i6, i9, font, paint);
+    }
+
+    public final void b(Canvas canvas, NinePatch ninePatch, Rect rect, Paint paint) {
+        canvas.drawPatch(ninePatch, rect, paint);
+    }
+
+    public final void c(Canvas canvas, NinePatch ninePatch, RectF rectF, Paint paint) {
+        canvas.drawPatch(ninePatch, rectF, paint);
+    }
+}

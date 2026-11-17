@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <androidx.core.oneui.graphics.drawable.SeslStrokeDrawable
+            app:seslInnerStrokeColor="@color/sesl_focus_stroke_inner_color_dark"
+            app:seslInnerStrokeWidth="@dimen/sesl_focus_stroke_width"
+            app:seslStrokeActiveState="focused"
+            app:seslStrokeCornerRadius="13.5dp"/>
+    </item>
+</layer-list>

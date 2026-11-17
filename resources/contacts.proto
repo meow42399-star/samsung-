@@ -1,0 +1,697 @@
+// Copyright 2024 Copyright 2024 The OS Migration Authors
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     https://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+edition = "2023";
+
+package os_migration_data_types.v1;
+
+import "export_failure.proto";
+import "file_content.proto";
+
+option java_multiple_files = true;
+
+// Represents a contact stored on device.
+message Contact {
+  // Unique identifier for the contact. Stays stable across multiple migrations.
+  string contact_id = 1;
+  // The first name of the contact.
+  string first_name = 2;
+  // The middle name of the contact.
+  string middle_name = 3;
+  // The last name of the contact.
+  string last_name = 4;
+  // The prefix of the contact's name.
+  string name_prefix = 5;
+  // The suffix of the contact's name.
+  string name_suffix = 6;
+  // The nickname of the contact.
+  string nickname = 7;
+  // The maiden name of the contact.
+  string maiden_name = 8;
+  // The phonetic version of the first name.
+  string phonetic_first_name = 9;
+  // The phonetic version of the middle name.
+  string phonetic_middle_name = 10;
+  // The phonetic version of the last name.
+  string phonetic_last_name = 11;
+  // The contact's organization.
+  ContactOrganization organization = 12;
+  // The contact's email addresses.
+  repeated ContactEmail email = 13;
+  // The birthday is stored as a timestamp in milliseconds since epoch in GMT.
+  ContactDate birthday_date = 14;
+  // Other dates associated with the contact.
+  repeated ContactOtherDate other_date = 15;
+  // The contact's telephone numbers.
+  repeated ContactTelephoneNumber telephone_number = 16;
+  // A note about the contact.
+  string note = 17;
+  // The contact's website URLs.
+  repeated ContactWebsite url = 18;
+  // The contact's addresses.
+  repeated ContactAddress address = 19;
+  // Related contacts.
+  repeated ContactRelated related = 20;
+  // Indicates if the contact is a favorite.
+  bool is_favorite = 21;
+  // The source of the contact.
+  ContactSource source = 22;
+  // The contact's social media profiles.
+  repeated ContactSocialMedia social_media = 23;
+  // Uniquely identifies the contact on the server side. Will be populated where
+  // available.
+  string source_id = 24;
+  bool is_local = 25;
+}
+
+// Represents the organization information of a contact.
+message ContactOrganization {
+  // The name of the company.
+  string company = 1;
+  // The department of the contact within the company.
+  string department = 2;
+  // The contact's job title.
+  string job_title = 3;
+  // The phonetic version of the organization's name.
+  string phonetic_name = 4;
+}
+
+// Represents an email address for a contact.
+message ContactEmail {
+  // The email address.
+  string email = 1;
+  // The type of the email address.
+  ContactType contact_type = 2;
+}
+
+// Represents the type of a contact type (e.g., mobile, work for a telephone
+// number, relationship specifics for a contact, etc.).
+message ContactType {
+  enum Preset {
+    // Default value.
+    PRESET_UNSPECIFIED = 0;
+    // Mobile phone number.
+    PRESET_MOBILE = 1;
+    // Work phone number.
+    PRESET_WORK = 2;
+    // Home phone number.
+    PRESET_HOME = 3;
+    // Main phone number.
+    PRESET_MAIN = 4;
+    // Work fax number.
+    PRESET_WORK_FAX = 5;
+    // Home fax number.
+    PRESET_HOME_FAX = 6;
+    // Pager number.
+    PRESET_PAGER = 7;
+    // Other number.
+    PRESET_OTHER = 8;
+    // Anniversary.
+    PRESET_ANNIVERSARY = 9;
+    // Assistant.
+    PRESET_ASSISTANT = 10;
+    // Brother.
+    PRESET_BROTHER = 11;
+    // Child.
+    PRESET_CHILD = 12;
+    // Domestic partner.
+    PRESET_DOMESTIC_PARTNER = 13;
+    // Father.
+    PRESET_FATHER = 14;
+    // Friend.
+    PRESET_FRIEND = 15;
+    // Manager.
+    PRESET_MANAGER = 16;
+    // Mother.
+    PRESET_MOTHER = 17;
+    // Parent.
+    PRESET_PARENT = 18;
+    // Partner.
+    PRESET_PARTNER = 19;
+    // Referred by.
+    PRESET_REFERRED_BY = 20;
+    // Relative.
+    PRESET_RELATIVE = 21;
+    // Sister.
+    PRESET_SISTER = 22;
+    // Spouse.
+    PRESET_SPOUSE = 23;
+    // Callback number.
+    PRESET_CALLBACK = 24;
+    // Car number.
+    PRESET_CAR = 25;
+    // Company main number.
+    PRESET_COMPANY_MAIN = 26;
+    // ISDN number.
+    PRESET_ISDN = 27;
+    // MMS number.
+    PRESET_MMS = 28;
+    // Other fax number.
+    PRESET_OTHER_FAX = 29;
+    // Radio number.
+    PRESET_RADIO = 30;
+    // Telex number.
+    PRESET_TELEX = 31;
+    // TTY/TDD number.
+    PRESET_TTY_TDD = 32;
+    // Work mobile number.
+    PRESET_WORK_MOBILE = 33;
+    // Work pager number.
+    PRESET_WORK_PAGER = 34;
+    // Blog URL.
+    PRESET_BLOG = 35;
+    // FTP URL.
+    PRESET_FTP = 36;
+    // Homepage URL.
+    PRESET_HOMEPAGE = 37;
+    // Profile URL.
+    PRESET_PROFILE = 38;
+    // School.
+    PRESET_SCHOOL = 39;
+    // iCloud email.
+    PRESET_EMAIL_ICLOUD = 40;
+    // iPhone number.
+    PRESET_IPHONE = 41;
+    // Colleague.
+    PRESET_COLLEAGUE = 42;
+    // Teacher.
+    PRESET_TEACHER = 43;
+    // Sibling.
+    PRESET_SIBLING = 44;
+    // Younger sibling.
+    PRESET_YOUNGER_SIBLING = 45;
+    // Elders sibling.
+    PRESET_ELDERS_SIBLING = 46;
+    // Younger sister.
+    PRESET_YOUNGER_SISTER = 47;
+    // Youngest sister.
+    PRESET_YOUNGEST_SISTER = 48;
+    // Elders sister.
+    PRESET_ELDERS_SISTER = 49;
+    // Eldest sister.
+    PRESET_ELDEST_SISTER = 50;
+    // Younger brother.
+    PRESET_YOUNGER_BROTHER = 51;
+    // Youngest brother.
+    PRESET_YOUNGEST_BROTHER = 52;
+    // Elder brother.
+    PRESET_ELDER_BROTHER = 53;
+    // Eldest brother.
+    PRESET_ELDEST_BROTHER = 54;
+    // Male friend.
+    PRESET_MALE_FRIEND = 55;
+    // Female friend.
+    PRESET_FEMALE_FRIEND = 56;
+    // Wife.
+    PRESET_WIFE = 57;
+    // Husband.
+    PRESET_HUSBAND = 58;
+    // Male partner.
+    PRESET_MALE_PARTNER = 59;
+    // Female partner.
+    PRESET_FEMALE_PARTNER = 60;
+    // Girlfriend or boyfriend.
+    PRESET_GIRLFRIEND_OR_BOYFRIEND = 61;
+    // Girlfriend.
+    PRESET_GIRLFRIEND = 62;
+    // Boyfriend.
+    PRESET_BOYFRIEND = 63;
+    // Daughter.
+    PRESET_DAUGHTER = 64;
+    // Son.
+    PRESET_SON = 65;
+    // Grandparent.
+    PRESET_GRANDPARENT = 66;
+    // Grandmother.
+    PRESET_GRANDMOTHER = 67;
+    // Grandmothers mother.
+    PRESET_GRANDMOTHERS_MOTHERS_MOTHER = 68;
+    // Grandmothers father.
+    PRESET_GRANDMOTHERS_FATHERS_MOTHER = 69;
+    // Grandfather.
+    PRESET_GRANDFATHER = 70;
+    // Grandfathers mother.
+    PRESET_GRANDFATHERS_MOTHERS_FATHER = 71;
+    // Grandfathers father.
+    PRESET_GRANDFATHERS_FATHERS_FATHER = 72;
+    // Great grandparent.
+    PRESET_GREATGRANDPARENT = 73;
+    // Great grandmother.
+    PRESET_GREATGRANDMOTHER = 74;
+    // Great grandfather.
+    PRESET_GREATGRANDFATHER = 75;
+    // Grandchild.
+    PRESET_GRANDCHILD = 76;
+    // Granddaughter.
+    PRESET_GRANDDAUGHTER = 77;
+    // Granddaughters daughter.
+    PRESET_GRANDDAUGHTERS_DAUGHTERS_DAUGHTER = 78;
+    // Granddaughter son.
+    PRESET_GRANDDAUGHTER_SONS_DAUGHTER = 79;
+    // Grandson.
+    PRESET_GRANDSON = 80;
+    // Grandson daughters son.
+    PRESET_GRANDSONS_DAUGHTERS_SON = 81;
+    // Grandson sons son.
+    PRESET_GRANDSONS_SONS_SON = 82;
+    // Great grandchild.
+    PRESET_GREATGRANDCHILD = 83;
+    // Great grandaughter.
+    PRESET_GREATGRANDDAUGHTER = 84;
+    // Great grandson.
+    PRESET_GREATGRANDSON = 85;
+    // Parent in law.
+    PRESET_PARENTINLAW = 86;
+    // Mother in law.
+    PRESET_MOTHERINLAW = 87;
+    // Mother in law wifes mother.
+    PRESET_MOTHERINLAW_WIFES_MOTHER = 88;
+    // Mother in law husbands mother.
+    PRESET_MOTHERINLAW_HUSBANDS_MOTHER = 89;
+    // Father in law.
+    PRESET_FATHERINLAW = 90;
+    // Father in law wifes father.
+    PRESET_FATHERINLAW_WIFES_FATHER = 91;
+    // Father in law husbands father.
+    PRESET_FATHERINLAW_HUSBANDS_FATHER = 92;
+    // Coparent in law.
+    PRESET_COPARENTINLAW = 93;
+    // Comother in law.
+    PRESET_COMOTHERINLAW = 94;
+    // Cofather in law.
+    PRESET_COFATHERINLAW = 95;
+    // Sibling in law.
+    PRESET_SIBLINGINLAW = 96;
+    // Younger sibling in law.
+    PRESET_YOUNGER_SIBLINGINLAW = 97;
+    // Elder sibling in law.
+    PRESET_ELDER_SIBLINGINLAW = 98;
+    // Sister in law.
+    PRESET_SISTERINLAW = 99;
+    // Younger sister in law.
+    PRESET_YOUNGER_SISTERINLAW = 100;
+    // Elder sister in law.
+    PRESET_ELDER_SISTERINLAW = 101;
+    // Sister in law spouses sister.
+    PRESET_SISTERINLAW_SPOUSES_SISTER = 102;
+    // Sister in law wifes sister.
+    PRESET_SISTERINLAW_WIFES_SISTER = 103;
+    // Sister in law husbands sister.
+    PRESET_SISTERINLAW_HUSBANDS_SISTER = 104;
+    // Sister in law brothers wife.
+    PRESET_SISTERINLAW_BROTHERS_WIFE = 105;
+    // Sister in law younger brothers wife.
+    PRESET_SISTERINLAW_YOUNGER_BROTHERS_WIFE = 106;
+    // Sister in law elder brothers wife.
+    PRESET_SISTERINLAW_ELDER_BROTHERS_WIFE = 107;
+    // Brother in law.
+    PRESET_BROTHERINLAW = 108;
+    // Younger brother in law.
+    PRESET_YOUNGER_BROTHERINLAW = 109;
+    // Elder brother in law.
+    PRESET_ELDER_BROTHERINLAW = 110;
+    // Brother in law spouses brother.
+    PRESET_BROTHERINLAWS_SPOUSES_BROTHER = 111;
+    // Brother in law husbands brother.
+    PRESET_BROTHERINLAWS_HUSBANDS_BROTHER = 112;
+    // Brother in law wifes brother.
+    PRESET_BROTHERINLAWS_WIFES_BROTHER = 113;
+    // Brother in law sisters husband.
+    PRESET_BROTHERINLAWS_SISTERS_HUSBAND = 114;
+    // Brother in law younger sisters husband.
+    PRESET_BROTHERINLAWS_YOUNGERS_SISTERS_HUSBAND = 115;
+    // Brother in law elder brothers husband.
+    PRESET_BROTHERINLAWS_ELDER_BROTHERS_HUSBAND = 116;
+    // Sister in law wifes brothers wife.
+    PRESET_SISTERINLAWS_WIFES_BROTHERS_WIFE = 117;
+    // Sister in law husbands brothers wife.
+    PRESET_SISTERINLAWS_HUSBANDS_BROTHERS_WIFE = 118;
+    // Brother in law wifes sisters husband.
+    PRESET_BROTHERINLAWS_WIFES_SISTERS_HUSBAND = 119;
+    // Brother in law husbands sisters husband.
+    PRESET_BROTHERINLAWS_HUSBANDS_SISTERS_HUSBAND = 120;
+    // Cosibling in law.
+    PRESET_COSIBLINGINLAW = 121;
+    // Cosister in law.
+    PRESET_COSISTERINLAW = 122;
+    // Cobrother in law.
+    PRESET_COBROTHERINLAW = 123;
+    // Child in law.
+    PRESET_CHILDINLAW = 124;
+    // Daughter in law.
+    PRESET_DAUGHTERINLAW = 125;
+    // Son in law.
+    PRESET_SONINLAW = 126;
+    // Cousin.
+    PRESET_COUSIN = 127;
+    // Younger cousin.
+    PRESET_YOUNGER_COUSIN = 128;
+    // Elder cousin.
+    PRESET_ELDER_COUSIN = 129;
+    // Male cousin.
+    PRESET_MALE_COUSIN = 130;
+    // Female cousin.
+    PRESET_FEMALE_COUSIN = 131;
+    // Cousin parents sibling child.
+    PRESET_COUSINPARENTS_SIBLINGCHILD = 132;
+    // Cousin parents sibling ton.
+    PRESET_COUSINPARENTS_SIBLINGTON = 133;
+    // Younger cousin parents sibling.
+    PRESET_YOUNGER_COUSINPARENTS_SIBLINGTON = 134;
+    // Elder cousin parents sibling.
+    PRESET_ELDER_COUSIN_PARENTS_SIBLINGTON = 135;
+    // Cousin parents sibling daughter.
+    PRESET_COUSINPARENTS_SIBLINGDAUGHTER = 136;
+    // Younger cousin parents sibling daughter.
+    PRESET_YOUNGER_COUSINPARENTS_SIBLINGDAUGHTER = 137;
+    // Elder cousin parents sibling daughter.
+    PRESET_ELDER_COUSINPARENTS_SIBLINGDAUGHTER = 138;
+    // Cousin mothers mothers daughter.
+    PRESET_COUSINMOTHERS_MOTHERS_DAUGHTER = 139;
+    // Younger cousin mothers mothers daughter.
+    PRESET_YOUNGER_COUSINMOTHERS_MOTHERS_DAUGHTER = 140;
+    // Elder cousin mothers mothers daughter.
+    PRESET_ELDER_COUSINMOTHERS_MOTHERS_DAUGHTER = 141;
+    // Cousin fathers daughter.
+    PRESET_COUSINFATHERS_DAUGHTER = 142;
+    // Younger cousin fathers daughter.
+    PRESET_YOUNGER_COUSINFATHERS_DAUGHTER = 143;
+    // Elder cousin fathers daughter.
+    PRESET_ELDER_COUSINFATHERS_DAUGHTER = 144;
+    // Cousin fathers son.
+    PRESET_COUSINFATHERS_SON = 145;
+    // Younger cousin fathers son.
+    PRESET_YOUNGER_COUSINFATHERS_SON = 146;
+    // Elder cousin fathers son.
+    PRESET_ELDER_COUSINFATHERS_SON = 147;
+    // Cousin fathers brothers daughter.
+    PRESET_COUSINFATHERS_BROTHERS_DAUGHTER = 148;
+    // Younger cousin fathers brothers daughter.
+    PRESET_YOUNGER_COUSINFATHERS_BROTHERS_DAUGHTER = 149;
+    // Elder cousin fathers brothers daughter.
+    PRESET_ELDER_COUSINFATHERS_BROTHERS_DAUGHTER = 150;
+    // Cousin fathers brothers son.
+    PRESET_COUSINFATHERS_BROTHERS_SON = 151;
+    // Younger cousin fathers brothers son.
+    PRESET_YOUNGER_COUSINFATHERS_BROTHERS_SON = 152;
+    // Elder cousin fathers brothers son.
+    PRESET_ELDER_COUSINFATHERS_BROTHERS_SON = 153;
+    // Cousin grand parents sibling child.
+    PRESET_COUSINGRANDPARENTS_SIBLINGCHILD = 154;
+    // Cousin grand parents sibling daughter.
+    PRESET_COUSINGRANDPARENTS_SIBLINGDAUGHTER = 155;
+    // Cousin grand parents sibling son.
+    PRESET_COUSINGRANDPARENTS_SIBLINGSON = 156;
+    // Younger cousin mothers sibling or fathers sisters son.
+    PRESET_YOUNGERCOUSINMOTHERS_SIBLINGTON_OR_FATHERS_SISTERS_SON = 157;
+    // Elder cousin mothers sibling or fathers sisters son.
+    PRESET_ELDER_COUSINMOTHERS_SIBLINGTON_OR_FATHERS_SISTERS_SON = 158;
+    // Younger cousin mothers sibling daughter or fathers sisters daughter.
+    PRESET_YOUNGER_COUSINMOTHERS_SIBLINGDAUGHTER_OR_FATHERS_SISTERS_DAUGHTER =
+        159;
+    // Elder cousin mothers sibling daughter or fathers sisters daughter.
+    PRESET_ELDER_COUSINMOTHERS_SIBLINGDAUGHTER_OR_FATHERS_SISTERS_DAUGHTER =
+        160;
+    // Parents sibling.
+    PRESET_PARENTS_SIBLING = 161;
+    // Parents younger sibling.
+    PRESET_PARENTS_YOUNGER_SIBLING = 162;
+    // Parents older sibling.
+    PRESET_PARENTS_OLDERS_SIBLING = 163;
+    // Parents sibling mothers sibling.
+    PRESET_PARENTS_SIBLING_MOTHERS_SIBLING = 164;
+    // Parents sibling mothers younger sibling.
+    PRESET_PARENTS_SIBLING_MOTHERS_YOUNGER_SIBLING = 165;
+    // Parents sibling mothers older sibling.
+    PRESET_PARENTS_SIBLING_MOTHERS_OLDER_SIBLING = 166;
+    // Parents sibling fathers sibling.
+    PRESET_PARENTS_SIBLING_FATHERS_SIBLING = 167;
+    // Parents sibling fathers younger sibling.
+    PRESET_PARENTS_SIBLING_FATHERS_YOUNGER_SIBLING = 168;
+    // Parents sibling fathers older sibling.
+    PRESET_PARENTS_SIBLING_FATHERS_OLDER_SIBLING = 169;
+    // Aunt.
+    PRESET_AUNT = 170;
+    // Aunt parent sister.
+    PRESET_AUNT_PARENT_SISTER = 171;
+    // Aunt parents younger sister.
+    PRESET_AUNT_PARENTS_YOUNGER_SISTER = 172;
+    // Aunt parents elder sister.
+    PRESET_AUNTPARENTS_ELDER_SISTER = 173;
+    // Aunt father sister.
+    PRESET_AUNT_FATHER_SISTER = 174;
+    // Aunt fathers younger sister.
+    PRESET_AUNT_FATHERS_YOUNGER_SISTER = 175;
+    // Aunt fathers older sister.
+    PRESET_AUNT_FATHERS_OLDER_SISTER = 176;
+    // Aunt fathers brothers wife.
+    PRESET_AUNT_FATHERS_BROTHERS_WIFE = 177;
+    // Aunt fathers younger brothers wife.
+    PRESET_AUNT_FATHERS_YOUNGER_BROTHERS_WIFE = 178;
+    // Aunt fathers older brothers wife.
+    PRESET_AUNT_FATHERS_OLDER_BROTHERS_WIFE = 179;
+    // Aunt mothers sister.
+    PRESET_AUNT_MOTHERS_SISTER = 180;
+    // Aunt mothers younger sister.
+    PRESET_AUNT_MOTHERS_YOUNGER_SISTER = 181;
+    // Aunt mothers older sister.
+    PRESET_AUNT_MOTHERS_OLDER_SISTER = 182;
+    // Aunt mothers brothers wife.
+    PRESET_AUNT_MOTHERS_BROTHERS_WIFE = 183;
+    // Grand aunt.
+    PRESET_GRANDAUNT = 184;
+    // Uncle.
+    PRESET_UNCLE = 185;
+    // Uncle parents brother.
+    PRESET_UNCLE_PARENTS_BROTHER = 186;
+    // Uncle parents younger brother.
+    PRESET_UNCLE_PARENTS_YOUNGER_BROTHER = 187;
+    // Uncle parents older brother.
+    PRESET_UNCLE_PARENTS_OLDER_BROTHER = 188;
+    // Uncle mothers brother.
+    PRESET_UNCLE_MOTHERS_BROTHER = 189;
+    // Uncle mothers younger brother.
+    PRESET_UNCLE_MOTHERS_YOUNGER_BROTHER = 190;
+    // Uncle mothers older brother.
+    PRESET_UNCLE_MOTHERS_OLDER_BROTHER = 191;
+    // Uncle mothers sisters husband.
+    PRESET_UNCLE_MOTHERS_SISTERS_HUSBAND = 192;
+    // Uncle fathers brother.
+    PRESET_UNCLE_FATHERS_BROTHER = 193;
+    // Uncle fathers younger brother.
+    PRESET_UNCLE_FATHERS_YOUNGER_BROTHER = 194;
+    // Uncle fathers older brother.
+    PRESET_UNCLE_FATHERS_OLDER_BROTHER = 195;
+    // Uncle fathers sisters husband.
+    PRESET_UNCLE_FATHERS_SISTERS_HUSBAND = 196;
+    // Uncle fathers younger sisters husband.
+    PRESET_UNCLE_FATHERS_YOUNGER_SISTERS_HUSBAND = 197;
+    // Uncle fathers older sisters husband.
+    PRESET_UNCLE_FATHERS_OLDERS_SISTERS_HUSBAND = 198;
+    // Grand uncle.
+    PRESET_GRANDUNCLE = 199;
+    // Siblings child.
+    PRESET_SIBLINGSCHILD = 200;
+    // Niece.
+    PRESET_NIECE = 201;
+    // Niece sisters daughter.
+    PRESET_NIECE_SISTERS_DAUGHTER = 202;
+    // Niece brothers daughter.
+    PRESET_NIECE_BROTHERS_DAUGHTER = 203;
+    // Niece sisters daughter or wifes siblings daughter.
+    PRESET_NIECE_SISTERS_DAUGHTER_OR_WIFES_SIBLINGS_DAUGHTER = 204;
+    // Niece brothers daughter or husbands siblings daughter.
+    PRESET_NIECE_BROTHERS_DAUGHTER_OR_HUSBANDS_SIBLINGS_DAUGHTER = 205;
+    // Nephew.
+    PRESET_NEPHEW = 206;
+    // Nephew sisters son.
+    PRESET_NEPHEW_SISTERS_SON = 207;
+    // Nephew brothers son.
+    PRESET_NEPHEW_BROTHERS_SON = 208;
+    // Nephew brothers son or husbands siblings.
+    PRESET_NEPHEW_BROTHERS_SON_OR_HUSBANDS_SIBLINGS = 209;
+    // Nephew sisters son or wifes siblings.
+    PRESET_NEPHEW_SISTERS_SON_OR_WIFES_SIBLINGS = 210;
+    // Grand niece.
+    PRESET_GRANDNIECE = 211;
+    // Grand niece sisters grand daughter.
+    PRESET_GRANDNIECE_SISTERS_GRANDDAUGHTER = 212;
+    // Grand niece brothers grand daughter.
+    PRESET_GRANDNIECE_BROTHERS_GRANDDAUGHTER = 213;
+    // Grand nephew.
+    PRESET_GRANDNEPHEW = 214;
+    // Grand nephew sisters grand son.
+    PRESET_GRANDNEPHEW_SISTERS_GRANDSON = 215;
+    // Grand nephew brothers grand son.
+    PRESET_GRANDNEPHEW_BROTHERS_GRANDSON = 216;
+    // Step parent.
+    PRESET_STEP_PARENT = 217;
+    // Step mother.
+    PRESET_STEP_MOTHER = 218;
+    // Step father.
+    PRESET_STEP_FATHER = 219;
+    // Step child.
+    PRESET_STEP_CHILD = 220;
+    // Step daughter.
+    PRESET_STEP_DAUGHTER = 221;
+    // Step son.
+    PRESET_STEP_SON = 222;
+    // Step sister.
+    PRESET_STEP_SISTER = 223;
+    // Step brother.
+    PRESET_STEP_BROTHER = 224;
+    // Mother in law or step mother.
+    PRESET_MOTHERINLAW_OR_STEP_MOTHER = 225;
+    // Father in law or step father.
+    PRESET_FATHERINLAW_OR_STEP_FATHER = 226;
+    // Daughter in law or step daughter.
+    PRESET_DAUGHTERINLAW_OR_STEP_DAUGHTER = 227;
+    // Son in law or step son.
+    PRESET_SONINLAW_OR_STEP_SON = 228;
+    // Cousin or siblings child.
+    PRESET_COUSIN_OR_SIBLINGS_CHILD = 229;
+    // Niece or cousin.
+    PRESET_NIECE_OR_COUSIN = 230;
+    // Nephew or cousin.
+    PRESET_NEPHEW_OR_COUSIN = 231;
+    // Grandchild or siblings child.
+    PRESET_GRANDCHILD_OR_SIBLINGS_CHILD = 232;
+    // Granddaughter or niece.
+    PRESET_GRANDDAUGHTER_OR_NIECE = 233;
+    // Grandson or nephew.
+    PRESET_GRANDSON_OR_NEPHEW = 234;
+    // Great grandchild or siblings grandchild.
+    PRESET_GREATGRANDCHILD_OR_SIBLINGS_GRANDCHILD = 235;
+    // Daughter in law or sister in law.
+    PRESET_DAUGHTERINLAW_OR_SISTERINLAW = 236;
+    // Son in law or brother in law.
+    PRESET_SONINLAW_OR_BROTHERINLAW = 237;
+  }
+
+  // Users can either choose a preset type from a drop down (Work, Home, ...) or
+  // set a custom type. Custom types don't need to be localized.
+  oneof contact_type {
+    // A pre-defined contact type.
+    Preset preset_type = 1;
+    // A custom contact type.
+    string custom_type = 2;
+  }
+}
+
+// Represents a date associated with a contact other than their birthday.
+message ContactOtherDate {
+  // The date is stored as a timestamp in milliseconds since epoch in GMT.
+  ContactDate other_date = 1;
+  // The type of the date.
+  ContactType contact_type = 2;
+}
+
+// A date with a year, month and day.
+message ContactDate {
+  // A contact can have dates without a year specified. E.g. a user might only
+  // know the month and day of a contact's birthday.
+  uint32 year = 1;
+  // The month of the date.
+  uint32 month = 2;
+  // The day of the date.
+  uint32 day = 3;
+  // The type of the calendar the date is using.
+  ContactCalendarType calendar_type = 4;
+}
+
+enum ContactCalendarType {
+  CONTACT_CALENDAR_TYPE_UNSPECIFIED = 0;
+  CONTACT_CALENDAR_TYPE_GREGORIAN = 1;
+  // Indicates lunisolar calendar used in East Asia.
+  CONTACT_CALENDAR_TYPE_LUNISOLAR = 2;
+}
+
+// Represents a phone number for a contact.
+message ContactTelephoneNumber {
+  // A phone number.
+  string phone_number = 1;
+  // The type of the phone number.
+  ContactType contact_type = 2;
+}
+
+// Represents a website entry for a contact.
+message ContactWebsite {
+  // A URL.
+  string url = 1;
+  // The type of the URL.
+  ContactType contact_type = 2;
+}
+
+// Represents a street address for a contact.
+message ContactAddress {
+  // A street address.
+  // E.g. [4 Mildmay Street, Flat 14]
+  repeated string address = 1;
+  // The city of the address.
+  string city = 2;
+  // The state of the address.
+  string state = 3;
+  // The zip code of the address.
+  string zip = 4;
+  // The country of the address.
+  string country = 5;
+  // The type of the address.
+  ContactType contact_type = 6;
+}
+
+// Represents a relationship between contacts.
+message ContactRelated {
+  // The name of the related contact.
+  // E.g. "John Doe"
+  string name = 1;
+  // The type of the relationship.
+  ContactType contact_type = 2;
+}
+
+// Represents the source of a contact entry.
+message ContactSource {
+  // The account name of the contact source.
+  // E.g. xyz@gmail.com
+  string account_name = 1;
+  // The account type of the contact source.
+  // E.g. com.google
+  string account_type = 2;
+  // The data set of the contact source.
+  // One account might have different data sets e.g. for work and home. See
+  // https://developer.android.com/reference/android/provider/ContactsContract.RawContactsColumns#DATA_SET
+  string data_set = 3;
+}
+
+// Represents a social media profile for a contact.
+message ContactSocialMedia {
+  // The social media service.
+  string service = 1;
+  // String representation of the social media profile.
+  string profile = 2;
+}
+
+// Represents metadata associated with a contact photo.
+message ContactPhotoMetadata {
+  // The contact ID associated with the photo.
+  string contact_id = 1;
+  FileContentIdentifier content_identifier = 2;
+  ExportFailure export_failure = 3;
+}
+
+// Represents the response expected when fetching or receiving contacts.
+message ContactArray {
+  // An array of contacts.
+  repeated Contact contacts = 1;
+  ExportFailureSummary export_failure_summary = 2;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/call_history_quantum_contacts_card_top_margin"
+    style="@style/ContactDetailCardStyle">
+    <com.samsung.android.dialtacts.common.contactdetail.view.QuantumContactsCardView
+        android:orientation="vertical"
+        android:id="@+id/call_history_quantum_contacts_card"
+        android:background="@color/card_view_background_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/call_history_quantum_contacts_card_vertical_padding"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <size
+                android:height="@dimen/recents_widget_place_call_icon_size_bg_common"
+                android:width="@dimen/recents_widget_place_call_icon_size_bg_common"/>
+            <solid android:color="@color/cover_screen_recoil_background_pressed"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/mask">
+        <shape android:shape="oval">
+            <size
+                android:height="@dimen/recents_widget_place_call_icon_size_bg_common"
+                android:width="@dimen/recents_widget_place_call_icon_size_bg_common"/>
+            <solid android:color="@color/zxing_transparent"/>
+        </shape>
+    </item>
+</selector>

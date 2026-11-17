@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/lunarButtonContainer"
+    android:background="@drawable/date_picker_lunar_button"
+    android:visibility="gone"
+    android:layout_width="@dimen/lunar_button_container_width"
+    android:layout_height="@dimen/lunar_button_container_height"
+    android:layout_marginStart="@dimen/lunar_button_container_margin_start">
+    <Button
+        android:id="@+id/solarButton"
+        android:layout_width="@dimen/lunar_button_width"
+        android:layout_height="@dimen/lunar_button_height"
+        android:text="@string/date_solar_calendar"
+        style="@style/SolarLunarButtonSelectedStyle"/>
+    <Button
+        android:id="@+id/lunarButton"
+        android:layout_width="@dimen/lunar_button_width"
+        android:layout_height="@dimen/lunar_button_height"
+        style="@style/SolarLunarButtonSelectedStyle"/>
+</LinearLayout>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contact_list_pd_groups">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d குழு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d குழுக்கள்</item>
+    </plurals>
+    <plurals name="count_calls">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d அழைப்பு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d அழைப்புகள்</item>
+    </plurals>
+    <plurals name="delete_logs_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">உங்கள் அழைப்பு வரலாற்றிலிருந்து %d உருப்படியை நீக்கவா?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">உங்கள் அழைப்பு வரலாற்றிலிருந்து %d உருப்படிகளை நீக்கவா?</item>
+    </plurals>
+    <plurals name="delete_n_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d தொடர்பை நீக்கவா?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d தொடர்புகளை நீக்கவா?</item>
+    </plurals>
+    <plurals name="delete_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d டேக்கை நீக்கவா?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d டேக்குகளை நீக்கவா?</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-ஆல் குழு அரட்டைகளில் சேர இயலாது. தேர்வு செய்யப்பட பெறுநர்களில் இருந்து அவர்களை அகற்றவும் அல்லது அதற்குப் பதிலாக %2$d பெறுநருக்கு உரைச் செய்தி அனுப்பவும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s-ஆல் குழு அரட்டைகளில் சேர இயலாது. தேர்வு செய்யப்பட பெறுநர்களில் இருந்து அவர்களை அகற்றவும் அல்லது அதற்குப் பதிலாக %2$d பெறுநர்களுக்கு உரைத் தகவல் அனுப்பவும்.</item>
+    </plurals>
+    <plurals name="group_list_pd_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d உறுப்பினர்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d உறுப்பினர்கள்</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ஃபோன் எண் கொண்ட %d தொடர்பு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ஃபோன் எண்களை கொண்ட %d தொடர்புகள்</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d தொடர்பு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d தொடர்புகள்</item>
+    </plurals>
+    <plurals name="max_available_contacts_count_linked_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">உங்கள் SIM அட்டையில் %d தொடர்புக்கு அதிகமாக நகர்த்த இயலாது. தேர்வு செய்யப்பட்ட தொடர்புகளுடன் இணைக்கப்பட்ட தொடர்புகளும் கணக்கில் கொள்ளப்படும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">உங்கள் SIM அட்டையில் %d தொடர்புகளுக்கு அதிகமாக நகர்த்த இயலாது. தேர்வு செய்யப்பட்ட தொடர்புகளுடன் இணைக்கப்பட்ட தொடர்புகளும் கணக்கில் கொள்ளப்படும்.</item>
+    </plurals>
+    <plurals name="merge_contact_tip_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">உங்களிடம் %d நகல் தொடர்பு உள்ளது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">உங்களிடம் %d நகல் தொடர்புகள் உள்ளன.</item>
+    </plurals>
+    <plurals name="min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நிமிடம்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d நிமிடங்கள்</item>
+    </plurals>
+    <plurals name="missed_call_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d தவறிய அழைப்புகள்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d தவறிய அழைப்புகள்</item>
+    </plurals>
+    <plurals name="missed_call_suggestion">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-இலிருந்து %1$d தவறிய அழைப்பு.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s-இலிருந்து %1$d தவறிய அழைப்புகள்.</item>
+    </plurals>
+    <plurals name="more_birthdays">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">மேலும் %d பிறந்தநாள்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">மேலும் %d பிறந்தநாள்கள்</item>
+    </plurals>
+    <plurals name="move_multi_contact_delete_one_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d தொடர்பை தேவையற்றவைக்கு நகர்த்தி, 1 சமீபத்திய உருப்படியை நீக்கவா?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d தொடர்புகளை தேவையற்றவைக்கு நகர்த்தி, 1 சமீபத்திய உருப்படியை நீக்கவா?</item>
+    </plurals>
+    <plurals name="move_n_contact_to_the_trash">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d தொடர்பைத் தேவையற்றவைக்கு நகர்த்தவா?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d தொடர்புகளைத் தேவையற்றவைக்கு நகர்த்தவா?</item>
+    </plurals>
+    <plurals name="move_one_contact_delete_multi_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 தொடர்பை தேவையற்றவைக்கு நகர்த்தி, %d சமீபத்திய உருப்படியை நீக்கவா?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 தொடர்பை தேவையற்றவைக்கு நகர்த்தி, %d சமீபத்திய உருப்படிகளை நீக்கவா?</item>
+    </plurals>
+    <plurals name="my_profile_emergency_contacts_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d தொடர்பு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d தொடர்புகள்</item>
+    </plurals>
+    <plurals name="new_voice_mail_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d புதிய குரலஞ்சல்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d புதிய குரலஞ்சல்கள்</item>
+    </plurals>
+    <plurals name="notification_contacts_export_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d தொடர்பு, %2$s-க்கு ஏற்றப்பட்டது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d தொடர்புகள், %2$s-க்கு ஏற்றப்பட்டன</item>
+    </plurals>
+    <plurals name="notification_contacts_import_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d தொடர்பு இறக்கப்பட்டது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d தொடர்புகள் இறக்கப்பட்டன</item>
+    </plurals>
+    <plurals name="notification_move_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d தொடர்பு நகர்த்தப்பட்டது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d தொடர்புகள் நகர்த்தப்பட்டன</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நபர்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d நபர்கள்</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d உள்ளது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d உள்ளது</item>
+    </plurals>
+    <plurals name="sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d வினாடி</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d வினாடிகள்</item>
+    </plurals>
+    <plurals name="some_contacts_not_Export_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d தொடர்பை SIM-க்கு ஏற்ற இயலவில்லை, ஏனெனில் அவர்களின் ஃபோன் எண் 20 இலக்கங்களை விட நீளமாக உள்ளது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d தொடர்புகளை SIM-க்கு ஏற்ற இயலவில்லை, ஏனெனில் அவர்களின் ஃபோன் எண்கள் 20 இலக்கங்களை விட நீளமாக உள்ளன.</item>
+    </plurals>
+    <plurals name="some_contacts_not_moved_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d தொடர்பை SIM-க்கு நகர்த்த இயலவில்லை, ஏனெனில் அவர்களின் ஃபோன் எண்கள் 20 இலக்கங்களை விட நீளமாக உள்ளன.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d தொடர்புகளை SIM-க்கு நகர்த்த இயலவில்லை, ஏனெனில் அவர்களின் ஃபோன் எண்கள் 20 இலக்கங்களை விட நீளமாக உள்ளன.</item>
+    </plurals>
+    <plurals name="total_blocked_count_one">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">கடந்த %d நாளில் 1 அழைப்பு தடை செய்யப்பட்டது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">கடந்த %d நாட்களில் 1 அழைப்பு தடை செய்யப்பட்டது</item>
+    </plurals>
+    <plurals name="total_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d டேக்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d டேக்குகள்</item>
+    </plurals>
+    <plurals name="trash_detail_delete_info">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s அன்று %1$s-இலிருந்து நீக்கப்பட்டது. %3$d நாளுக்கு பிறகு நிரந்தரமாக நீக்கப்படும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s அன்று %1$s-இலிருந்து நீக்கப்பட்டது. %3$d நாட்களுக்கு பிறகு அவை நிரந்தரமாக நீக்கப்படும்.</item>
+    </plurals>
+</resources>

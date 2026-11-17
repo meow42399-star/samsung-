@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialer.calllog.view.widget.CallLogMultiNumberLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:id="@+id/container_expand_multi_number"
+    android:focusable="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/expand_view_data_margin_bottom">
+    <TextView
+        android:textAppearance="@style/SemiBold"
+        android:textSize="@dimen/expand_view_multi_number_text_size"
+        android:textColor="@color/expand_multi_number_dialog_text_color"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/text_view_expand_multi_number_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/expanded_list_label_max_width"
+        android:maxLines="1"/>
+    <TextView
+        android:textAppearance="@style/SemiBold"
+        android:textSize="@dimen/expand_view_multi_number_text_size"
+        android:textColor="@color/expand_multi_number_dialog_text_color"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/text_view_expand_multi_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_weight="1"
+        android:textDirection="ltr"/>
+    <include layout="@layout/layout_call_log_validation_icon"/>
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/image_view_expand_next"
+        android:layout_width="@dimen/expand_view_multi_number_next_size"
+        android:layout_height="@dimen/expand_view_multi_number_next_size"
+        android:src="@drawable/phone_expand_ic_next"
+        android:tint="@color/expand_multi_number_dialog_text_color"
+        android:layout_marginStart="@dimen/expand_view_multi_number_next_start_margin"/>
+</com.samsung.android.dialer.calllog.view.widget.CallLogMultiNumberLayout>

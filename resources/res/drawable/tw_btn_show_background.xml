@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <ripple android:color="@color/contacts_ripple_material_light">
+            <item>
+                <inset
+                    android:insetLeft="3dp"
+                    android:insetRight="3dp"
+                    android:insetTop="4.5dp"
+                    android:insetBottom="4.5dp">
+                    <shape android:shape="rectangle">
+                        <corners android:radius="2dp"/>
+                        <solid android:color="#48ffffff"/>
+                        <stroke
+                            android:width="2px"
+                            android:color="@color/show_button_shapes_stroke"/>
+                        <padding
+                            android:left="9dp"
+                            android:right="9dp"/>
+                    </shape>
+                </inset>
+            </item>
+        </ripple>
+    </item>
+</layer-list>

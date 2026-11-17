@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:icon="@mipmap/ic_quickoption_missed_calls"
+        android:enabled="true"
+        android:shortcutId="missedcall"
+        android:shortcutShortLabel="@string/viewby_missedcalls"
+        android:shortcutLongLabel="@string/viewby_missedcalls">
+        <intent android:action="com.samsung.dialer.action.SHOW_MISSEDCALL"/>
+    </shortcut>
+    <shortcut
+        android:icon="@mipmap/ic_quickoption_search"
+        android:enabled="true"
+        android:shortcutId="search"
+        android:shortcutShortLabel="@string/hint_findContacts"
+        android:shortcutLongLabel="@string/hint_findContacts">
+        <intent android:action="com.samsung.dialer.action.SEARCH"/>
+    </shortcut>
+    <shortcut
+        android:icon="@mipmap/ic_quickoption_create_contact"
+        android:enabled="true"
+        android:shortcutId="phoneadd"
+        android:shortcutShortLabel="@string/shortcut_create_contact"
+        android:shortcutLongLabel="@string/shortcut_create_contact">
+        <intent
+            android:targetPackage="com.samsung.android.app.contacts"
+            android:action="com.samsung.contacts.action.SHORTCUT_CREATE_CONTACT"
+            android:data="content://com.android.contacts/contacts"
+            android:targetClass="com.samsung.android.contacts.editor.ContactEditorActivity"/>
+    </shortcut>
+</shortcuts>

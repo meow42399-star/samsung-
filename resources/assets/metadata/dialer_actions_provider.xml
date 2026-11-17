@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions>
+    <action
+        tag="dialer.perform.findCallLogs"
+        defaultLabel="Find Call Logs"
+        reversible="false"
+        extraFlags="tool"
+        supportStatusCheckPolicy="check_dynamically"
+        version="1"
+        handlerFactory="com.samsung.android.dialer.routine.routines.generated.CallLogsActionHandlerActionFactory">
+        <configuration>
+            <input_parameters>
+                <parameter
+                    key="start_time"
+                    defaultName="start time"
+                    description="Inclusive start of the call time range as an RFC 3339 date-time string with a UTC offset or Z. Resolve relative dates using the supplied current time and the user's timezone, with the offset applicable to the requested date. For a whole day, use 00:00:00 on that day. Obtain missing time context before resolving a relative date. Omit when no lower time bound is requested; defaults to the Unix epoch."
+                    type="DATE_TIME" />
+                <parameter
+                    key="end_time"
+                    defaultName="end time"
+                    description="Inclusive end of the call time range as an RFC 3339 date-time string with a UTC offset or Z. Resolve relative dates using the supplied current time and the user's timezone, with the offset applicable to the requested date. Obtain missing time context before resolving a relative date. For a whole day, use 23:59:59.999 on that day in the user's timezone. Must be at or after start_time when both are supplied. Omit when no upper time bound is requested; defaults to the current time."
+                    type="DATE_TIME" />
+                <parameter
+                    key="query"
+                    defaultName="query"
+                    description="Keyword used to search call logs. May match call log information such as a phone number, contact name, Calling Name Presentation (CNAP) name, or tag. Extract the keyword rather than passing the entire request; put time constraints in start_time and end_time. For '어제 홍길동과 통화한 기록', use query='홍길동' and yesterday's local time range. Omit or use an empty string when no keyword is requested; all call logs within the given time range are then returned. Do not invent a wildcard."
+                    type="STRING" />
+            </input_parameters>
+            <output_parameters>
+                <parameter
+                    key="call_log_lists"
+                    defaultName="call logs"
+                    description="List of matching call log objects. Empty if no calls match. Each object contains the following attributes when available:
+number, date, duration, features, name, countryiso, photo_uri, formatted_number, cnap_name, contactid and sec_record"
+                    type="LIST_OBJECT"
+                    isRequired="true">
+                    <domain>
+                        <size>
+                            <object
+                                additionalProperties="false"
+                                domainId="callLog">
+                                <property
+                                    key="number"
+                                    type="STRING"
+                                    description="Number called"
+                                    required="true" />
+                                <property
+                                    key="date"
+                                    type="NUMBER"
+                                    description="Call timestamp in milliseconds since the Unix epoch."
+                                    required="true" />
+                                <property
+                                    key="duration"
+                                    type="NUMBER"
+                                    description="Call duration in seconds."
+                                    required="true" />
+                                <property
+                                    key="type"
+                                    type="NUMBER"
+                                    description="Call type code. (1: INCOMING_TYPE, 2: OUTGOING_TYPE, 3: MISSED_TYPE, 4: VOICEMAIL_TYPE, 5: REJECTED_TYPE, 6: BLOCKED_TYPE, 7: ANSWERED_EXTERNALLY_TYPE)"
+                                    required="true" />
+                                <property
+                                    key="features"
+                                    type="NUMBER"
+                                    description="Call feature bitmask. Flags can be combined with bitwise OR; 0 means no flags. (1: FEATURES_VIDEO, 2: FEATURES_PULLED_EXTERNALLY, 4: FEATURES_HD_CALL, 8: FEATURES_WIFI, 16: FEATURES_ASSISTED_DIALING_USED, 32: FEATURES_RTT, 64: FEATURES_VOLTE, 128: FEATURES_HD_PLUS_CALL, 256: FEATURES_VONR, 512: FEATURES_GROUP_CALL"
+                                    required="true" />
+                                <property
+                                    key="name"
+                                    type="STRING"
+                                    description="Cached contact display name." />
+                                <property
+                                    key="countryiso"
+                                    type="STRING"
+                                    description="Country ISO code associated with the call, such as US or KR."
+                                    required="true" />
+                                <property
+                                    key="photo_uri"
+                                    type="STRING"
+                                    description="Cached contact photo URI." />
+                                <property
+                                    key="formatted_number"
+                                    type="STRING"
+                                    description="Cached formatted phone number." />
+                                <property
+                                    key="cnap_name"
+                                    type="STRING"
+                                    description="Calling Name Presentation (CNAP) name." />
+                                <property
+                                    key="contactid"
+                                    type="NUMBER"
+                                    description="Contact ID." />
+                                <property
+                                    key="sec_record"
+                                    type="LIST_STRING"
+                                    description="Zero or more recording file paths, excluding entries marked deleted. An empty list means this call exists but no recording paths are returned. Paths are references, not audio content, transcripts, or summaries." />
+                            </object>
+                        </size>
+                    </domain>
+                </parameter>
+            </output_parameters>
+        </configuration>
+        <permissions
+            declared="android.permission.READ_CALL_LOG"
+            note="Reads matching call logs and their recording paths." />
+        <tool_descriptions
+            not_for="Placing calls, deleting call logs, or directly playing, transcribing, or summarizing recordings. Retrieved recording paths can be used by another capable tool for those audio operations."
+            selection_boundary="Choose this for name or keyword searches, for listing calls within a time range, or when call dates, types, or other call details are needed. For '홍길동의 부재중 전화', use query='홍길동' and select returned entries with type=3; for '어제 부재중 전화', omit query, use yesterday's local time range, and select entries with type=3; there is no call-type input filter. Choose Find Call Records when the exact stored phone number is known and only durations and recording paths are needed. Reuse recording paths from this result when they already satisfy the request, without another lookup."
+            what_it_controls="Reads matching call logs stored in the Samsung Dialer app and returns number, date, duration, type, features, name, countryiso, photo_uri, formatted_number, cnap_name, contactid, and sec_record when available."
+            when_to_use="User wants call history or recording paths matching a name, phone number, CNAP name, or tag, optionally within a time range, or all call history within a time range when no search keyword is given." />
+    </action>
+
+    <action
+        tag="dialer.perform.findCallRecords"
+        defaultLabel="Find Call Records"
+        reversible="false"
+        extraFlags="tool"
+        supportStatusCheckPolicy="check_dynamically"
+        version="1"
+        handlerFactory="com.samsung.android.dialer.routine.routines.generated.CallLogsActionHandlerActionFactory">
+        <configuration>
+            <input_parameters>
+                <parameter
+                    key="start_time"
+                    defaultName="start time"
+                    description="Inclusive start of the call time range as an RFC 3339 date-time string with a UTC offset or Z. Resolve relative dates using the supplied current time and the user's timezone, with the offset applicable to the requested date. For a whole day, use 00:00:00 on that day. Obtain missing time context before resolving a relative date. Omit when no lower time bound is requested; defaults to the Unix epoch."
+                    type="DATE_TIME" />
+                <parameter
+                    key="end_time"
+                    defaultName="end time"
+                    description="Inclusive end of the call time range as an RFC 3339 date-time string with a UTC offset or Z. Resolve relative dates using the supplied current time and the user's timezone, with the offset applicable to the requested date. Obtain missing time context before resolving a relative date. For a whole day, use 23:59:59.999 on that day in the user's timezone. Must be at or after start_time when both are supplied. Omit when no upper time bound is requested; defaults to the current time."
+                    type="DATE_TIME" />
+                <parameter
+                    key="number"
+                    defaultName="number"
+                    description="Non-empty phone number to match exactly as stored in the call log. Preserve the stored number format; if it is unknown, use the number field from a relevant Find Call Logs result. Do not supply a contact name or guess a number. If only a name or keyword is known, use Find Call Logs first and resolve the intended match."
+                    type="STRING"
+                    isRequired="true" />
+            </input_parameters>
+            <output_parameters>
+                <parameter
+                    key="recording_lists"
+                    defaultName="record files"
+                    description="List of matching call log objects with recording information. Empty if no calls match. Each object contains:
+duration and sec_record"
+                    type="LIST_OBJECT"
+                    isRequired="true">
+                    <domain>
+                        <size>
+                            <object
+                                additionalProperties="false"
+                                domainId="CallRecord">
+                                <property
+                                    key="duration"
+                                    type="NUMBER"
+                                    description="Call duration in seconds."
+                                    required="true" />
+                                <property
+                                    key="sec_record"
+                                    type="LIST_STRING"
+                                    description="Zero or more recording file paths, excluding entries marked deleted. An empty list means this call exists but no recording paths are returned. Paths are references, not audio content, transcripts, or summaries." />
+                            </object>
+                        </size>
+                    </domain>
+                </parameter>
+            </output_parameters>
+        </configuration>
+        <permissions
+            declared="android.permission.READ_CALL_LOG"
+            note="Reads call durations and recording paths for the given number." />
+        <tool_descriptions
+            not_for="Searching by contact name, listing calls without a specific phone number, or retrieving call dates and types. This action does not place calls, delete call logs, play, transcribe, or summarize audio; use its recording paths with another capable tool for those audio operations."
+            selection_boundary="Choose this when the exact stored phone number is known and only call durations and recording paths are needed. For 'Find recordings for 01012345678', use number='01012345678' and omit time bounds unless requested. Use Find Call Logs for name or keyword searches, or when call dates or types are needed. Skip this lookup if earlier results already contain the recording paths needed for the request."
+            what_it_controls="Reads call logs stored in the Samsung Dialer app and returns call duration and recording file paths."
+            when_to_use="User wants call durations and recording file paths for an exact phone number, optionally within a time range." />
+    </action>
+
+    <action
+        tag="dialer.perform.markMissedCallHandled"
+        defaultLabel="Mark Missed Call Handled"
+        reversible="false"
+        extraFlags="tool"
+        supportStatusCheckPolicy="check_dynamically"
+        version="1"
+        handlerFactory="com.samsung.android.dialer.routine.routines.generated.MarkMissedCallHandledActionHandlerActionFactory">
+        <configuration>
+            <input_parameters>
+                <parameter
+                    key="number"
+                    defaultName="number"
+                    description="Non-empty phone number whose missed call notifications should be dismissed. Match the number exactly as stored in the call log; if it is unknown, use the number field from a relevant Find Call Logs result. Do not supply a contact name or guess a number. If only a name or keyword is known, use Find Call Logs first and resolve the intended match."
+                    type="STRING"
+                    isRequired="true" />
+            </input_parameters>
+        </configuration>
+        <permissions
+            declared="android.permission.READ_CALL_LOG|android.permission.WRITE_CALL_LOG"
+            note="Reads new missed call logs for the number, then marks them as read after dismissing notifications." />
+        <tool_descriptions
+            not_for="Deleting call log entries, placing or rejecting calls, clearing voicemail notifications, or dismissing notifications without a specific phone number."
+            selection_boundary="Choose this only to dismiss missed call notifications for an exact phone number. Use Find Call Logs for name or keyword searches to resolve the number first. This does not delete the call log entries themselves and does not place calls."
+            what_it_controls="Dismisses the Samsung Dialer missed call notifications for every missed call log stored under the given phone number, marking those missed calls as seen."
+            when_to_use="User wants to clear, dismiss, or remove the missed call notifications for a specific phone number." />
+    </action>
+</actions>
+

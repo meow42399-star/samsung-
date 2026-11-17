@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialtacts.common.widget.RoundedCornerLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/communication_card"
+    android:background="@drawable/call_history_card_view_background"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/ContactDetailCardStyle">
+    <include layout="@layout/call_history_display_name_item"/>
+    <include
+        android:id="@+id/selected_history_item"
+        layout="@layout/history_item"/>
+    <ViewStub
+        android:id="@+id/call_history_call_icon_stub"
+        android:layout="@layout/call_history_call_icon_items"
+        android:inflatedId="@+id/call_icons_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/call_history_call_icon_layout_bottom_margin"/>
+</com.samsung.android.dialtacts.common.widget.RoundedCornerLinearLayout>

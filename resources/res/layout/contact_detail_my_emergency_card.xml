@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialtacts.common.contactdetail.view.EmergencyInfoCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/my_emergency_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textAppearance="@style/SemiBold"
+        android:textSize="@dimen/contact_detail_text_size_13"
+        android:textColor="@color/contact_detail_sub_header_color"
+        android:id="@+id/my_emergency_info_title"
+        android:paddingBottom="@dimen/contact_detail_sub_header_padding_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/emergency_information"
+        android:textAlignment="viewStart"
+        android:paddingHorizontal="@dimen/contact_detail_sub_header_padding_start_end"
+        android:accessibilityHeading="true"/>
+    <com.samsung.android.dialtacts.common.widget.RoundedCornerLayout
+        android:orientation="vertical"
+        android:id="@+id/my_emergency_info_card"
+        android:background="@color/detail_view_card_background_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/emergency_medical_info"/>
+        <View
+            android:id="@+id/emergency_contacts_divider"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/contact_detail_divider_start_with_icon"
+            style="@style/ContactDetailDividerStyle"/>
+        <include layout="@layout/ice_emergency_contacts"/>
+    </com.samsung.android.dialtacts.common.widget.RoundedCornerLayout>
+</com.samsung.android.dialtacts.common.contactdetail.view.EmergencyInfoCardView>

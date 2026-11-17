@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<backup_items>
+    <backup_item
+        client_impl_class="com.samsung.android.dialer.backup.CallLogBNRClientImpl"
+        contents_id="KNszpw41I3"
+        data_type="json"
+        interface="IRecordClient"
+        is_enable="true"
+        name="CALLLOGS"/>
+</backup_items>

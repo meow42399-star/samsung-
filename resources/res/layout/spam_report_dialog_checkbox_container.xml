@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/report_block_dialog_checkbox_start_padding"
+    android:paddingEnd="@dimen/report_block_dialog_checkbox_end_padding"
+    android:paddingVertical="@dimen/spam_report_dialog_checkbox_container_vertical_padding">
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:focusable="false"
+        android:clickable="false"
+        android:duplicateParentState="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"/>
+    <TextView
+        android:textAppearance="@style/Regular"
+        android:textSize="@dimen/report_block_dialog_content_text_size"
+        android:textColor="@color/primary_text_color"
+        android:ellipsize="end"
+        android:id="@+id/checkbox_filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="@dimen/report_block_dialog_checkbox_text_start_margin"/>
+</LinearLayout>

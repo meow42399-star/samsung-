@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.graphics.drawable.SeslRecoilDrawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" app:seslRecoilColor="@color/dialtacts_ripple_button_color">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/bottom_button_cancel_bg_color"/>
+            <corners android:radius="@dimen/bottom_button_radius"/>
+        </shape>
+    </item>
+</androidx.appcompat.graphics.drawable.SeslRecoilDrawable>

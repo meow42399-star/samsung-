@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.samsung.android.dialtacts.common.widget.RoundedCornerLinearLayout
+            android:id="@+id/recent_search_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.samsung.android.dialtacts.common.contactslist.view.ContactRecyclerView
+                android:id="@+id/recent_search_list"
+                android:fadingEdge="none"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fastScrollEnabled="false"
+                android:overScrollMode="ifContentScrolls"
+                android:paddingHorizontal="@dimen/list_default_padding"/>
+        </com.samsung.android.dialtacts.common.widget.RoundedCornerLinearLayout>
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/empty_view_container"
+            android:focusable="false"
+            android:visibility="gone"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:importantForAccessibility="no">
+            <include
+                android:id="@+id/empty_view"
+                layout="@layout/contact_empty_layout"/>
+        </androidx.core.widget.NestedScrollView>
+    </FrameLayout>
+</LinearLayout>

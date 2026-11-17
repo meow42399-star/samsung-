@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contact_list_pd_groups">
+        <item quantity="zero">%d grupas</item>
+        <item quantity="one">%d grupa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d grupas</item>
+    </plurals>
+    <plurals name="count_calls">
+        <item quantity="zero">%d zvani</item>
+        <item quantity="one">%d zvans</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d zvani</item>
+    </plurals>
+    <plurals name="delete_logs_count">
+        <item quantity="zero">Vai izdzēst %d vienumus no jūsu zvanu vēstures?</item>
+        <item quantity="one">Vai izdzēst %d vienumu no jūsu zvanu vēstures?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai izdzēst %d vienumus no jūsu zvanu vēstures?</item>
+    </plurals>
+    <plurals name="delete_n_contacts">
+        <item quantity="zero">Vai izdzēst %d kontaktus?</item>
+        <item quantity="one">Vai izdzēst %d kontaktu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai izdzēst %d kontaktus?</item>
+    </plurals>
+    <plurals name="delete_tag">
+        <item quantity="zero">Vai izdzēst %d atzīmes?</item>
+        <item quantity="one">Vai izdzēst %d atzīmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai izdzēst %d atzīmes?</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">%1$s nevar pievienoties grupas tērzēšanām. Noņemiet šīs personas no izvēlētajiem adresātiem vai tā vietā nosūtiet īsziņu līdz pat %2$d adresātiem.</item>
+        <item quantity="one">%1$s nevar pievienoties grupas tērzēšanām. Noņemiet šīs personas no izvēlētajiem adresātiem vai tā vietā nosūtiet īsziņu līdz pat %2$d adresātam.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s nevar pievienoties grupas tērzēšanām. Noņemiet šīs personas no izvēlētajiem adresātiem vai tā vietā nosūtiet īsziņu līdz pat %2$d adresātiem.</item>
+    </plurals>
+    <plurals name="group_list_pd_members">
+        <item quantity="zero">%d dalībnieki</item>
+        <item quantity="one">%d dalībnieks</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d dalībnieki</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="zero">%d kontakti ar tālruņu numuriem</item>
+        <item quantity="one">%d kontakts ar tālruņa numuru</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kontakti ar tālruņu numuriem</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">%d kontakti</item>
+        <item quantity="one">%d kontakts</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kontakti</item>
+    </plurals>
+    <plurals name="max_available_contacts_count_linked_contacts">
+        <item quantity="zero">Uz jūsu SIM karti var pārvietot ne vairāk kā %d kontaktus. Tas ietver arī ar izvēlētajiem kontaktiem saistītos kontaktus.</item>
+        <item quantity="one">Uz jūsu SIM karti var pārvietot ne vairāk kā %d kontaktu. Tas ietver arī ar izvēlētajiem kontaktiem saistītos kontaktus.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Uz jūsu SIM karti var pārvietot ne vairāk kā %d kontaktus. Tas ietver arī ar izvēlētajiem kontaktiem saistītos kontaktus.</item>
+    </plurals>
+    <plurals name="merge_contact_tip_text">
+        <item quantity="zero">Jums ir %d kontaktu dublikāti.</item>
+        <item quantity="one">Jums ir %d kontakta dublikāts.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jums ir %d kontaktu dublikāti.</item>
+    </plurals>
+    <plurals name="min">
+        <item quantity="zero">%d minūtes</item>
+        <item quantity="one">%d minūte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d minūtes</item>
+    </plurals>
+    <plurals name="missed_call_count">
+        <item quantity="zero">%d neatbildēti zvani</item>
+        <item quantity="one">%d neatbildēts zvans</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d neatbildēti zvani</item>
+    </plurals>
+    <plurals name="missed_call_suggestion">
+        <item quantity="zero">%1$d neatbildēti zvani no %2$s.</item>
+        <item quantity="one">%1$d neatbildēts zvans no %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d neatbildēti zvani no %2$s.</item>
+    </plurals>
+    <plurals name="more_birthdays">
+        <item quantity="zero">Vēl %d dzimšanas dienas</item>
+        <item quantity="one">Vēl %d dzimšanas diena</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vēl %d dzimšanas dienas</item>
+    </plurals>
+    <plurals name="move_multi_contact_delete_one_log_confirmation">
+        <item quantity="zero">Vai pārvietot %d kontaktus uz atkritni un izdzēst 1 nesenu objektu?</item>
+        <item quantity="one">Vai pārvietot %d kontaktu uz atkritni un izdzēst 1 nesenu objektu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai pārvietot %d kontaktus uz atkritni un izdzēst 1 nesenu objektu?</item>
+    </plurals>
+    <plurals name="move_n_contact_to_the_trash">
+        <item quantity="zero">Vai pārvietot %d kontaktus uz atkritni?</item>
+        <item quantity="one">Vai pārvietot %d kontaktu uz atkritni?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai pārvietot %d kontaktus uz atkritni?</item>
+    </plurals>
+    <plurals name="move_one_contact_delete_multi_log_confirmation">
+        <item quantity="zero">Vai pārvietot 1 kontaktu uz atkritni un izdzēst %d nesenus objektus?</item>
+        <item quantity="one">Vai pārvietot 1 kontaktu uz atkritni un izdzēst %d nesenu objektu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai pārvietot 1 kontaktu uz atkritni un izdzēst %d nesenus objektus?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+        <item quantity="other">%d jauni paziņojumi</item>
+    </plurals>
+    <plurals name="my_profile_emergency_contacts_count">
+        <item quantity="zero">%d kontakti</item>
+        <item quantity="one">%d kontakts</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kontakti</item>
+    </plurals>
+    <plurals name="new_voice_mail_count">
+        <item quantity="zero">%d jaunas balss pasta ziņas</item>
+        <item quantity="one">%d jauna balss pasta ziņa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d jaunas balss pasta ziņas</item>
+    </plurals>
+    <plurals name="notification_contacts_export_completed">
+        <item quantity="zero">%1$d kontaktu eksportēti %2$s</item>
+        <item quantity="one">%1$d kontakts eksportēts %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d kontakti eksportēti %2$s</item>
+    </plurals>
+    <plurals name="notification_contacts_import_completed">
+        <item quantity="zero">%d kontaktu ir importēti</item>
+        <item quantity="one">%d kontakts ir importēts</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kontakti ir importēti</item>
+    </plurals>
+    <plurals name="notification_move_completed">
+        <item quantity="zero">%d kontaktu ir pārvietoti</item>
+        <item quantity="one">%d kontakts ir pārvietots</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kontakti ir pārvietoti</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="zero">%d personas</item>
+        <item quantity="one">%d persona</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d personas</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">Atrasti %d</item>
+        <item quantity="one">Atrasts %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Atrasti %d</item>
+    </plurals>
+    <plurals name="sec">
+        <item quantity="zero">%d sekundes</item>
+        <item quantity="one">%d sekunde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sekundes</item>
+    </plurals>
+    <plurals name="some_contacts_not_Export_to_sim">
+        <item quantity="zero">Nevarēja eksportēt %d kontaktus uz SIM karti, jo šo kontaktu tālruņu numuri ir garāki par 20 cipariem.</item>
+        <item quantity="one">Nevarēja eksportēt %d kontaktu uz SIM karti, jo šī kontakta tālruņa numurs ir garāks par 20 cipariem.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nevarēja eksportēt %d kontaktus uz SIM karti, jo šo kontaktu tālruņu numuri ir garāki par 20 cipariem.</item>
+    </plurals>
+    <plurals name="some_contacts_not_moved_to_sim">
+        <item quantity="zero">Nevarēja pārvietot %d kontaktus uz SIM karti, jo šo kontaktu tālruņu numuri ir garāki par 20 cipariem.</item>
+        <item quantity="one">Nevarēja pārvietot %d kontaktu uz SIM karti, jo šī kontakta tālruņa numurs ir garāks par 20 cipariem.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nevarēja pārvietot %d kontaktus uz SIM karti, jo šo kontaktu tālruņu numuri ir garāki par 20 cipariem.</item>
+    </plurals>
+    <plurals name="total_blocked_count_one">
+        <item quantity="zero">Pēdējās %d dienās bloķēts 1 zvans</item>
+        <item quantity="one">Pēdējā %d dienā bloķēts 1 zvans</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pēdējās %d dienās bloķēts 1 zvans</item>
+    </plurals>
+    <plurals name="total_tag">
+        <item quantity="zero">%d atzīmes</item>
+        <item quantity="one">%d atzīme</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d atzīmes</item>
+    </plurals>
+    <plurals name="trash_detail_delete_info">
+        <item quantity="zero">Izdzēsts no %1$s %2$s. %3$d dienas līdz neatgriezeniskai dzēšanai.</item>
+        <item quantity="one">Izdzēsts no %1$s %2$s. %3$d diena līdz neatgriezeniskai dzēšanai.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izdzēsts no %1$s %2$s. %3$d dienas līdz neatgriezeniskai dzēšanai.</item>
+    </plurals>
+</resources>

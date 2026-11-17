@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/show_me_the_keypad_button_background"
+    android:background="@drawable/show_me_the_keypad_button_bg"
+    android:focusable="true"
+    android:nextFocusDown="@+id/dialtacts_tab_layout"
+    android:layout_width="@dimen/dialpad_show_me_the_keypad_background_width"
+    android:layout_height="@dimen/dialpad_show_me_the_keypad_background_width"
+    android:elevation="@dimen/dialpad_dial_button_elevation">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/show_me_the_keypad_button_image"
+        android:layout_width="@dimen/dialpad_show_me_the_keypad_icon_width"
+        android:layout_height="@dimen/dialpad_show_me_the_keypad_icon_width"
+        android:src="@drawable/phone_keypad_close_ic_keypad_modified"
+        android:scaleType="fitCenter"/>
+</FrameLayout>

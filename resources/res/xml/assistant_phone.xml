@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assistant-list>
+    <button
+        action="android.intent.assistant.phone.recent"
+        name="@string/dialtacts_logs"
+        resource="@drawable/assistant_menu_ic_plus_15"/>
+    <button
+        action="android.intent.assistant.phone.contact"
+        name="@string/contactsList"
+        resource="@drawable/assistant_menu_ic_plus_13"/>
+    <button
+        action="android.intent.assistant.phone.voice_mail"
+        name="@string/dialtacts_voicemail"
+        resource="@drawable/assistant_menu_ic_plus_18"/>
+    <button
+        action="android.intent.assistant.phone.place"
+        name="@string/dialtacts_places"
+        resource="@drawable/assistant_menu_ic_plus_16"/>
+    <button
+        action="android.intent.assistant.phone.search"
+        name="@string/hint_findContacts"
+        resource="@drawable/assistant_menu_ic_plus_9"/>
+    <button
+        action="android.intent.assistant.phone.add_to_contact"
+        name="@string/menu_add_contact"
+        resource="@drawable/assistant_menu_ic_plus_14"/>
+    <button
+        action="android.intent.assistant.phone.create_contact"
+        name="@string/pickerNewContactText"
+        resource="@drawable/assistant_menu_ic_plus_14"/>
+    <button
+        action="android.intent.assistant.phone.filter_calls"
+        name="@string/calllog_filter_by"
+        resource="@drawable/assistant_menu_ic_plus_17"/>
+    <button
+        action="android.intent.assistant.phone.delete"
+        name="Delete Voice mail"
+        resource="@drawable/assistant_menu_ic_plus_8"/>
+    <button
+        action="android.intent.assistant.contactdetail.addfavorite"
+        name="@string/menu_addStar_tts"
+        resource="@drawable/assistant_menu_ic_plus_3"/>
+    <button
+        action="android.intent.assistant.contactdetail.removefavorite"
+        name="@string/menu_removeStar"
+        resource="@drawable/assistant_menu_ic_plus_4"/>
+    <button
+        action="android.intent.assistant.contactdetail.edit"
+        name="@string/menu_editContact"
+        resource="@drawable/assistant_menu_ic_plus_19"/>
+    <button
+        action="android.intent.assistant.contactdetail.delete"
+        name="@string/menu_deleteContact"
+        resource="@drawable/assistant_menu_ic_plus_8"/>
+</assistant-list>

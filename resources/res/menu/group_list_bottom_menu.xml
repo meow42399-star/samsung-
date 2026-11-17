@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/tw_ic_bb_delete_mtrl"
+        android:id="@+id/menu_delete"
+        android:visible="false"
+        android:title="@string/menu_delete_groups"
+        android:contentDescription="@string/menu_delete_groups"/>
+    <item
+        android:id="@+id/menu_done"
+        android:visible="false"
+        android:title="@string/dialog_done"
+        android:contentDescription="@string/dialog_done"/>
+</menu>

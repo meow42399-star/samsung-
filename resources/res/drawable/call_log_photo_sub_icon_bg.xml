@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="@color/basic_token_sys_on_surface_container_fixed"/>
+    <size
+        android:height="@dimen/expand_view_sub_photo_size"
+        android:width="@dimen/expand_view_sub_photo_size"/>
+</shape>

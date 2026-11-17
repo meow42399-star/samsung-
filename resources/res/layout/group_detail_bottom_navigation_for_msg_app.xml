@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_navigation_container"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/contact_list_bottom_bar_container_height">
+    <com.samsung.android.dialtacts.common.widget.BorderlessRoundedCornerView
+        android:id="@+id/bottom_navigation_top_round"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/contact_list_bottom_navigation_top_round_height"
+        android:layout_alignParentTop="true"/>
+    <include layout="@layout/group_detail_bottom_navigation"/>
+</RelativeLayout>

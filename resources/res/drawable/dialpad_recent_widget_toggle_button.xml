@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/dialpad_widget_call_button_ripple_color">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/recents_widget_dialpad_button_background_tint_color"/>
+            <size
+                android:height="40dp"
+                android:width="40dp"/>
+            <corners android:radius="@dimen/dialpad_widget_call_button_radius"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:height="@dimen/dialpad_widget_toggle_button_size"
+        android:width="@dimen/dialpad_widget_toggle_button_size"
+        android:drawable="@drawable/dialpad_recent_widget_toggle_button_wrapper"/>
+</ripple>

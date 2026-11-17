@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/recents_widget_call_log_sub_header_container"
+    android:focusable="false"
+    android:descendantFocusability="afterDescendants"
+    android:layout_width="@dimen/recent_widget_call_log_header_width"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/recent_widget_date_text_size"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/recents_widget_text_call_log_header"
+        android:focusable="false"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_weight="1"
+        android:layout_marginStart="@dimen/recent_widget_header_text_margin_start"
+        android:accessibilityHeading="true"
+        style="@style/RecentsWidgetHeaderTextViewStyle"/>
+</LinearLayout>

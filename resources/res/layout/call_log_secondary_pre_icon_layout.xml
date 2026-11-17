@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/container_secondary_pre_icon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ViewStub
+        android:id="@+id/image_call_log_prefix_sub_icon"
+        android:layout="@layout/layout_call_log_prefix_sub_icon"
+        android:layout_width="@dimen/call_log_list_item_smart_call_level_icon_size"
+        android:layout_height="@dimen/call_log_list_item_smart_call_level_icon_size"/>
+    <ViewStub
+        android:id="@+id/image_call_log_sub_icon"
+        android:layout="@layout/layout_call_log_sub_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ViewStub
+        android:id="@+id/text_call_log_sub_badge"
+        android:layout="@layout/layout_call_log_sub_text_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/call_log_list_item_sub_text_badge_margin_end"/>
+    <ViewStub
+        android:id="@+id/stub_device_scam_exclamation_mark"
+        android:layout="@layout/on_device_scam_exclamation_mark_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

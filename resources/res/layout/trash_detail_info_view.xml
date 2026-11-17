@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:paddingTop="@dimen/contact_detail_trash_info_padding_top_bottom"
+    android:paddingBottom="@dimen/contact_detail_trash_info_padding_top_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/contact_detail_trash_info_padding_start_end"
+    android:paddingEnd="@dimen/contact_detail_trash_info_padding_start_end"
+    class="com.samsung.android.dialtacts.common.contactdetail.view.ContactInfoCardView$ContentView">
+    <TextView
+        android:textSize="@dimen/quickcontact_header_text_size"
+        android:textColor="@color/quickcontact_entry_header_text_color"
+        android:id="@+id/trash_info_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@style/Regular"
+        android:textAlignment="center"/>
+</view>

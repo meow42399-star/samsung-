@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false">
+    <solid android:color="@color/detail_emergency_icon_background_color"/>
+    <size
+        android:height="@dimen/add_my_emergency_medical_info_icon_container_height"
+        android:width="@dimen/add_my_emergency_medical_info_icon_container_height"/>
+</shape>

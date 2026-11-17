@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contact_list_pd_groups">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">קבוצה %d</item>
+        <item quantity="two">%d קבוצות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d קבוצות</item>
+        <item quantity="other">%d קבוצות</item>
+    </plurals>
+    <plurals name="count_calls">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d שיחה</item>
+        <item quantity="two">%d שיחות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שיחות</item>
+        <item quantity="other">%d שיחות</item>
+    </plurals>
+    <plurals name="delete_logs_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק פריט %d מהיסטוריית השיחות שלך?</item>
+        <item quantity="two">האם למחוק %d פריטים מהיסטוריית השיחות שלך?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק %d פריטים מהיסטוריית השיחות שלך?</item>
+        <item quantity="other">האם למחוק %d פריטים מהיסטוריית השיחות שלך?</item>
+    </plurals>
+    <plurals name="delete_n_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק %d איש קשר?</item>
+        <item quantity="two">האם למחוק %d אנשי קשר?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק %d אנשי קשר?</item>
+        <item quantity="other">האם למחוק %d אנשי קשר?</item>
+    </plurals>
+    <plurals name="delete_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">למחוק תגית %d?</item>
+        <item quantity="two">למחוק %d תגיות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">למחוק %d תגיות?</item>
+        <item quantity="other">למחוק %d תגיות?</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s לא יכולים להצטרף לצ&apos;אטים קבוצתיים. הסר אותם מרשימת הנמענים שנבחרו או שלח במקום זאת הודעת טקסט ל-%2$d נמען.</item>
+        <item quantity="two">%1$s לא יכולים להצטרף לצ&apos;אטים קבוצתיים. הסר אותם מרשימת הנמענים שנבחרו או שלח במקום זאת הודעת טקסט לעד %2$d נמענים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s לא יכולים להצטרף לצ&apos;אטים קבוצתיים. הסר אותם מרשימת הנמענים שנבחרו או שלח במקום זאת הודעת טקסט לעד %2$d נמענים.</item>
+        <item quantity="other">%1$s לא יכולים להצטרף לצ&apos;אטים קבוצתיים. הסר אותם מרשימת הנמענים שנבחרו או שלח במקום זאת הודעת טקסט לעד %2$d נמענים.</item>
+    </plurals>
+    <plurals name="group_list_pd_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">חבר %d</item>
+        <item quantity="two">%d חברים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d חברים</item>
+        <item quantity="other">%d חברים</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">איש קשר (%d) עם מספר טלפון</item>
+        <item quantity="two">%d אנשי קשר עם מספרי טלפון</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אנשי קשר עם מספרי טלפון</item>
+        <item quantity="other">%d אנשי קשר עם מספרי טלפון</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d איש קשר</item>
+        <item quantity="two">%d אנשי קשר</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אנשי קשר</item>
+        <item quantity="other">%d אנשי קשר</item>
+    </plurals>
+    <plurals name="max_available_contacts_count_linked_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להעביר רק %d איש קשר אל כרטיס ה-SIM שלך. אנשי קשר שקושרו לאנשי קשר נבחרים נמנים אף הם.</item>
+        <item quantity="two">ניתן להעביר לכל היותר %d אנשי קשר אל כרטיס ה-SIM שלך. אנשי קשר שקושרו לאנשי קשר נבחרים נמנים אף הם.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להעביר לכל היותר %d אנשי קשר אל כרטיס ה-SIM שלך. אנשי קשר שקושרו לאנשי קשר נבחרים נמנים אף הם.</item>
+        <item quantity="other">ניתן להעביר לכל היותר %d אנשי קשר אל כרטיס ה-SIM שלך. אנשי קשר שקושרו לאנשי קשר נבחרים נמנים אף הם.</item>
+    </plurals>
+    <plurals name="merge_contact_tip_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יש לך איש קשר כפול %d.</item>
+        <item quantity="two">יש לך %d אנשי קשר כפולים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">יש לך %d אנשי קשר כפולים.</item>
+        <item quantity="other">יש לך %d אנשי קשר כפולים.</item>
+    </plurals>
+    <plurals name="min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">דקה %d</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d דקות</item>
+        <item quantity="other">%d דקות</item>
+    </plurals>
+    <plurals name="missed_call_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d שיחה שלא נענתה</item>
+        <item quantity="two">%d שיחות שלא נענו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שיחות שלא נענו</item>
+        <item quantity="other">%d שיחות שלא נענו</item>
+    </plurals>
+    <plurals name="missed_call_suggestion">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שיחה אחת (%1$d) שלא נענתה מאת %2$s.</item>
+        <item quantity="two">%1$d שיחות שלא נענו מאת %2$s.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$d שיחות שלא נענו מאת %2$s.</item>
+        <item quantity="other">%1$d שיחות שלא נענו מאת %2$s.</item>
+    </plurals>
+    <plurals name="more_birthdays">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יום הולדת נוסף %d</item>
+        <item quantity="two">%d ימי הולדת נוספים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d ימי הולדת נוספים</item>
+        <item quantity="other">%d ימי הולדת נוספים</item>
+    </plurals>
+    <plurals name="move_multi_contact_delete_one_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להעביר %d איש קשר אל סל המיחזור ולמחוק פריט אחרון אחד?</item>
+        <item quantity="two">האם להעביר %d אנשי קשר אל סל המיחזור ולמחוק פריט אחרון אחד?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להעביר %d אנשי קשר אל סל המיחזור ולמחוק פריט אחרון אחד?</item>
+        <item quantity="other">האם להעביר %d אנשי קשר אל סל המיחזור ולמחוק פריט אחרון אחד?</item>
+    </plurals>
+    <plurals name="move_n_contact_to_the_trash">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להעביר איש קשר אחד (%d) אל סל המיחזור?</item>
+        <item quantity="two">האם להעביר %d אנשי קשר אל סל המיחזור?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להעביר %d אנשי קשר אל סל המיחזור?</item>
+        <item quantity="other">האם להעביר %d אנשי קשר אל סל המיחזור?</item>
+    </plurals>
+    <plurals name="move_one_contact_delete_multi_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להעביר איש קשר אחד אל סל המיחזור ולמחוק %d פריט אחרון?</item>
+        <item quantity="two">האם להעביר איש קשר אחד אל סל המיחזור ולמחוק %d פריטים אחרונים?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להעביר איש קשר אחד אל סל המיחזור ולמחוק %d פריטים אחרונים?</item>
+        <item quantity="other">האם להעביר איש קשר אחד אל סל המיחזור ולמחוק %d פריטים אחרונים?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d התראות חדשות</item>
+        <item quantity="two">%d התראות חדשות</item>
+        <item quantity="other">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="my_profile_emergency_contacts_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">איש קשר %d</item>
+        <item quantity="two">%d אנשי קשר</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אנשי קשר</item>
+        <item quantity="other">%d אנשי קשר</item>
+    </plurals>
+    <plurals name="new_voice_mail_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d הודעה חדשה בתא הקולי</item>
+        <item quantity="two">%d הודעות חדשות בתא הקולי</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הודעות חדשות בתא הקולי</item>
+        <item quantity="other">%d הודעות חדשות בתא הקולי</item>
+    </plurals>
+    <plurals name="notification_contacts_export_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">איש קשר %1$d יוצא אל %2$s</item>
+        <item quantity="two">%1$d אנשי קשר יוצאו אל %2$s</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$d אנשי קשר יוצאו אל %2$s</item>
+        <item quantity="other">%1$d אנשי קשר יוצאו אל %2$s</item>
+    </plurals>
+    <plurals name="notification_contacts_import_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">איש קשר %d יובא</item>
+        <item quantity="two">%d אנשי הקשר יובאו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אנשי הקשר יובאו</item>
+        <item quantity="other">%d אנשי הקשר יובאו</item>
+    </plurals>
+    <plurals name="notification_move_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">איש קשר %d הועבר</item>
+        <item quantity="two">%d אנשי קשר הועברו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אנשי קשר הועברו</item>
+        <item quantity="other">%d אנשי קשר הועברו</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אדם %d</item>
+        <item quantity="two">%d אנשים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אנשים</item>
+        <item quantity="other">%d אנשים</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נמצא %d</item>
+        <item quantity="two">נמצאו %d</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נמצאו %d</item>
+        <item quantity="other">נמצאו %d</item>
+    </plurals>
+    <plurals name="sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שנייה אחת (%d)</item>
+        <item quantity="two">%d שניות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שניות</item>
+        <item quantity="other">%d שניות</item>
+    </plurals>
+    <plurals name="some_contacts_not_Export_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן לייצא את איש הקשר %d ל-SIM מכיוון שמספר הטלפון שלו ארוך מ-20 ספרות.</item>
+        <item quantity="two">לא ניתן לייצא %d אנשי קשר ‎ל-SIM מכיוון שמספרי הטלפון שלהם ארוכים מ-20 ספרות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן לייצא %d אנשי קשר ‎ל-SIM מכיוון שמספרי הטלפון שלהם ארוכים מ-20 ספרות.</item>
+        <item quantity="other">לא ניתן לייצא %d אנשי קשר ‎ל-SIM מכיוון שמספרי הטלפון שלהם ארוכים מ-20 ספרות.</item>
+    </plurals>
+    <plurals name="some_contacts_not_moved_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להעביר איש קשר %d ל-SIM מכיוון שמספרי הטלפון שלו ארוכים מ-20 ספרות.</item>
+        <item quantity="two">‏‫לא ניתן להעביר %d אנשי קשר ל-SIM מכיוון שמספרי הטלפון שלהם ארוכים מ-20 ספרות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">‏‫לא ניתן להעביר %d אנשי קשר ל-SIM מכיוון שמספרי הטלפון שלהם ארוכים מ-20 ספרות.</item>
+        <item quantity="other">‏‫לא ניתן להעביר %d אנשי קשר ל-SIM מכיוון שמספרי הטלפון שלהם ארוכים מ-20 ספרות.</item>
+    </plurals>
+    <plurals name="total_blocked_count_one">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שיחה אחת נחסמה ביום %d האחרון</item>
+        <item quantity="two">שיחה אחת נחסמה ב-%d ימים האחרונים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">שיחה אחת נחסמה ב-%d ימים האחרונים</item>
+        <item quantity="other">שיחה אחת נחסמה ב-%d ימים האחרונים</item>
+    </plurals>
+    <plurals name="total_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">תג %d</item>
+        <item quantity="two">%d תגיות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d תגיות</item>
+        <item quantity="other">%d תגיות</item>
+    </plurals>
+    <plurals name="trash_detail_delete_info">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נמחקו מתוך %1$s בתאריך %2$s. יום (%3$d) לפני שיימחקו לצמיתות.</item>
+        <item quantity="two">נמחקו מתוך %1$s בתאריך %2$s. ‏%3$d ימים לפני שיימחקו לצמיתות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נמחקו מתוך %1$s בתאריך %2$s. ‏%3$d ימים לפני שיימחקו לצמיתות.</item>
+        <item quantity="other">נמחקו מתוך %1$s בתאריך %2$s. ‏%3$d ימים לפני שיימחקו לצמיתות.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,1490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="com.samsung.android.uid.dialer"
+    android:versionCode="1640042000"
+    android:versionName="16.4.00.42"
+    android:compileSdkVersion="37"
+    android:compileSdkVersionCodename="17"
+    package="com.samsung.android.dialer"
+    platformBuildVersionCode="37"
+    platformBuildVersionName="17">
+    <uses-sdk
+        android:minSdkVersion="35"
+        android:targetSdkVersion="37"/>
+    <uses-permission android:name="com.samsung.android.ssco.models.permission.READ"/>
+    <uses-permission android:name="com.samsung.android.ssco.models.permission.WRITE"/>
+    <permission
+        android:name="com.samsung.android.dialer.permission.CALL_LOG_PICKER"
+        android:protectionLevel="signatureOrSystem"/>
+    <permission
+        android:name="com.samsung.android.dialer.permission.DOWNLOAD_PHOTORING"
+        android:protectionLevel="signatureOrSystem"/>
+    <permission
+        android:name="com.samsung.android.dialer.permission.DIALPAD_STATE"
+        android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.samsung.android.dialer.permission.DOWNLOAD_PHOTORING"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="com.samsung.android.samsungaccount.permission.ACCESS_SASETTINGS"/>
+    <uses-permission android:name="com.android.voicemail.permission.ADD_VOICEMAIL"/>
+    <uses-permission android:name="com.android.voicemail.permission.READ_VOICEMAIL"/>
+    <uses-permission android:name="com.android.voicemail.permission.WRITE_VOICEMAIL"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.CREATE_USERS"/>
+    <uses-permission android:name="android.permission.QUERY_USERS"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_SEARCH_INDEXABLES"/>
+    <uses-permission android:name="com.samsung.android.provider.indexing.permission.ACCESS_PROVIDER"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="com.samsung.android.app.social.SOCIAL_UPDATE_READ_CONTENTS"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED"/>
+    <uses-permission android:name="com.samsung.crane.MediaProvider.READ"/>
+    <uses-permission android:name="com.samsung.android.providers.media.FILES"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.SEND_RESPOND_VIA_MESSAGE"/>
+    <uses-permission android:name="com.android.incallui.permission.SMART_CALL_FUNCTION"/>
+    <uses-permission android:name="com.android.incallui.permission.OPEN_GROUP_CALL_ACTIVITY"/>
+    <uses-permission android:name="com.samsung.android.incallui.filepermissionprovider.permission.READ"/>
+    <uses-permission android:name="com.sec.android.app.firewall.spamfilter.permission.NUMBER_MARK"/>
+    <uses-permission android:name="com.cequint.ecid.CALLER_ID_LOOKUP"/>
+    <uses-permission android:name="com.ktcs.whowho.whowho.db.Permission.READ"/>
+    <uses-permission android:name="com.samsung.android.app.assistantmenu.permission.ADVERTISE_ASSISTANTMENU"/>
+    <uses-permission android:name="com.samsung.android.app.reminder.permission.action.REGISTER"/>
+    <uses-permission android:name="com.samsung.android.app.simplesharing.SOCIAL_UPDATE_READ_CONTENTS"/>
+    <uses-permission android:name="com.samsung.android.app.telephonyui.permission.READ_CALL_SETTINGS"/>
+    <uses-permission android:name="com.samsung.android.app.telephonyui.permission.WRITE_CALL_SETTINGSS"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.permission.RECEIVE_SEMS_BROADCAST"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.ui.Permission.SETTING_SOCIAL"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.buddy.provider.Permission.READ"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.cache.provider.permission.READ"/>
+    <uses-permission android:name="com.samsung.android.plugin.cmccvoicemail.USE_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.provider.agifcallprovider.permission.READ_AGIFCALL_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.reminder.permission.LAUNCH_APP"/>
+    <uses-permission android:name="com.samsung.android.smartcallprovider.READ_PERMISSION"/>
+    <uses-permission android:name="com.samsung.android.stickercenter.permission.sticker.READ"/>
+    <uses-permission android:name="com.samsung.android.stickercenter.service.ACCESS"/>
+    <uses-permission android:name="com.samsung.permission.SIMHOTSWAP"/>
+    <uses-permission android:name="com.samsung.rcs.autoconfigurationprovider.READ_PERMISSION"/>
+    <uses-permission android:name="com.samsung.rcs.autoconfigurationprovider.WRITE_PERMISSION"/>
+    <uses-permission android:name="com.samsung.rcs.permission.RCS_APP_PERMISSION"/>
+    <uses-permission android:name="com.samsung.rcs.presence.READ_PERMISSION"/>
+    <uses-permission android:name="com.samsung.rcs.presence.WRITE_PERMISSION"/>
+    <uses-permission android:name="com.samsung.rcs.serviceprovider.READ_PERMISSION"/>
+    <uses-permission android:name="com.samsung.rcs.serviceprovider.WRITE_PERMISSION"/>
+    <uses-permission android:name="com.samsung.rcs.settings.READ_PERMISSION"/>
+    <uses-permission android:name="com.samsung.rcs.settings.WRITE_PERMISSION"/>
+    <uses-permission android:name="com.sec.android.app.parser.permission.SERVICE"/>
+    <uses-permission android:name="com.sec.android.app.yellowpage.permission.YELLOWPAGE_BROADCAST"/>
+    <uses-permission android:name="com.sec.android.app.yellowpage.permission.YELLOWPAGE_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.app.sreminder.permission.EXTERNAL_BROADCAST"/>
+    <uses-permission android:name="com.sec.android.phone.permission.READ_CALL_SETTINGS"/>
+    <uses-permission android:name="com.sec.android.phone.permission.WRITE_CALL_SETTINGS"/>
+    <uses-permission android:name="com.sec.epdg.PERMISSION"/>
+    <uses-permission android:name="com.sec.ims.android.rcs.READ_PERMISSION"/>
+    <uses-permission android:name="com.sec.imsservice.PERMISSION"/>
+    <uses-permission android:name="com.sec.imsservice.READ_IMS_PERMISSION"/>
+    <uses-permission android:name="com.sec.imsservice.WRITE_IMS_PERMISSION"/>
+    <uses-permission android:name="com.sec.nsds.READ_NSDS_PERMISSION"/>
+    <uses-permission android:name="com.sec.nsds.WRITE_NSDS_PERMISSION"/>
+    <uses-permission android:name="com.sec.spp.permission.TOKEN_2577e651e778073f7e86d4f7d2258f50a5695cfeb11465c1b5f4b3f18f95742f6b419c8480738084e4167fb1a0d18f53af75a3a9a5648a27200aca3e3f5573dcba1ec20ce6fbbea69c00adcb33ce31992a8aa3edd8253cd5f6d83fa86b1cbb5c0a27af893fb8565e78b39e7acd4f84e7437ec885dd47b420b81c7450bb1215ce"/>
+    <uses-permission android:name="com.sec.vsimservice.PERMISSION"/>
+    <uses-permission android:name="com.sec.vsimservice.READ_PERMISSION"/>
+    <uses-permission android:name="com.sec.vsimservice.WRITE_PERMISSION"/>
+    <uses-permission android:name="com.sgmc.phonenumberlocatorservice.permission.GET_LOCATION"/>
+    <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.email.permission.ACCESS_PROVIDER"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.samsung.android.smartsuggestions.search.permission.READ"/>
+    <uses-permission android:name="com.samsung.android.smartsuggestions.search.permission.WRITE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.profile.READ"/>
+    <uses-permission android:name="com.sec.android.diagmonagent.permission.DIAGMON"/>
+    <uses-permission android:name="com.sec.android.diagmonagent.permission.DIAGMON_SURVEY"/>
+    <uses-permission android:name="com.sec.android.diagmonagent.permission.PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.permission.MANAGE_CUSTOM_STARTING_WINDOW"/>
+    <uses-permission android:name="com.samsung.osmnui.permission.READ_OSMN"/>
+    <uses-permission android:name="com.samsung.android.unifiedwfc.VOWIFI_PROVISIONING_PERMISSION"/>
+    <uses-permission android:name="com.samsung.android.plugin.cmccvoicemail.permission.ACCESS_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.plugin.cmccvoicemail.permission.ACCESS_PROVIDER"/>
+    <uses-permission android:name="com.hiya.aegis.lookup_service.ACCESS"/>
+    <uses-permission android:name="com.sec.phone.permission.SEC_FACTORY_PHONE"/>
+    <uses-permission android:name="com.sec.android.settings.permission.SOFT_RESET"/>
+    <uses-permission android:name="com.samsung.systemui.permission.KEYGUARD_IMAGE"/>
+    <uses-permission android:name="com.samsung.android.scloud.app.ui"/>
+    <uses-permission android:name="com.samsung.android.permission.REQUEST_SCLOUD"/>
+    <uses-permission android:name="com.samsung.contacts.permission.GROUP_DETAIL"/>
+    <uses-permission android:name="com.samsung.contacts.permission.TRASH_BIN"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.ui.permission.SOCIAL_AGREEMENT"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.datasync.provider.Permission.READ"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.share.contents.provider.permission.READ"/>
+    <uses-permission android:name="com.samsung.vvm.vvmprovider.permission.READ_VVMPROVIDER"/>
+    <uses-permission android:name="com.samsung.attvvm.vvmprovider.permission.READ_VVMPROVIDER"/>
+    <uses-permission android:name="com.samsung.vvm.permission.ACCESS_PROVIDER"/>
+    <uses-permission android:name="com.android.phone.callsettings"/>
+    <uses-permission android:name="com.samsung.contacts.permission.MY_EMERGENCY_DETAIL"/>
+    <uses-permission android:name="com.samsung.contacts.permission.MY_EMERGENCY_EDIT"/>
+    <uses-permission android:name="com.samsung.contacts.permission.PREFERRED_SIM"/>
+    <uses-permission android:name="com.samsung.contacts.permission.SET_DEFAULT"/>
+    <uses-permission android:name="com.samsung.contacts.permission.START_RELATION_DETAIL"/>
+    <uses-permission android:name="com.samsung.contacts.permission.JOINED_CONTACT"/>
+    <uses-permission android:name="com.samsung.android.app.contacts.permission.MANAGE_CONTACT_ACCESS"/>
+    <uses-permission android:name="com.samsung.android.app.contacts.permission.BACKUP_REPOSITORY"/>
+    <uses-permission android:name="com.samsung.contacts.permission.QR_CODE"/>
+    <uses-permission android:name="com.samsung.android.messaging.permission.READ_MESSAGE"/>
+    <uses-permission android:name="android.permission.SATELLITE_COMMUNICATION"/>
+    <permission
+        android:name="com.samsung.dialer.permission.DELETE_MISSED_CALL_NOTIFICATION"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.samsung.dialer.permission.DELETE_MISSED_CALL_NOTIFICATION"/>
+    <permission
+        android:name="com.samsung.dialer.permission.RECEIVE_CUSTOM_NOTIFICATION"
+        android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.samsung.dialer.permission.RECEIVE_CUSTOM_NOTIFICATION"/>
+    <permission
+        android:name="com.samsung.dialer.permission.NETWORK_PERMISSION_STATE"
+        android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.samsung.dialer.permission.NETWORK_PERMISSION_STATE"/>
+    <uses-permission android:name="com.samsung.android.messaging.permission.WRITE_MESSAGE"/>
+    <uses-permission android:name="com.samsung.server.telecom.permission.OPEN_PLATFORM_ALLOW_LIST"/>
+    <uses-permission android:name="sec.android.permission.READ_MSG_PREF"/>
+    <uses-permission android:name="com.samsung.android.app.notes.READ"/>
+    <uses-permission android:name="com.wssnps.permission.COM_WSSNPS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE"/>
+    <uses-permission android:name="com.samsung.crane.VBCImageProvider.READ"/>
+    <uses-permission android:name="com.samsung.crane.VBCImageProvider.WRITE"/>
+    <uses-permission android:name="android.permission.CONTROL_KEYGUARD"/>
+    <uses-permission android:name="com.samsung.android.callassistant.permission.TEXT_CALL"/>
+    <uses-permission android:name="com.samsung.android.callassistant.permission.RECORD_TRANSCRIPT"/>
+    <uses-permission android:name="com.samsung.android.callassistant.permission.READ_CALL_RECORDING_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.callassistant.permission.WRITE_CALL_RECORDING_PROVIDER"/>
+    <uses-permission android:name="com.samsung.contacts.permission.PROFILE_SHARING_SETTING"/>
+    <uses-permission android:name="com.samsung.android.samsungaccount.permission.ACCOUNT_MANAGER"/>
+    <uses-permission android:name="com.samsung.android.scloud.permission.RPC_SYNC_SETTING"/>
+    <uses-permission android:name="com.samsung.android.contacts.permission.WRITE_ACCOUNT_FILTER"/>
+    <uses-permission android:name="com.samsung.android.contacts.permission.READ_ACCOUNT_FILTER"/>
+    <uses-permission android:name="android.permission.MANAGE_ROLE_HOLDERS"/>
+    <uses-permission android:name="com.samsung.android.stella.agent.permission.SDK_ACCESS"/>
+    <uses-permission android:name="com.samsung.android.app.deepsky.permission.ACCESS_SERVICE"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="samung.android.intent.category.APP_EMAIL"/>
+        </intent>
+        <intent>
+            <action android:name="android.speech.action.RECOGNIZE_SPEECH"/>
+        </intent>
+        <intent>
+            <action android:name="android.speech.action.WEB_SEARCH"/>
+        </intent>
+        <package android:name="com.ktcs.whowho"/>
+        <package android:name="com.samsung.android.app.contacts"/>
+        <package android:name="com.samsung.android.app.reminder"/>
+        <package android:name="com.samsung.android.smartcallprovider"/>
+        <package android:name="com.samsung.android.voc"/>
+        <package android:name="com.sec.android.app.firewall"/>
+        <package android:name="com.whox2.lguplus"/>
+        <package android:name="com.sec.android.yellowpage"/>
+        <package android:name="com.samsung.android.cmccbusinesshall"/>
+        <package android:name="com.samsung.android.app.sreminder"/>
+        <package android:name="com.samsung.android.providers.media"/>
+        <intent>
+            <action android:name="android.intent.action.SENDTO"/>
+            <data android:scheme="mailto"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="supertoss"/>
+        </intent>
+        <package android:name="com.android.mms"/>
+        <package android:name="com.coremobility.app.vnotes"/>
+        <package android:name="com.samsung.android.messaging"/>
+        <package android:name="com.samsung.helphub"/>
+        <package android:name="com.samsung.vvm"/>
+        <package android:name="com.samsung.android.stella.agent"/>
+        <intent>
+            <action android:name="android.intent.action.SEND"/>
+            <data android:mimeType="text/x-vcard"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data
+                android:mimeType="vnd.android.cursor.item/*"
+                android:scheme="content"
+                android:host="com.android.contacts"/>
+        </intent>
+        <intent>
+            <action android:name="android.content.SyncAdapter"/>
+        </intent>
+        <package android:name="com.google.android.apps.tachyon"/>
+        <package android:name="com.google.android.apps.tycho"/>
+        <package android:name="com.osp.app.signin"/>
+        <package android:name="com.samsung.android.app.social"/>
+        <package android:name="com.samsung.android.dialer"/>
+        <package android:name="com.samsung.android.mdecservice"/>
+        <package android:name="com.samsung.android.plugin.cmccvoicemail"/>
+        <package android:name="com.samsung.android.scloud"/>
+        <package android:name="com.samsung.attvvm"/>
+        <package android:name="com.samsung.tmovvm"/>
+        <package android:name="com.sec.android.app.SecSetupWizard"/>
+        <package android:name="com.sprint.zone"/>
+        <package android:name="com.srph.emergency321"/>
+        <package android:name="com.nttdocomo.android.accountauthenticator"/>
+        <package android:name="com.google.android.syncadapters.contacts"/>
+        <package android:name="com.samsung.android.email.provider"/>
+        <package android:name="com.samsung.android.mobileservice"/>
+        <package android:name="com.ctq.simkey.pivot"/>
+        <package android:name="com.samsung.android.emergency"/>
+        <package android:name="com.samsung.android.smartsuggestions"/>
+        <package android:name="com.samsung.android.moneta"/>
+        <package android:name="com.whox2.recorder.sec"/>
+        <package android:name="com.samsung.android.game.gamehome"/>
+        <package android:name="com.samsung.android.intellivoiceservice"/>
+        <intent>
+            <action android:name="com.samsung.android.scs.asr.action.SEARCH_LANGPACK"/>
+        </intent>
+        <intent>
+            <action android:name="com.samsung.android.utils.asset.action.REMOTE_ASSETS_INFO"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="com.samsung.android.dialtacts.common.groups.GROUP_LIST"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.ui.Permission.PROFILE_PICTURE_SHARE"/>
+    <uses-permission android:name="android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS"/>
+    <uses-permission android:name="com.samsung.contacts.permission.CUSTOM_FILTER"/>
+    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS"/>
+    <uses-permission android:name="com.samsung.android.spay.vas.coupons.permission.EXT_GIFT"/>
+    <uses-permission android:name="com.samsung.android.samsungaccount.permission.PROFILE_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.common.provider.opensession.permission.READ"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.ui.Permission.SELECTED_CONTACTS"/>
+    <uses-permission android:name="com.samsung.android.callbgprovider.PERMISSION"/>
+    <uses-permission android:name="android.permission.MAINLINE_NETWORK_STACK"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="com.samsung.android.incall.permission.READ_CALL_CONTENT_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.incall.permission.WRITE_CALL_CONTENT_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.visual.cloudcore.permission.BIND_IMAGE_EDITOR_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.mdecservice.nms.SEM_CMC_PUSH"/>
+    <uses-permission android:name="com.ctqm.permission.VOLTE_CONTACT_QUERY"/>
+    <uses-permission android:name="com.newcall.messagebox.permission.READ_DATA"/>
+    <uses-permission android:name="com.samsung.android.moneta.sdk.permission.BIND_BASIC_DOMAIN_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.providers.media.WRITE"/>
+    <uses-permission android:name="com.samsung.android.scloud.permission.STATUS"/>
+    <uses-permission android:name="com.samsung.android.stella.agent.permission.SCREEN_ACCESS"/>
+    <uses-permission android:name="com.samsung.android.moneta.sdk.permission.BIND_MEMORY_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.moneta.sdk.permission.BIND_MEMORY_SEARCH_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.moneta.sdk.permission.BIND_EVENT_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.moneta.preference.permission.READ_LIFESTYLE"/>
+    <uses-permission android:name="com.samsung.android.moneta.preference.permission.READ_PREFERENCE"/>
+    <uses-permission android:name="com.samsung.android.moneta.basicdomain.permission.READ_BASIC_DOMAIN"/>
+    <uses-permission android:name="com.samsung.android.pde.fusioninference.permission.READ"/>
+    <uses-permission android:name="com.samsung.android.pde.proxy.permission.READ"/>
+    <uses-permission android:name="com.samsung.android.app.routines.permission.READ_ROUTINE_INFO"/>
+    <permission
+        android:name="com.samsung.android.dialer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.samsung.android.dialer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="com.samsung.android.stella.agent.permission.ACCOUNT_STATUS"/>
+    <uses-permission android:name="com.samsung.android.mdec.provider.setting.CMC_ES_PERMISSION"/>
+    <uses-permission android:name="com.samsung.android.scs.permission.SUPPORTED_FEATURE_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.scs.ai.suggestion.permission.SUGGESTION_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.scs.ai.image.permission.BIND_IMAGE_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.scs.ai.image.permission.IMAGE_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.scs.ai.text.permission.TEXT_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.scs.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.scs.ai.asr.permission.SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.scs.ai.asr.permission.SYSTEM_BIND_SPEECH_RECOGNITION_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.scs.ai.asr.permission.SYSTEM_SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.SUPPORTED_FEATURE_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.ai.asr.permission.SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.ai.asr.permission.SYSTEM_BIND_SPEECH_RECOGNITION_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.ai.asr.permission.SYSTEM_SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.BIND_TONECONVERT_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.BIND_TRANSLATION_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.BIND_SUMMARIZATION_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.BIND_CORRECTION_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.BIND_SUGGESTION_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.BIND_SUGGESTION_SERVICE_FOR_EXTERNAL"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.BIND_SMART_COVER_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.BIND_SMART_REPLY_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.BIND_EMOJI_AUGMENTATION_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.BIND_NOTES_ORGANIZATION_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.BIND_SMART_CAPTURE_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.BIND_CLASSIFICATION_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.BIND_EXTRACTION_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.BIND_WRITING_COMPOSER_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.BIND_CONFIGURATION_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.BIND_GENERIC_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.permission.BIND_USAGE_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.intellivoiceservice.aitranslator.permission.BIND_TRANSLATION"/>
+    <uses-permission android:name="com.samsung.android.visual.core.permission.BIND_WALLPAPER_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.visual.core.permission.BIND_DOWNLOAD_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.visual.core.permission.SUPPORTED_FEATURE_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.visual.cloudcore.permission.BIND_PORTRAIT_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.visual.cloudcore.permission.SUPPORTED_FEATURE_PROVIDER"/>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false"/>
+    <application
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+        android:label="@string/dialer_app_name"
+        android:icon="@mipmap/ic_launcher_phone"
+        android:name="com.samsung.android.dialer.DialerApplication"
+        android:taskAffinity="@string/application_task"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:extractNativeLibs="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <meta-data
+            android:name="com.samsung.android.multiwindow.customizable_laptop_window_headers"
+            android:value="true"/>
+        <meta-data
+            android:name="com.samsung.android.notification.blockable"
+            android:value="true"/>
+        <meta-data
+            android:name="com.samsung.android.mobileservice.AppId"
+            android:value="bcy8oxhu9c"/>
+        <meta-data
+            android:name="sa.support.digital_legacy"
+            android:value="true"/>
+        <meta-data
+            android:name="com.samsung.android.support.executable"
+            android:resource="@xml/executable"/>
+        <meta-data
+            android:name="com.sec.android.app.blockdisabling"
+            android:value="true"/>
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1"/>
+        <meta-data
+            android:name="com.samsung.android.bixby.capsuleId"
+            android:value="viv.contactApp"/>
+        <meta-data
+            android:name="com.samsung.android.resolver.ranking_priority"
+            android:value="8000"/>
+        <meta-data
+            android:name="com.samsung.android.notification.logging"
+            android:value="runestone"/>
+        <meta-data
+            android:name="theming-meta"
+            android:value="meta_026_phone"/>
+        <meta-data
+            android:name="theming-meta-xml"
+            android:resource="@xml/meta_026_phone"/>
+        <meta-data
+            android:name="oneUiVersion"
+            android:value="90500"/>
+        <meta-data
+            android:name="com.samsung.android.foldable.continue_apps_group"
+            android:value="com.samsung.android.incallui"/>
+        <meta-data
+            android:name="com.google.android.gms.supervision.supported_schemes"
+            android:value="tel"/>
+        <meta-data
+            android:name="ROUTINE_METADATA_XML_SOURCE"
+            android:value="asset"/>
+        <meta-data
+            android:name="com.samsung.android.sdk.routines.v3.meta.ACTION_ASSET"
+            android:value="metadata/dialer_actions_provider.xml"/>
+        <activity
+            android:theme="@style/Dialer.Theme.DayNight.NoActionBar"
+            android:name="com.samsung.android.dialer.DialtactsActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation"
+            android:windowSoftInputMode="adjustNothing|stateAlwaysHidden"
+            android:resizeableActivity="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="com.samsung.android.intent.category.COVER_LAUNCHER_FOR_FLIP"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.item/phone"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="voicemail"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.dir/calls"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_BUTTON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.phone.action.TOUCH_DIALER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter android:label="@string/recentCallsIconLabel">
+                <action android:name="com.android.phone.action.RECENT_CALLS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter android:label="@string/voicemail">
+                <action android:name="com.android.phone.action.VVM_TAB"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.dialer.action.START_PLACES"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.android.airview.HOVER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.dialer.action.ACTION_PHONE_PREVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.support.executable"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.dialer.action.START_KEYPAD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.dialer.action.START_LOGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.dialer.action.START_FAVORITES"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.dialer.action.SHOW_MISSEDCALL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.dialer.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.dialer.action.START_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+                android:name="com.samsung.android.foldable.require_full_flip_unfold"
+                android:value="false"/>
+            <meta-data
+                android:name="com.samsung.android.foldable.require_large_flip_unfold"
+                android:value="false"/>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/phone_shortcut"/>
+            <meta-data
+                android:name="assistant"
+                android:resource="@xml/assistant_phone"/>
+            <meta-data
+                android:name="com.samsung.android.keep-snapshotcache"
+                android:value="true"/>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable_include_voice"/>
+            <meta-data
+                android:name="com.samsung.android.startingwindow.LAYOUT_RESID_FOR_MASS"
+                android:resource="@layout/dialtacts_splash"/>
+            <meta-data
+                android:name="com.sec.android.app.launcher.icon_theme"
+                android:value="themeColor"/>
+            <meta-data
+                android:name="com.samsung.keyguard.shortcut.icon"
+                android:resource="@drawable/phone_flat"/>
+        </activity>
+        <activity
+            android:theme="@style/SearchSettingTheme"
+            android:label="@string/header_search_settings"
+            android:name="com.samsung.android.dialtacts.common.searchsetting.activity.SearchSettingActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"
+            android:visibleToInstantApps="true"/>
+        <activity
+            android:theme="@style/Dialer.Theme.BackgroundOnly"
+            android:name="com.samsung.android.dialer.NonPhoneActivity"
+            android:exported="true"
+            android:hardwareAccelerated="false">
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.item/phone"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="voicemail"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.dir/calls"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.CALL_BUTTON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/CallHistoryTheme"
+            android:label="@string/call_history"
+            android:name="com.samsung.android.dialer.callhistory.calllog.CallHistoryActivity"
+            android:exported="true"
+            android:taskAffinity="android.task.quickcontact"
+            android:excludeFromRecents="true"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.samsung.contacts.action.VIEW_CALL_LOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.contacts.action.VIEW_CALL_LOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+            </intent-filter>
+            <meta-data
+                android:name="com.sec.android.multiwindow.activity.STYLE"
+                android:value="fullscreenOnly"/>
+        </activity>
+        <activity
+            android:theme="@style/SpamReportTransparentTheme"
+            android:name="com.samsung.android.dialer.callhistory.history.SpamReportActivity"
+            android:exported="true"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation"/>
+        <activity
+            android:theme="@style/ManageTagTheme"
+            android:label="@string/manage_tag_header"
+            android:name="com.samsung.android.dialer.tag.view.ManageTagActivity"
+            android:exported="true"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation"/>
+        <activity
+            android:theme="@style/AddTagDialogTheme"
+            android:name="com.samsung.android.dialer.tag.view.AddTagActivity"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation">
+            <intent-filter>
+                <action android:name="com.samsung.android.dialer.action.ADD_TAG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Dialer.Theme.BackgroundOnly"
+            android:name="com.samsung.android.dialer.callhistory.callplus.CallPlusImageViewerActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.samsung.contacts.action.VIEW_CALL_PLUS_SHARED_CONTENTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Dialer.Theme.DayNight.NoActionBar"
+            android:name="com.samsung.android.dialtacts.common.permission.RequestPermissionsActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/CallDurationActivityTheme"
+            android:name="com.samsung.android.dialer.calllog.view.CallDurationActivity"/>
+        <activity
+            android:theme="@style/Dialer.Theme.AppCompat.Translucent"
+            android:name="com.samsung.android.dialer.notification.view.NotificationActionActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:configChanges="orientation"/>
+        <activity
+            android:theme="@style/Dialer.Theme.DayNight.NoActionBar"
+            android:label="@string/blocked_calls"
+            android:name="com.samsung.android.dialer.blockstatistic.BlockStatisticActivity"
+            android:exported="false"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation"/>
+        <activity
+            android:theme="@style/Dialer.Theme.DayNight.NoActionBar"
+            android:label="@string/blocked_calls"
+            android:name="com.samsung.android.dialer.calllog.view.blocked.BlockedCallLogActivity"
+            android:exported="false"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation"/>
+        <receiver
+            android:name="com.samsung.android.dialer.callhistory.history.SpamReportResultReceiver"
+            android:exported="false"/>
+        <receiver
+            android:name="com.samsung.android.dialer.main.receiver.NonPhoneReceiver"
+            android:exported="true">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.PRE_BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.samsung.android.dialer.notification.view.CallLogNotificationReceiver"
+            android:exported="true"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.telecom.action.SHOW_MISSED_CALLS_NOTIFICATION"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_VOICEMAIL"/>
+                <data
+                    android:mimeType="vnd.android.cursor.item/voicemail"
+                    android:scheme="content"
+                    android:host="com.android.voicemail"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.samsung.android.dialer.notification.view.CallLogNotificationCustomReceiver"
+            android:permission="com.samsung.dialer.permission.RECEIVE_CUSTOM_NOTIFICATION"
+            android:exported="true"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="com.samsung.android.intent.action.ON_DEVICE_VOICEMAIL_NOTIFICATION"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.samsung.android.dialtacts.model.component.receiver.retailmode.RetailModeReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.samsung.sea.rm.DEMO_RESET_STARTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.samsung.android.dialer.notification.view.MissedCallDeleteActionReceiver"
+            android:permission="com.samsung.dialer.permission.DELETE_MISSED_CALL_NOTIFICATION"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.samsung.android.dialer.ACTION_DELETE_MISSED_CALL_NOTIFICATION"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.dialer.ACTION_DELETE_VVM_NOTIFICATION"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.samsung.android.dialer.notification.view.CallLogPackageUpdatedReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.samsung.android.dialer.BootCompleteReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.samsung.android.dialer.setting.DialerSettingResetReceiver"
+            android:permission="com.sec.android.settings.permission.SOFT_RESET"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.samsung.intent.action.SETTINGS_SOFT_RESET"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.samsung.android.dialtacts.model.component.receiver.simbroadcastreceiver.SimBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.samsung.settings.SIMCARD_MGT"/>
+                <action android:name="com.samsung.settings.SIMCARD_MGT_ACTIVATED"/>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.samsung.android.dialer.backup.CallLogBNRSmartSwitchReceiver"
+            android:permission="com.wssnps.permission.COM_WSSNPS"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.sec.android.intent.action.REQUEST_BACKUP_CALLLOG"/>
+                <action android:name="com.sec.android.intent.action.REQUEST_RESTORE_CALLLOG"/>
+                <action android:name="com.samsung.android.intent.action.REQUEST_PREPARE_OSMOSIS_CALL_LOGS"/>
+                <action android:name="com.samsung.android.intent.action.REQUEST_BACKUP_OSMOSIS_CALL_LOGS"/>
+                <action android:name="com.samsung.android.intent.action.REQUEST_RESTORE_OSMOSIS_CALL_LOGS"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.samsung.android.dialer.backup.CallLogBNRSmartSwitchService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="backup and restore"/>
+        </service>
+        <receiver
+            android:name="com.samsung.android.dialer.backup.BackupDialerSetting"
+            android:permission="com.wssnps.permission.COM_WSSNPS"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.samsung.android.intent.action.REQUEST_BACKUP_DIALER_SETTING"/>
+                <action android:name="com.samsung.android.intent.action.REQUEST_RESTORE_DIALER_SETTING"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.samsung.android.dialer.NetworkPermissionStateReceiver"
+            android:permission="com.samsung.dialer.permission.NETWORK_PERMISSION_STATE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.samsung.android.app.telephonyui.action.NETWORK_PERMISSION_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.samsung.android.dialer.notification.view.CallLogNotificationService"
+            android:exported="false"
+            android:directBootAware="true"/>
+        <service
+            android:name="com.samsung.android.dialtacts.model.component.service.callscreeningservice.CallScreeningServiceImpl"
+            android:permission="android.permission.BIND_SCREENING_SERVICE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.telecom.CallScreeningService"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme="@style/IntegratedSearchTheme"
+            android:name="com.samsung.android.dialer.search.activity.IntegratedSearchActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="behind"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="intent.action.INTEGRATED_SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable_include_voice"/>
+        </activity>
+        <activity
+            android:theme="@style/IntegratedSearchTheme"
+            android:name="com.samsung.android.dialer.widget.integratedSearch.activity.CoverScreenIntegratedSearchActivity"
+            android:exported="false"
+            android:taskAffinity="com.samsung.android.dialer.widget.integratedSearch.activity.CoverScreenIntegratedSearchActivity"
+            android:launchMode="singleInstance"
+            android:configChanges="density|smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize"
+            android:autoRemoveFromRecents="true">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable_include_voice"/>
+        </activity>
+        <activity
+            android:theme="@style/Dialer.Theme.DayNight.Dialog.Alert.No.ActionBar"
+            android:label="@string/callmessage_activity_title"
+            android:icon="@mipmap/ic_launcher_phone"
+            android:name="com.samsung.android.dialer.callmessage.view.CallMessageActivity"
+            android:exported="true"
+            android:taskAffinity="@string/callmessage_task"
+            android:configChanges="screenSize|orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.samsung.dialer.callmessage.CallMessageActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Dialer.Theme.DayNight.NoActionBar"
+            android:label="@string/recent_callmessage_activity_lable"
+            android:icon="@mipmap/ic_launcher_phone"
+            android:name="com.samsung.android.dialer.callmessage.view.CallMessageTemplateActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/Dialer.Theme.DayNight.NoActionBar"
+            android:label="@string/recent_callmessage_edit_title"
+            android:icon="@mipmap/ic_launcher_phone"
+            android:name="com.samsung.android.dialer.callmessage.view.CallMessageTemplateEditActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.samsung.android.dialer.callmessage.view.CallMessageTemplateActivity"/>
+        </activity>
+        <activity
+            android:theme="@style/SpeedDialTheme"
+            android:label="@string/speed_dial_setting"
+            android:icon="@mipmap/ic_launcher_phone"
+            android:name="com.samsung.android.dialer.speeddial.SpeedDialActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation"
+            android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="com.samsung.contacts.action.SPEED_DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.android.airview.HOVER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Dialer.Theme.DayNight.NoActionBar"
+            android:label="@string/dialtacts_logs"
+            android:name="com.samsung.android.dialer.calllog.view.picker.CallLogPickerActivity"
+            android:permission="com.samsung.android.dialer.permission.CALL_LOG_PICKER"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="intent.action.INTERACTION_LOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable_include_voice"/>
+        </activity>
+        <meta-data
+            android:name="backup_name"
+            android:resource="@xml/backup_item"/>
+        <meta-data
+            android:name="backup_content_uri"
+            android:value="content://com.samsung.dialer.backup"/>
+        <provider
+            android:label="sCloud Test Provider"
+            android:name="com.samsung.android.scloud.oem.lib.ClientProvider"
+            android:readPermission="com.samsung.android.scloud.backup.lib.read"
+            android:writePermission="com.samsung.android.scloud.backup.lib.write"
+            android:enabled="true"
+            android:exported="true"
+            android:authorities="com.samsung.dialer.backup"
+            android:syncable="false"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/dialer_app_name"
+            android:icon="@mipmap/ic_launcher_phone"
+            android:name="com.samsung.android.dialer.finder.LogsFindoSearchResultsActivity"
+            android:exported="true"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="com.samsung.android.intent.action.SEARCH"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:scheme=""/>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/findo_searchable"/>
+        </activity>
+        <provider
+            android:name="com.samsung.android.dialer.finder.FindoSuggestionsProvider"
+            android:permission="com.samsung.android.provider.indexing.permission.ACCESS_PROVIDER"
+            android:exported="true"
+            android:authorities="com.android.providers.contacts.sfinder.FindoSuggestionsProvider"
+            android:grantUriPermissions="true">
+            <path-permission
+                android:readPermission="android.permission.GLOBAL_SEARCH"
+                android:pathPrefix="/search_suggest_regex_query"/>
+        </provider>
+        <provider
+            android:name="com.samsung.android.dialtacts.model.component.provider.file.ContactsFileProvider"
+            android:exported="false"
+            android:authorities="com.samsung.android.dialer.contact_files"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+        <provider
+            android:name="com.samsung.android.dialtacts.model.internal.provider.RecentSearchProvider"
+            android:exported="false"
+            android:authorities="com.samsung.android.dialer.recentsearch"
+            android:grantUriPermissions="true"/>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:exported="false"
+            android:authorities="com.samsung.android.dialer.androidx-startup">
+            <meta-data
+                android:name="com.samsung.glance.appwidget.support.SeslAppWidgetInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup"/>
+        </provider>
+        <activity
+            android:theme="@style/PermissionActivityTheme"
+            android:label="@string/phone_permission_activity_title"
+            android:name="com.samsung.android.dialer.main.view.PermissionActivity"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":permission_notice"
+            android:excludeFromRecents="true"
+            android:configChanges="screenSize|orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="com.samsung.android.spv.ACTION_VIEW_DETAIL"/>
+                <action android:name="com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.dialer.ACTION_VIEW_PERMISSIONS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/CoverScreenDiapladTheme"
+            android:name="com.samsung.android.dialer.widget.dialer.CoverScreenDialpadActionActivity"
+            android:exported="false"
+            android:taskAffinity=".widget.dialer.CoverScreenDialpadActionActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:configChanges="density|smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:autoRemoveFromRecents="true"/>
+        <activity
+            android:theme="@style/WidgetTransparentTheme"
+            android:name="com.samsung.android.dialer.widget.recents.permission.RecentWidgetsRequestPermissionsActivity"
+            android:exported="false"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:configChanges="density|smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"/>
+        <receiver
+            android:label="@string/recents_widget_title"
+            android:name="com.samsung.android.dialer.widget.recents.CoverScreenRecentsWidgetProvider"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="com.samsung.keyguard.shortcut.icon"
+                android:resource="@drawable/phone_flat"/>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/cover_screen_recents_widget_info"/>
+            <meta-data
+                android:name="com.samsung.android.appwidget.provider"
+                android:resource="@xml/samsung_cover_screen_recents_widget_info_parent_widget"/>
+            <meta-data
+                android:name="com.samsung.android.sdk.subscreen.widget.support_visibility_callback"
+                android:value="true"/>
+        </receiver>
+        <activity
+            android:theme="@style/WidgetTransparentTheme"
+            android:name="com.samsung.android.dialer.widget.action.CoverScreenRecentsWidgetActionActivity"
+            android:exported="false"
+            android:taskAffinity=""
+            android:excludeFromRecents="true">
+            <meta-data
+                android:name="com.sec.android.app.skipWidgetConfigure"
+                android:value="true"/>
+        </activity>
+        <activity
+            android:theme="@style/WidgetSettingsTheme"
+            android:name="com.samsung.android.dialer.widget.settings.RecentCallsWidgetSettingsActivity"
+            android:exported="false"
+            android:taskAffinity=""
+            android:excludeFromRecents="true">
+            <meta-data
+                android:name="com.sec.android.app.skipWidgetConfigure"
+                android:value="true"/>
+        </activity>
+        <receiver
+            android:label="@string/recents_widget_title"
+            android:name="com.samsung.android.dialer.widget.glance.RecentCallsWidgetProvider"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/recent_calls_widget_info"/>
+            <meta-data
+                android:name="com.samsung.android.appwidget.provider"
+                android:resource="@xml/samsung_cover_screen_recents_widget_info"/>
+            <meta-data
+                android:name="com.samsung.android.sdk.subscreen.widget.support_visibility_callback"
+                android:value="true"/>
+        </receiver>
+        <receiver
+            android:label="@string/recents_widget_title"
+            android:name="com.samsung.android.dialer.widget.recents.widgetprovider.RecentCallLogSmallWidgetProvider"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/recent_calls_widget_info_small"/>
+            <meta-data
+                android:name="com.samsung.android.appwidget.provider"
+                android:resource="@xml/samsung_cover_screen_recents_widget_info"/>
+            <meta-data
+                android:name="com.samsung.android.sdk.subscreen.widget.support_visibility_callback"
+                android:value="true"/>
+        </receiver>
+        <receiver
+            android:label="@string/recents_widget_title"
+            android:name="com.samsung.android.dialer.widget.recents.widgetprovider.RecentsCallLogLargeWidgetProvider"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/recent_calls_widget_info_large"/>
+            <meta-data
+                android:name="com.samsung.android.appwidget.provider"
+                android:resource="@xml/samsung_cover_screen_recents_widget_info"/>
+            <meta-data
+                android:name="com.samsung.android.sdk.subscreen.widget.support_visibility_callback"
+                android:value="true"/>
+        </receiver>
+        <activity
+            android:theme="@style/WidgetTransparentTheme"
+            android:name="com.samsung.android.dialer.widget.recents.WidgetDuoCallStarterActivity"
+            android:exported="false"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"/>
+        <activity
+            android:name="com.samsung.android.dialer.newcallingmessagebox.OpenNewCallingMessageBoxActivity"
+            android:exported="true"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="com.samsung.android.dialer.ACTION_OPEN_NEW_CALLING_MESSAGE_BOX"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.android.incallui.InCallServiceImpl"
+            android:permission="android.permission.BIND_INCALL_SERVICE"
+            android:exported="true"
+            android:minSdkVersion="33">
+            <meta-data
+                android:name="android.telecom.IN_CALL_SERVICE_UI"
+                android:value="true"/>
+            <intent-filter>
+                <action android:name="android.telecom.InCallService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.samsung.android.dialer.widget.work.RecentWidgetUpdateJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service
+            android:name="com.samsung.android.dialer.callrecord.CallRecordSyncJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity
+            android:label="@string/title_activity_settings"
+            android:name="com.samsung.android.dialtacts.common.runtimeconfig.view.RuntimeConfigActivity"/>
+        <meta-data
+            android:name="SamsungBasicInteraction"
+            android:value="SEP10"/>
+        <service
+            android:label="UsageReport service"
+            android:name="com.samsung.android.dialtacts.model.component.service.usagereport.UsageReportServiceContact"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service
+            android:label="UsageReport service"
+            android:name="com.samsung.android.dialtacts.model.component.service.usagereport.UsageReportServiceDialer"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service
+            android:name="com.samsung.android.dialtacts.model.component.service.makesimdbservice.MakeSimDBService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.samsung.android.dialtacts.model.component.service.EmptyService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.samsung.contacts.action.EMPTY_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.samsung.android.dialtacts.model.component.service.importexport.ImportSimContactsService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync"/>
+        <service
+            android:name="com.samsung.android.dialtacts.model.component.service.importexport.ExportSimContactsService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync"/>
+        <service
+            android:name="com.samsung.android.dialtacts.model.component.service.importexport.ImportEasContactsService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync"/>
+        <service
+            android:name="com.samsung.android.dialtacts.model.component.service.importexport.ImportContactsVCardService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync"/>
+        <service
+            android:name="com.samsung.android.dialtacts.model.component.service.importexport.ExportContactsVCardService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync"/>
+        <service
+            android:name="com.samsung.android.dialtacts.model.component.service.movecontacts.MoveContactsService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync"/>
+        <receiver
+            android:name="com.samsung.android.dialtacts.model.component.receiver.mobileservice.MobileServiceReceiver"
+            android:permission="com.samsung.android.mobileservice.social.ui.Permission.SETTING_SOCIAL"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"/>
+                <action android:name="com.samsung.android.mobileservice.auth.ACTION_ACCOUNT_SIGN_OUT_COMPLETED"/>
+                <action android:name="com.samsung.android.mobileservice.auth.ACTION_DEVICE_DEAUTH_COMPLETED"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_SERVICE_DEACTIVATION_COMPLETED"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_SERVICE_ACTIVATION_COMPLETED"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_SERVICE_STATE"/>
+                <action android:name="com.samsung.android.mobileservice.auth.ACTION_ACCOUNT_SIGN_IN_COMPLETED"/>
+                <action android:name="com.samsung.android.mobileservice.profile.ACTION_PROFILE_CHANGED"/>
+                <action android:name="com.samsung.android.mobileservice.profile.ACTION_PROFILE_LOGIN_MERGE_COMPLETED"/>
+                <action android:name="com.samsung.android.mobileservice.ACTION_SES_ACTIVATED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.samsung.android.dialtacts.model.component.receiver.rcsmessage.CmCMessageRcsSettingBroadcastReceiver"
+            android:permission="com.samsung.android.mdecservice.nms.SEM_CMC_PUSH"
+            android:exported="true">
+            <intent-filter android:priority="1">
+                <action android:name="com.samsung.android.mdecservice.CMC_MSG_SETTING_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="com.samsung.android.mobileservice.IntentRequest"
+            android:value="true"/>
+        <service
+            android:name="com.samsung.android.dialtacts.model.usagereportservice.UsageReportServiceModel$UsageReportJobIntentService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <uses-library
+            android:name="imsmanager"
+            android:required="false"/>
+        <meta-data
+            android:name="com.samsung.android.sdk.moneta.versionName"
+            android:value="1.0.57"/>
+        <provider
+            android:name="com.samsung.android.sdk.routines.v3.internal.RoutineSdkContentProvider"
+            android:permission="com.samsung.android.permission.sdk.routines.v3.ACCESS_ROUTINES"
+            android:exported="true"
+            android:authorities="com.samsung.android.dialer.provider.routines.v3">
+            <intent-filter>
+                <action android:name="com.samsung.android.sdk.routines.v3.ROUTINE_PROVIDER"/>
+            </intent-filter>
+            <meta-data
+                android:name="com.samsung.android.sdk.routines.v3.version"
+                android:value="4.0.24"/>
+            <meta-data
+                android:name="com.samsung.android.sdk.routines.v3.version_code"
+                android:value="40240"/>
+        </provider>
+        <activity
+            android:theme="@android:style/Theme.NoDisplay"
+            android:name="androidx.glance.appwidget.action.ActionTrampolineActivity"
+            android:enabled="true"
+            android:exported="false"
+            android:excludeFromRecents="true"/>
+        <activity
+            android:theme="@style/Widget.Glance.AppWidget.CallbackTrampoline"
+            android:name="androidx.glance.appwidget.action.InvisibleActionTrampolineActivity"
+            android:enabled="true"
+            android:exported="false"
+            android:taskAffinity="androidx.glance.appwidget.ListAdapterCallbackTrampoline"
+            android:launchMode="singleInstance"
+            android:noHistory="true"/>
+        <receiver
+            android:name="androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+        <receiver
+            android:name="androidx.glance.appwidget.UnmanagedSessionReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+        <receiver
+            android:name="androidx.glance.appwidget.MyPackageReplacedReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="androidx.glance.appwidget.GlanceRemoteViewsService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"
+            android:exported="true"/>
+        <service
+            android:name="androidx.work.multiprocess.RemoteWorkManagerService"
+            android:exported="false"/>
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:enabled="@bool/enable_system_foreground_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false"/>
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false"/>
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false"
+            android:directBootAware="true"/>
+        <service
+            android:name="androidx.core.widget.RemoteViewsCompatService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <activity
+            android:theme="@style/Theme.StellaSdk.Transparent"
+            android:name="com.samsung.android.stella.sdk.ui.StellaMaintenanceNoticeActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"
+            android:noHistory="true"/>
+        <provider
+            android:name="com.samsung.android.sdk.bixby2.provider.CapsuleProvider"
+            android:exported="true"
+            android:authorities="com.samsung.android.dialer.CapsuleProvider"/>
+        <meta-data
+            android:name="com.samsung.android.sdk.bixby2.companionApp"
+            android:value="true"/>
+        <meta-data
+            android:name="com.samsung.android.sdk.bixby2.version"
+            android:value="@string/sdk_version"/>
+        <activity
+            android:theme="@style/zxing_CaptureTheme"
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <uses-library
+            android:name="com.android.extensions.appfunctions"
+            android:required="false"/>
+        <service
+            android:name="com.google.android.appfunctions.service.MainAppFunctionService"
+            android:permission="android.permission.BIND_APP_FUNCTION_SERVICE"
+            android:exported="true">
+            <property
+                android:name="android.app.appfunctions"
+                android:value="app_function.xml"/>
+            <intent-filter>
+                <action android:name="android.app.appsearch.functions.AppFunctionService"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.app.appfunctions.AppFunctionService"/>
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="SPDE.build.signature"
+            android:value="799fb937cfc7f789a4afeee9fd9edc13086e28de/190876701/global-release/SamsungDialer-1642000-16.4.00"/>
+        <meta-data
+            android:name="SPDE.env.version"
+            android:value="8.13.2/G37.2.9/1.2.19"/>
+    </application>
+</manifest>

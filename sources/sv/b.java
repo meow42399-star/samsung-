@@ -1,0 +1,19 @@
+package sv;
+
+import android.os.PowerManager;
+import o60.p;
+
+/* JADX INFO: compiled from: r8-map-id-a7353cfb79c11d52bee1cfbeda32e9327d9a3375cf680eb05b4dd51932f0324c */
+/* JADX INFO: loaded from: classes.dex */
+public final class b implements ms.a {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final PowerManager f23660a;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public final p f23661b = da.a.G(new a(0, this));
+
+    public b(PowerManager powerManager) {
+        this.f23660a = powerManager;
+    }
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="bottom"
+    android:id="@+id/bottom_navigation_container"
+    android:visibility="gone"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="8dp">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_gravity="center_horizontal"
+            android:clipToPadding="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/bottom_navigation_default_padding">
+            <include layout="@layout/contact_list_bottom_navigation"/>
+        </FrameLayout>
+        <ViewStub
+            android:id="@+id/contact_list_search_view_stub"
+            android:visibility="gone"
+            android:layout="@layout/contacts_list_search_bar"
+            android:inflatedId="@+id/contact_list_search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout>

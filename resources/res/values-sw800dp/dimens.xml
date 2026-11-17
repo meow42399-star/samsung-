@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sesl_glance_list_body_text_size">17</dimen>
+    <dimen name="sesl_glance_list_body_text_size_over_medium_size">17</dimen>
+    <dimen name="sesl_glance_list_body_text_size_with_3_line">13</dimen>
+    <dimen name="sesl_glance_list_description_text_size">14</dimen>
+    <dimen name="sesl_glance_list_display_text_over_large_size">17</dimen>
+    <dimen name="sesl_glance_list_display_text_over_medium_size">17</dimen>
+    <dimen name="sesl_glance_list_display_text_size">13</dimen>
+    <dimen name="sesl_glance_list_label_text_size">13</dimen>
+    <dimen name="sesl_glance_list_label_text_size_over_large">13</dimen>
+    <dimen name="style_graph_large_display_text_size">26dp</dimen>
+    <dimen name="style_graph_small_display_text_size">20dp</dimen>
+</resources>

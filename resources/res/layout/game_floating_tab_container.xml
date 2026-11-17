@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_vertical"
+    android:id="@+id/game_tab_container"
+    android:background="@drawable/game_floating_tab_container_background"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/game_floating_tab_padding_horizontal">
+    <com.google.android.material.tabs.TabLayout
+        android:layout_gravity="center_vertical"
+        android:id="@+id/game_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/game_floating_tab_height"
+        app:seslTabApplyStrokeBackground="false"
+        app:tabGravity="fill"
+        app:tabIndicatorHeight="0dp"
+        app:tabMode="scrollable"/>
+</FrameLayout>

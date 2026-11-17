@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialpad_digits_text_size_tab">56dp</dimen>
+    <dimen name="dialpad_key_letters_text_size">13dp</dimen>
+    <dimen name="dialpad_key_number_text_size_dex">40dp</dimen>
+    <dimen name="dialpad_key_number_text_size_star_pound_dex">40dp</dimen>
+    <dimen name="preview_icon_ratio_fold_main">0.076</dimen>
+    <dimen name="preview_icon_ratio_fold_main_10x6">0.069</dimen>
+    <dimen name="preview_icon_ratio_fold_main_8x6">0.072</dimen>
+</resources>

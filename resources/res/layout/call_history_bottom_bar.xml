@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:id="@+id/call_history_bottom_navigation_container"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="end"
+            android:orientation="vertical"
+            android:id="@+id/cp_logo_container"
+            android:paddingBottom="@dimen/call_history_cp_logo_floating_button_layout_bottom_margin"
+            android:visibility="gone"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/call_history_cp_logo_floating_button_layout_end_margin">
+            <Button
+                android:id="@+id/phishing_cp_logo_button"
+                android:background="@drawable/call_history_smart_call_button_bg"
+                android:elevation="@dimen/call_history_cp_logo_floating_button_elevation"
+                style="@style/callHistoryCpLogoButtonLayout"/>
+            <Button
+                android:id="@+id/cp_logo_button"
+                android:background="@drawable/call_history_smart_call_button_bg"
+                android:elevation="@dimen/call_history_cp_logo_floating_button_elevation"
+                style="@style/callHistoryCpLogoButtonLayout"/>
+        </LinearLayout>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_gravity="bottom|center_horizontal"
+            android:id="@+id/bottom_navigation"
+            android:visibility="visible"
+            android:clipToPadding="false"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginHorizontal="@dimen/call_history_bottom_navigation_horizontal_padding"
+            app:itemIconTint="@color/call_history_bottom_navigation_icon_color"
+            app:itemTextColor="@color/bottom_navigation_text_color"
+            app:menu="@menu/call_history_bottom_menu"
+            style="@style/BottomNavigationView.Floating.IconText"/>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,20 @@
+package e1;
+
+import a1.k;
+import d1.f;
+import y1.j;
+import y1.z;
+
+/* JADX INFO: compiled from: r8-map-id-a7353cfb79c11d52bee1cfbeda32e9327d9a3375cf680eb05b4dd51932f0324c */
+/* JADX INFO: loaded from: classes.dex */
+public final class a extends k implements j {
+
+    /* JADX INFO: renamed from: x, reason: collision with root package name */
+    public f f9398x;
+
+    @Override // y1.j
+    public final void G(z zVar) {
+        this.f9398x.invoke(zVar);
+        zVar.a();
+    }
+}

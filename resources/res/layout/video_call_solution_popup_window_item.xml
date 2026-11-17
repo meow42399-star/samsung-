@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/popup_item_layout"
+    android:focusable="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:gravity="start|center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/video_icon"
+        android:layout_width="@dimen/ims_video_call_dialog_icon_size"
+        android:layout_height="@dimen/ims_video_call_dialog_icon_size"
+        android:layout_marginTop="@dimen/ims_video_call_dialog_icon_top_margin"
+        android:layout_marginBottom="@dimen/ims_video_call_dialog_icon_bottom_margin"
+        android:layout_marginStart="@dimen/ims_video_call_dialog_icon_start_margin"/>
+    <TextView
+        android:textAppearance="@style/Regular"
+        android:textColor="@color/alert_dialog_primary_text_color"
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:id="@+id/video_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="23dp"
+        android:layout_weight="1"
+        android:textDirection="locale"
+        android:layoutDirection="locale"
+        android:layout_marginStart="@dimen/ims_video_call_dialog_text_start_margin"
+        android:layout_marginEnd="@dimen/ims_video_call_dialog_text_end_margin"
+        android:layout_marginVertical="@dimen/ims_video_call_dialog_text_vertical_margin"/>
+</LinearLayout>

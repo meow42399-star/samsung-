@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.graphics.drawable.SeslRecoilDrawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" app:seslRecoilColor="@color/dial_button_ripple_color">
+    <item android:drawable="@drawable/dialpad_fab_bg_image"/>
+</androidx.appcompat.graphics.drawable.SeslRecoilDrawable>

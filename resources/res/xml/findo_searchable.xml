@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/dialer_app_name"
+    android:searchMode="queryRewriteFromText"
+    android:searchSuggestAuthority="com.android.providers.contacts.sfinder.FindoSuggestionsProvider"
+    android:searchSuggestSelection="content MATCH ?"
+    android:searchSuggestIntentAction="android.intent.action.VIEW"
+    android:includeInGlobalSearch="true"
+    android:queryAfterZeroResults="false"
+    android:searchSettingsDescription="@string/dialtacts_logs">
+    <extra-attr
+        android:name="includeInInsightSearch"
+        android:value="true"/>
+    <extra-attr
+        android:name="searchLayoutStyle"
+        android:value="suggest_template_history_call"/>
+    <extra-attr
+        android:name="advancedSearchType"
+        android:value="timeSpan"/>
+</searchable>

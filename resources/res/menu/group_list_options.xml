@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/tw_ic_bb_delete_mtrl_modified"
+        android:id="@+id/menu_group_delete"
+        android:visible="true"
+        android:orderInCategory="1"
+        android:title="@string/menu_delete_groups"
+        android:showAsAction="never"
+        app:iconTint="@color/action_bar_action_button_color"/>
+    <item
+        android:icon="@drawable/tw_ic_ab_add_mtrl_modified"
+        android:id="@+id/menu_group_add"
+        android:visible="true"
+        android:orderInCategory="0"
+        android:title="@string/menu_create"
+        android:showAsAction="always"/>
+    <item
+        android:icon="@drawable/tw_list_icon_reorder_menu"
+        android:id="@+id/menu_group_reorder"
+        android:visible="true"
+        android:orderInCategory="1"
+        android:title="@string/description_reorder_button"
+        android:showAsAction="never"
+        app:iconTint="@color/action_bar_action_button_color"/>
+    <item
+        android:id="@+id/menu_group_cancel"
+        android:visible="true"
+        android:orderInCategory="0"
+        android:title="@string/cancel"/>
+</menu>

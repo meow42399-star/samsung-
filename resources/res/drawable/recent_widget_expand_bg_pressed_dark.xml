@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="@color/recent_widget_call_log_item_background_pressed_dark"/>
+    <size
+        android:height="@dimen/recents_widget_place_call_back_button_icon_size"
+        android:width="@dimen/recents_widget_place_call_back_button_icon_size"/>
+</shape>

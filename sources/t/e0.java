@@ -1,0 +1,16 @@
+package t;
+
+import android.content.res.Resources;
+import android.widget.ThemedSpinnerAdapter;
+import java.util.Objects;
+
+/* JADX INFO: compiled from: r8-map-id-a7353cfb79c11d52bee1cfbeda32e9327d9a3375cf680eb05b4dd51932f0324c */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class e0 {
+    public static void a(ThemedSpinnerAdapter themedSpinnerAdapter, Resources.Theme theme) {
+        if (Objects.equals(themedSpinnerAdapter.getDropDownViewTheme(), theme)) {
+            return;
+        }
+        themedSpinnerAdapter.setDropDownViewTheme(theme);
+    }
+}

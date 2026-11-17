@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/dialpad_button_container"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ViewStub
+        android:id="@+id/right_container_stub"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/dialpad_button_weight_land"/>
+    <ViewStub
+        android:id="@+id/center_single_container_stub"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/dialpad_button_center_weight_land"/>
+    <ViewStub
+        android:id="@+id/center_dual_container_stub"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/dialpad_button_wide_weight_land"/>
+    <ViewStub
+        android:id="@+id/left_container_stub"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/dialpad_button_weight_land"/>
+</LinearLayout>

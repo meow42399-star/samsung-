@@ -1,0 +1,12 @@
+###### Class ca0.p (ca0.p)
+.class public interface abstract Lca0/p;
+.super Ljava/lang/Object;
+.source "r8-map-id-a7353cfb79c11d52bee1cfbeda32e9327d9a3375cf680eb05b4dd51932f0324c"
+
+
+# virtual methods
+.method public abstract a(Ljava/util/List;)Lx90/o1;
+.end method
+
+.method public abstract b()I
+.end method

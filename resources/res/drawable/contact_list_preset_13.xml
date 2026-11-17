@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="720dp"
+    android:width="720dp"
+    android:viewportWidth="720"
+    android:viewportHeight="720">
+    <path
+        android:fillColor="@drawable/_contact_list_preset_13__0_res_0x7f080012"
+        android:pathData="M0,0H720V720H0V0Z"/>
+</vector>

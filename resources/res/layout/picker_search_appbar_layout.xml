@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.samsung.android.dialtacts.common.widget.ContactSearchView
+        android:id="@+id/picker_appbar_searchview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cover_screen_search_height"
+        android:layout_marginTop="@dimen/cover_screen_search_margin"
+        android:layout_marginBottom="@dimen/cover_screen_search_margin"
+        android:imeOptions="flagNoExtractUi"
+        android:paddingStart="@dimen/contact_list_search_padding"
+        android:paddingEnd="@dimen/cover_screen_picker_list_margin"
+        android:layout_marginStart="@dimen/contact_cover_screen_search_view_margin_start"
+        style="@style/ContactSearchViewStyle"/>
+</LinearLayout>

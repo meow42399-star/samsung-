@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/report_block_dialog_common_padding"
+    android:paddingBottom="@dimen/report_block_dialog_bottom_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/report_block_dialog_common_padding">
+    <TextView
+        android:textStyle="bold"
+        android:paddingBottom="@dimen/report_block_dialog_bottom_padding"
+        android:text="@string/kisa_5mb_dialog_header"
+        style="@style/dialogMessageTextLayout"/>
+    <TextView
+        android:id="@+id/message_content"
+        style="@style/dialogMessageTextLayout"/>
+    <TextView
+        android:id="@+id/kisa_url"
+        style="@style/dialogMessageTextLayout"/>
+</LinearLayout>

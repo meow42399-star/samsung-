@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size
+                android:height="@dimen/recent_widget_scroll_bar_height"
+                android:width="@dimen/recent_widget_scroll_bar_width"/>
+            <solid android:color="@color/recent_widget_scroll_bar_color"/>
+            <corners android:radius="28px"/>
+        </shape>
+    </item>
+</layer-list>

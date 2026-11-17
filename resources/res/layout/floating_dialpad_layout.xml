@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="end|bottom"
+    android:id="@+id/floating_dialpad_layout"
+    android:clipToPadding="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipToOutline="false">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_gravity="end|bottom"
+        android:orientation="vertical"
+        android:id="@+id/floating_dialpad_container"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/floating_dialpad_end_margin"
+        app:cardCornerRadius="@dimen/floating_dialpad_corner_radius"
+        app:cardElevation="@dimen/floating_dialpad_elevation"
+        app:strokeColor="@color/basic_token_sys_outline"
+        app:strokeWidth="@dimen/floating_dialpad_stroke">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/floating_dialpad_fragment"
+                android:background="@color/keypad_bg"
+                android:layout_width="@dimen/floating_dialpad_width"
+                android:layout_height="@dimen/floating_dialpad_height"
+                android:layout_weight="1"
+                android:outlineSpotShadowColor="@color/primary_text_color"
+                android:outlineAmbientShadowColor="@color/primary_text_color"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

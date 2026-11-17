@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle"/>
+    </item>
+    <item
+        android:gravity="top|right"
+        android:height="@dimen/tinted_icon_alternative_detail_sub_icon_height"
+        android:width="@dimen/tinted_icon_alternative_detail_sub_icon_width"
+        android:top="@dimen/tinted_icon_alternative_detail_sub_icon_top_margin"
+        android:right="@dimen/tinted_icon_alternative_detail_sub_icon_right_margin">
+        <shape android:shape="rectangle"/>
+    </item>
+</layer-list>

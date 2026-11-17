@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialpad_key_number_text_size">35dp</dimen>
+    <dimen name="dialpad_number_topmargin_flip">-5dp</dimen>
+    <dimen name="dialpad_twoline_letter_topmargin_flip">-9dp</dimen>
+    <dimen name="dialpad_view_height">468dp</dimen>
+    <dimen name="preview_icon_ratio_phone">0.168</dimen>
+    <dimen name="preview_icon_ratio_phone_5x6">0.144</dimen>
+    <dimen name="sesl_date_picker_calendar_day_height">32dp</dimen>
+    <dimen name="sesl_date_picker_calendar_header_button_height">36dp</dimen>
+    <dimen name="sesl_date_picker_calendar_header_button_width">36dp</dimen>
+    <dimen name="sesl_date_picker_calendar_header_height">36dp</dimen>
+    <dimen name="sesl_date_picker_calendar_view_height">192dp</dimen>
+    <dimen name="sesl_date_picker_calendar_week_height">32dp</dimen>
+    <dimen name="sesl_date_picker_gap_between_header_and_weekend">10dp</dimen>
+    <dimen name="sesl_date_picker_gap_between_weekend_and_calender">8dp</dimen>
+    <dimen name="sesl_date_picker_selected_day_circle_radius">14dp</dimen>
+    <dimen name="sesl_picker_spinner_height">164dp</dimen>
+    <dimen name="style_graph_medium_title_text_size">@dimen/arc_progress_text_dp_52</dimen>
+    <dimen name="style_graph_small_display_text_size">20dp</dimen>
+    <dimen name="style_graph_small_title_text_size">@dimen/arc_progress_text_dp_46</dimen>
+    <dimen name="style_multi_textblock_medium_display_text_size">32dp</dimen>
+    <dimen name="style_multi_textblock_small_display_text_size">18dp</dimen>
+    <dimen name="style_multi_textblock_widesmall_display_text_size">22dp</dimen>
+</resources>

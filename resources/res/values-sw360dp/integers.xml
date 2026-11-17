@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="dialpad_edit_text_height_weight_land">250</integer>
+</resources>

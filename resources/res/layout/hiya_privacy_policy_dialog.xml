@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/w_dialog_body_text_size"
+    android:textColor="@color/alert_dialog_primary_text_color"
+    android:id="@+id/custom_dialog_message_text"
+    android:paddingTop="@dimen/custom_dialog_warning_textview_margin_top"
+    android:paddingBottom="@dimen/custom_dialog_warning_textview_margin_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:lineSpacingExtra="@dimen/w_dialog_body_text_lineSpacingExtra"
+    android:paddingStart="@dimen/custom_dialog_warning_textview_padding_left"
+    android:paddingEnd="@dimen/custom_dialog_warning_textview_padding_right"/>

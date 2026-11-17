@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialer.calllog.view.widget.FlexibleSidePaddingLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/container_call_log_sub_header"
+    android:background="@color/w_list_sub_header_background_color"
+    android:focusable="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/w_list_sub_header_margin_horizontal"
+    android:accessibilityHeading="true">
+    <TextView
+        android:id="@+id/text_call_log_header"
+        android:paddingTop="@dimen/w_list_sub_header_padding_top"
+        android:paddingBottom="@dimen/w_list_sub_header_padding_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/HeaderTextViewStyle"/>
+    <TextView
+        android:ellipsize="end"
+        android:gravity="end"
+        android:id="@+id/text_call_log_header_filter"
+        android:paddingTop="@dimen/w_list_sub_header_padding_top"
+        android:paddingBottom="@dimen/w_list_sub_header_padding_bottom"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/HeaderTextViewStyle"/>
+</com.samsung.android.dialer.calllog.view.widget.FlexibleSidePaddingLinearLayout>

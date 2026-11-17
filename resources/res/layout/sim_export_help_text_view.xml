@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/action_bar_tab_color"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/tw_description_text_color"
+        android:ellipsize="end"
+        android:id="@+id/sim_import_export_text_view"
+        android:background="@color/action_bar_tab_color"
+        android:paddingTop="@dimen/w_section_divider_header_padding_top_bottom"
+        android:paddingBottom="@dimen/w_section_divider_header_padding_top_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sim_import_export_header_text"
+        android:maxLines="3"
+        android:paddingStart="@dimen/w_list_left_right_padding"
+        android:paddingEnd="@dimen/w_list_left_right_padding"/>
+</LinearLayout>

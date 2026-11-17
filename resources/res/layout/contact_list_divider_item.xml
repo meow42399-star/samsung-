@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:id="@+id/contacts_list_divider_text"
+    android:paddingTop="@dimen/w_section_divider_header_padding_top_bottom"
+    android:paddingBottom="@dimen/w_section_divider_header_padding_top_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/w_section_divider_header_min_height"
+    android:textDirection="firstStrongLtr"
+    android:textAlignment="viewStart"
+    style="@style/HeaderTextViewStyle"/>

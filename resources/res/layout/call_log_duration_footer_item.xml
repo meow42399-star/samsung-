@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/call_duration_cmc_item"
+    android:background="@color/w_list_sub_header_background_color"
+    android:paddingTop="@dimen/expanding_entry_card_item_padding_top_for_normal"
+    android:paddingBottom="@dimen/expanding_entry_card_item_padding_bottom_for_normal"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/contact_detail_card_padding_start_end"
+    android:paddingStart="@dimen/contact_detail_card_padding_start_end"
+    android:paddingEnd="@dimen/contact_detail_card_padding_start_end">
+    <TextView
+        android:textSize="@dimen/call_history_recent_item_secondary_text_size"
+        android:textColor="@color/calllog_name_text_color"
+        android:id="@+id/cmc_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cmc_call_duration_stat"
+        android:fontFamily="@string/sec_font_family"/>
+</RelativeLayout>

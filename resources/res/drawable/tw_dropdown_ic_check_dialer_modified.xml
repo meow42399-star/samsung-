@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@color/speeddial_spinner_selected_text_color"
+    android:height="20dp"
+    android:width="20dp"
+    android:drawable="@drawable/tw_dropdown_ic_check"
+    class="com.samsung.android.dialtacts.common.photo.DrawableWrapper"/>

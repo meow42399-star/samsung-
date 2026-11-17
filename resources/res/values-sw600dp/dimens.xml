@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="contact_detail_button_width">240dp</dimen>
+    <dimen name="design_navigation_max_width">320dp</dimen>
+    <dimen name="design_snackbar_action_inline_max_width">0dp</dimen>
+    <dimen name="design_snackbar_max_width">576dp</dimen>
+    <dimen name="design_snackbar_min_width">320dp</dimen>
+    <dimen name="design_snackbar_padding_vertical_2lines">@dimen/design_snackbar_padding_vertical</dimen>
+    <dimen name="mtrl_bottomappbar_height">64dp</dimen>
+    <dimen name="preview_icon_ratio_fold_main">0.084</dimen>
+    <dimen name="preview_icon_ratio_fold_main_10x6">0.07</dimen>
+    <dimen name="preview_icon_ratio_fold_main_8x6">0.081</dimen>
+    <dimen name="sem_config_prefDialogWidth">@dimen/sem_dialog_width_with_large_screen</dimen>
+    <dimen name="sesl_dialog_min_width_major">@dimen/sesl_dialog_width_with_large_screen</dimen>
+    <dimen name="sesl_dialog_min_width_minor">@dimen/sesl_dialog_width_with_large_screen</dimen>
+</resources>

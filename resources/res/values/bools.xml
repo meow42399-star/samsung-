@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_default_display_order_primary">true</bool>
+    <bool name="config_default_sort_order_primary">true</bool>
+    <bool name="config_display_order_user_changeable">true</bool>
+    <bool name="config_editor_field_order_primary">true</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="config_sort_order_user_changeable">true</bool>
+    <bool name="enable_system_alarm_service_default">false</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">true</bool>
+    <bool name="isLightNavigationBar">true</bool>
+    <bool name="night_mode">false</bool>
+    <bool name="sem_window_light_status_bar">true</bool>
+    <bool name="sesl_action_bar_text_item_mode">false</bool>
+    <bool name="sesl_config_closeDialogWhenTouchOutside">true</bool>
+    <bool name="sesl_responsive_pane_navigation_drawer_default_open">false</bool>
+    <bool name="sesl_seekbar_sliding_animation">true</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+</resources>

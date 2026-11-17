@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialtacts.common.widget.RoundedCornerConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?android:attr/listChoiceBackgroundIndicator"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/block_statistic_category_padding_horizontal">
+    <TextView
+        android:textAppearance="@style/Regular"
+        android:textSize="@dimen/block_statistic_category_text_size"
+        android:textColor="@color/primary_text_color"
+        android:id="@+id/category_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/block_statistic_category_text_margin_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <View
+        android:id="@+id/divider"
+        android:background="@color/add_to_contact_dialog_divider_color"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_divider_height"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</com.samsung.android.dialtacts.common.widget.RoundedCornerConstraintLayout>

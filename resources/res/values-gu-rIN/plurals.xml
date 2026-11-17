@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contact_list_pd_groups">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ગ્રૂપ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ગ્રૂપ્સ</item>
+    </plurals>
+    <plurals name="count_calls">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d કૉલ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d કૉલ્સ</item>
+    </plurals>
+    <plurals name="delete_logs_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d વસ્તુ તમારા કૉલ ઇતિહાસમાંથી કાઢી નાખવી છે?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d વસ્તુઓ તમારા કૉલ ઇતિહાસમાંથી કાઢી નાખવી છે?</item>
+    </plurals>
+    <plurals name="delete_n_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સંપર્ક હટાવીએ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સંપર્કો હટાવીએ?</item>
+    </plurals>
+    <plurals name="delete_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ટૅગ કાઢી નાખવું છે?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ટૅગ્સ કાઢી નાખવાં છે?</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s સમૂહ ચેટ્સમાં જોડાઇ શકતા નથી. તેમને પસંદ કરેલ પ્રાપ્તકર્તાઓ માંથી દૂર કરો અથવા તેના બદલે %2$d પ્રાપ્તકર્તાને એક ટેક્સ્ટ સંદેશ મોકલો.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s સમૂહ ચેટ્સમાં જોડાઇ શકતા નથી. તેમને પસંદ કરેલ પ્રાપ્તકર્તાઓ માંથી દૂર કરો અથવા તેના બદલે %2$d પ્રાપ્તકર્તાઓને એક ટેક્સ્ટ સંદેશ મોકલો.</item>
+    </plurals>
+    <plurals name="group_list_pd_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સભ્ય</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સભ્યો</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ફોન નંબર ધરાવતો %d સંપર્ક</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ફોન નંબરો ધરાવતા %d સંપર્કો</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સંપર્ક</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સંપર્કો</item>
+    </plurals>
+    <plurals name="max_available_contacts_count_linked_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">તમારા SIM કાર્ડમાં %d કરતાં વધુ સંપર્કને ખસેડી શકાતા નથી. પસંદ કરેલા સંપર્કો સાથે લિંક કરેલા સંપર્કોને પણ ગણતરીમાં લેવાય છે.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">તમારા SIM કાર્ડમાં %d કરતાં વધુ સંપર્કોને ખસેડી શકાતા નથી. પસંદ કરેલા સંપર્કો સાથે લિંક કરેલા સંપર્કોને પણ ગણતરીમાં લેવાય છે.</item>
+    </plurals>
+    <plurals name="merge_contact_tip_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">તમે %d ડુપ્લિકેટ સંપર્ક ધરાવો છો.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">તમે %d ડુપ્લિકેટ સંપર્કો ધરાવો છો.</item>
+    </plurals>
+    <plurals name="min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d મિનિટ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d મિનિટ</item>
+    </plurals>
+    <plurals name="missed_call_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d છૂટેલો કૉલ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d છૂટેલા કૉલ્સ</item>
+    </plurals>
+    <plurals name="missed_call_suggestion">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$sનો ચૂકી જવાયેલો %1$d કૉલ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$sના ચૂકી જવાયેલા %1$d કૉલ્સ.</item>
+    </plurals>
+    <plurals name="more_birthdays">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">વધુ %d જન્મદિવસ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">વધુ %d જન્મદિવસો</item>
+    </plurals>
+    <plurals name="move_multi_contact_delete_one_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સંપર્કને ટ્રૅશમાં ખસેડી 1 તાજેતરની વસ્તુ કાઢી નાખવી છે?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સંપર્કોને ટ્રૅશમાં ખસેડી 1 તાજેતરની વસ્તુ કાઢી નાખવી છે?</item>
+    </plurals>
+    <plurals name="move_n_contact_to_the_trash">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સંપર્કને ટ્રૅશમાં ખસેડીએ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સંપર્કોને ટ્રૅશમાં ખસેડીએ?</item>
+    </plurals>
+    <plurals name="move_one_contact_delete_multi_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 સંપર્કને ટ્રૅશમાં ખસેડી %d તાજેતરની વસ્તુ કાઢી નાખવી છે?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 સંપર્કને ટ્રૅશમાં ખસેડી %d તાજેતરની વસ્તુઓ કાઢી નાખવી છે?</item>
+    </plurals>
+    <plurals name="my_profile_emergency_contacts_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સંપર્ક</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સંપર્કો</item>
+    </plurals>
+    <plurals name="new_voice_mail_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d નવો અવાજમેલ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d નવા અવાજમેલ</item>
+    </plurals>
+    <plurals name="notification_contacts_export_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d સંપર્કની %2$s પર નિકાસ થઈ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d સંપર્કોની %2$s પર નિકાસ થઈ</item>
+    </plurals>
+    <plurals name="notification_contacts_import_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સંપર્કની આયાત થઈ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સંપર્કોની આયાત થઈ</item>
+    </plurals>
+    <plurals name="notification_move_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સંપર્ક ખસેડાયો</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સંપર્કો ખસેડાયા</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d વ્યક્તિ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d લોકો</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d મળી</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d મળી</item>
+    </plurals>
+    <plurals name="sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સેકંડ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સેકંડ</item>
+    </plurals>
+    <plurals name="some_contacts_not_Export_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સંપર્કની SIM પર નિકાસ કરી શકાઈ નથી કારણ કે તેમના ફોન નંબરમાં 20 કરતાં વધારે અંક છે.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સંપર્કોની SIM પર નિકાસ કરી શકાઈ નથી કારણ કે તેમના ફોન નંબરોમાં 20 કરતાં વધારે અંક છે.</item>
+    </plurals>
+    <plurals name="some_contacts_not_moved_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d સંપર્કને SIM પર ખસેડી શક્યા નથી કારણ કે તેમના ફોન નંબરોમાં 20 કરતાં વધારે અંક છે.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d સંપર્કોને SIM પર ખસેડી શકાયા નથી કારણ કે તેમના ફોન નંબરોમાં 20 કરતાં વધારે અંક છે.</item>
+    </plurals>
+    <plurals name="total_blocked_count_one">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">છેલ્લા %d દિવસમાં 1 કૉલ બ્લૉક થયો</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">છેલ્લા %d દિવસમાં 1 કૉલ બ્લૉક થયો</item>
+    </plurals>
+    <plurals name="total_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ટૅગ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ટૅગ્સ</item>
+    </plurals>
+    <plurals name="trash_detail_delete_info">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$sના રોજ %1$sમાંથી કાઢી નાખવામાં આવ્યા. %3$d દિવસ બાદ તેમને હંમેશ માટે કાઢી નાખવામાં આવશે.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$sના રોજ %1$sમાંથી કાઢી નાખવામાં આવ્યા. %3$d દિવસ બાદ તેમને હંમેશ માટે કાઢી નાખવામાં આવશે.</item>
+    </plurals>
+</resources>

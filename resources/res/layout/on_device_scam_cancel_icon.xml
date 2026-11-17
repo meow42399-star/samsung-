@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/image_call_log_on_device_scam_delete"
+    android:background="@drawable/recoil_ripple_effect_circle"
+    android:layout_width="@dimen/expand_view_on_device_scam_delete_icon_size"
+    android:layout_height="@dimen/expand_view_on_device_scam_delete_icon_size"
+    android:src="@drawable/ondevice_close_icon"
+    android:tint="@color/expand_on_device_delete_icon_color"
+    android:stateListAnimator="?attr/seslSmallTouchAnimator"/>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contact_list_pd_groups">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഗ്രൂപ്പ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ഗ്രൂപ്പുകൾ</item>
+    </plurals>
+    <plurals name="count_calls">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കോൾ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d കോളുകൾ</item>
+    </plurals>
+    <plurals name="delete_logs_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിങ്ങളുടെ കോൾ ചരിത്രത്തിൽ നിന്ന് %d ഇനം ഇല്ലാതാക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">നിങ്ങളുടെ കോൾ ചരിത്രത്തിൽ നിന്ന് %d ഇനങ്ങൾ ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="delete_n_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കോൺടാക്ടിനെ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d കോൺടാക്ടുകളെ ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="delete_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ടാഗ് ഇല്ലാതാക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ടാഗുകൾ ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-ന് ഗ്രൂപ്പ് ചാറ്റുകളിൽ ചേരാനാവില്ല. തിരഞ്ഞെടുത്ത സ്വീകർത്താക്കളിൽ നിന്ന് അവരെ നീക്കംചെയ്യുക, അല്ലെങ്കിൽ പകരം %2$d സ്വീകർത്താവിന് വരെ ഒരു ടെക്സ്റ്റ് സന്ദേശം അയയ്ക്കുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s-ന് ഗ്രൂപ്പ് ചാറ്റുകളിൽ ചേരാനാവില്ല. തിരഞ്ഞെടുത്ത സ്വീകർത്താക്കളിൽ നിന്ന് അവരെ നീക്കംചെയ്യുക, അല്ലെങ്കിൽ പകരം %2$d സ്വീകർത്താക്കൾക്ക് വരെ ഒരു ടെക്സ്റ്റ് സന്ദേശം അയയ്ക്കുക.</item>
+    </plurals>
+    <plurals name="group_list_pd_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d അംഗം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d അംഗങ്ങൾ</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഫോൺ നമ്പറുള്ള %d കോൺടാക്ട്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ഫോൺ നമ്പറുകളുള്ള %d കോൺടാക്ടുകൾ</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കോൺടാക്ട്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d കോൺടാക്ടുകള്‍</item>
+    </plurals>
+    <plurals name="max_available_contacts_count_linked_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിങ്ങളുടെ SIM കാർഡിലേക്ക് %d-ൽ കൂടുതൽ കോൺടാക്ടിനെ നീക്കാനാവില്ല. തിരഞ്ഞെടുത്ത കോൺടാക്ടുകളിലേക്ക് ലിങ്ക് ചെയ്യപ്പെടുന്ന കോൺടാക്ടുകളും എണ്ണപ്പെടും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">നിങ്ങളുടെ SIM കാർഡിലേക്ക് %d-ൽ കൂടുതൽ കോൺടാക്ടുകളെ നീക്കാനാവില്ല. തിരഞ്ഞെടുത്ത കോൺടാക്ടുകളിലേക്ക് ലിങ്ക് ചെയ്യപ്പെടുന്ന കോൺടാക്ടുകളും എണ്ണപ്പെടും.</item>
+    </plurals>
+    <plurals name="merge_contact_tip_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിങ്ങൾക്ക് %d ഡ്യൂപ്ലിക്കേറ്റ് കോൺടാക്റ്റ് ഉണ്ട്.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">നിങ്ങൾക്ക് %d ഡ്യൂപ്ലിക്കേറ്റ് കോൺടാക്റ്റുകൾ ഉണ്ട്.</item>
+    </plurals>
+    <plurals name="min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d മിനിറ്റ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="missed_call_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d മിസ്ഡ് കോൾ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d മിസ്ഡ് കോളുകൾ</item>
+    </plurals>
+    <plurals name="missed_call_suggestion">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s എന്നയാളിൽ നിന്ന് %1$d മിസ്‌ഡ് കോൾ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s എന്നയാളിൽ നിന്ന് %1$d മിസ്‌ഡ് കോളുകൾ.</item>
+    </plurals>
+    <plurals name="more_birthdays">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ജന്മദിനം കൂടി</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ജന്മദിനങ്ങൾ കൂടി</item>
+    </plurals>
+    <plurals name="move_multi_contact_delete_one_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കോൺടാക്ടിനെ ട്രാഷിലേക്ക് നീക്കുകയും 1 സമീപകാല ഇനത്തെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d കോൺടാക്ടുകളെ ട്രാഷിലേക്ക് നീക്കുകയും 1 സമീപകാല ഇനത്തെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="move_n_contact_to_the_trash">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കോൺടാക്ടിനെ ട്രാഷിലേക്ക് നീക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d കോൺടാക്ടുകളെ ട്രാഷിലേക്ക് നീക്കണോ?</item>
+    </plurals>
+    <plurals name="move_one_contact_delete_multi_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 കോൺടാക്ടിനെ ട്രാഷിലേക്ക് നീക്കുകയും %d സമീപകാല ഇനത്തെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 കോൺടാക്ടിനെ ട്രാഷിലേക്ക് നീക്കുകയും %d സമീപകാല ഇനങ്ങളെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="my_profile_emergency_contacts_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കോൺടാക്ട്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d കോൺടാക്ടുകള്‍</item>
+    </plurals>
+    <plurals name="new_voice_mail_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d പുതിയ ശബ്ദമെയിൽ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d പുതിയ ശബ്ദമെയിലുകൾ</item>
+    </plurals>
+    <plurals name="notification_contacts_export_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d കോൺടാക്ടിനെ %2$s-ലേക്ക് എക്സ്പോർട്ട് ചെയ്തു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d കോൺടാക്ടുകളെ %2$s-ലേക്ക് എക്സ്പോർട്ട് ചെയ്തു</item>
+    </plurals>
+    <plurals name="notification_contacts_import_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കോൺടാക്ടിനെ ഇംപോർട്ട് ചെയ്തു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d കോൺടാക്ടുകളെ ഇംപോർട്ട് ചെയ്തു</item>
+    </plurals>
+    <plurals name="notification_move_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കോണ്‍‌ടാക്ടിനെ നീക്കി</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d കോൺടാക്ടുകളെ നീക്കി</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d വ്യക്തി</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ആളുകൾ</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കണ്ടെത്തി</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d കണ്ടെത്തി</item>
+    </plurals>
+    <plurals name="sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d സെക്കന്‍റ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d സെക്കന്‍റ്</item>
+    </plurals>
+    <plurals name="some_contacts_not_Export_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കോൺടാക്ടിന്റെ ഫോൺ നമ്പർ 20 അക്കങ്ങളിലും ദൈർഘ്യമുള്ളത് ആയതിനാൽ അത് SIM-ലേക്ക് എക്‌സ്‌പോർട്ട് ചെയ്യാനായില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d കോൺടാക്ടുകളുടെ ഫോൺ നമ്പറുകൾ 20 അക്കങ്ങളിലും ദൈർഘ്യമുള്ളത് ആയതിനാൽ അവ SIM-ലേക്ക് എക്‌സ്‌പോർട്ട് ചെയ്യാനായില്ല.</item>
+    </plurals>
+    <plurals name="some_contacts_not_moved_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കോൺടാക്ടിന്റെ ഫോൺ നമ്പർ 20 അക്കങ്ങളിലും ദൈർഘ്യമുള്ളത് ആയതിനാൽ അത് SIM-ലേക്ക് നീക്കാനായില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d കോൺടാക്ടുകളുടെ ഫോൺ നമ്പറുകൾ 20 അക്കങ്ങളിലും ദൈർഘ്യമുള്ളത് ആയതിനാൽ അവ SIM-ലേക്ക് നീക്കാനായില്ല.</item>
+    </plurals>
+    <plurals name="total_blocked_count_one">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">കഴിഞ്ഞ %d ദിവസത്തിനിടയിൽ 1 കോൾ തടഞ്ഞു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">കഴിഞ്ഞ %d ദിവസത്തിനിടയിൽ 1 കോൾ തടഞ്ഞു</item>
+    </plurals>
+    <plurals name="total_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ടാഗ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ടാഗുകൾ</item>
+    </plurals>
+    <plurals name="trash_detail_delete_info">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-ന് %1$s-ൽ നിന്ന് ഇല്ലാതാക്കി. അവയെ എന്നത്തേക്കുമായി ഇല്ലാതാക്കുന്നതിന് ഇനി %3$d ദിവസം.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s-ന് %1$s-ൽ നിന്ന് ഇല്ലാതാക്കി. അവയെ എന്നത്തേക്കുമായി ഇല്ലാതാക്കുന്നതിന് ഇനി %3$d ദിവസം.</item>
+    </plurals>
+</resources>

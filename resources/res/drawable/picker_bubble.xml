@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/dialtacts_ripple_list_color">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/sub_contact_picker_bubble_item_background_color"/>
+            <padding
+                android:left="16dp"
+                android:right="5dp"/>
+            <corners android:radius="15dp"/>
+        </shape>
+    </item>
+</ripple>

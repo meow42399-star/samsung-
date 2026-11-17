@@ -1,0 +1,9 @@
+###### Class v2.j (v2.j)
+.class public interface abstract Lv2/j;
+.super Ljava/lang/Object;
+.source "r8-map-id-a7353cfb79c11d52bee1cfbeda32e9327d9a3375cf680eb05b4dd51932f0324c"
+
+
+# virtual methods
+.method public abstract h(Lv2/i;)Ljava/lang/Object;
+.end method

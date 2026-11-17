@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/search_history_item_label_text_size"
+        android:textColor="@color/search_filter_text_color"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/search_filter_category_name"
+        android:background="@drawable/recoil_effect_search_filter_flexbox_bg"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/recent_search_item_margin_bottom"
+        android:minHeight="@dimen/search_filter_category_min_height"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:layout_marginEnd="@dimen/recent_search_item_margin_end"
+        android:stateListAnimator="?attr/seslSmallTouchAnimator"
+        android:paddingHorizontal="@dimen/search_history_item_label_padding_start"
+        android:paddingVertical="@dimen/search_filter_item_padding_vertical"/>
+</LinearLayout>

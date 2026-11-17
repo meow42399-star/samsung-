@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/recents_widgets_more_button_parent"
+    android:paddingTop="@dimen/recents_widget_more_button_top_padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false">
+    <LinearLayout
+        android:background="@color/zxing_transparent"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/bottom_more_button"
+        android:background="@drawable/cover_screen_recents_more_btn_bg"
+        android:clickable="true"
+        android:layout_width="68dp"
+        android:layout_height="24dp">
+        <TextView
+            android:textSize="12sp"
+            android:textColor="@color/cover_screen_more_button_text_color"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/more_button"
+            android:textAlignment="center"
+            style="@style/Regular"/>
+    </LinearLayout>
+</LinearLayout>

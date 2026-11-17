@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="call_log_item_take_skip_count">13</integer>
+</resources>

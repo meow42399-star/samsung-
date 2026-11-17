@@ -1,0 +1,61 @@
+package g1;
+
+/* JADX INFO: compiled from: r8-map-id-a7353cfb79c11d52bee1cfbeda32e9327d9a3375cf680eb05b4dd51932f0324c */
+/* JADX INFO: loaded from: classes.dex */
+public final class f {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final long f11720a;
+
+    public /* synthetic */ f(long j3) {
+        this.f11720a = j3;
+    }
+
+    public static final boolean a(long j3, long j10) {
+        return j3 == j10;
+    }
+
+    public static final float b(long j3) {
+        if (j3 != 9205357640488583168L) {
+            return Float.intBitsToFloat((int) (j3 & 4294967295L));
+        }
+        throw new IllegalStateException("Size is unspecified");
+    }
+
+    public static final float c(long j3) {
+        if (j3 != 9205357640488583168L) {
+            return Float.intBitsToFloat((int) (j3 >> 32));
+        }
+        throw new IllegalStateException("Size is unspecified");
+    }
+
+    public static final boolean d(long j3) {
+        if (j3 == 9205357640488583168L) {
+            throw new IllegalStateException("Size is unspecified");
+        }
+        long j10 = j3 & (~((((-9223372034707292160L) & j3) >>> 31) * ((long) (-1))));
+        return ((j10 & 4294967295L) & (j10 >>> 32)) == 0;
+    }
+
+    public static String e(long j3) {
+        if (j3 == 9205357640488583168L) {
+            return "Size.Unspecified";
+        }
+        return "Size(" + a.a.T(c(j3)) + ", " + a.a.T(b(j3)) + ')';
+    }
+
+    public final boolean equals(Object obj) {
+        if (obj instanceof f) {
+            return this.f11720a == ((f) obj).f11720a;
+        }
+        return false;
+    }
+
+    public final int hashCode() {
+        return Long.hashCode(this.f11720a);
+    }
+
+    public final String toString() {
+        return e(this.f11720a);
+    }
+}

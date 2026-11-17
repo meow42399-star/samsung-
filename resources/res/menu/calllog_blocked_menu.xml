@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/tw_ic_bb_delete_mtrl"
+        android:id="@+id/menu_delete_calllogs"
+        android:visible="false"
+        android:title="@string/menu_delete_all_contact"
+        app:iconTint="@color/action_bar_action_button_color"
+        app:showAsAction="always"/>
+</menu>

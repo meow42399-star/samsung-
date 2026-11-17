@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/contact_list_end_icon_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/w_list_secondary_font_size"
+        android:textColor="@color/secondary_text_color"
+        android:id="@+id/contact_list_item_found_count"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewEnd"
+        android:layout_marginEnd="@dimen/group_detail_section_header_found_count_margin_end"/>
+    <ImageView
+        android:id="@+id/contact_list_item_plus"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/contact_icon_plus"
+        android:contentDescription="@string/menu_add"/>
+    <TextView
+        android:textAppearance="@style/ContactListBadgeTextStyle"
+        android:id="@+id/contact_list_item_badge"
+        android:background="@drawable/new_badge_background"
+        android:visibility="gone"
+        android:layout_width="@dimen/contact_list_badge_size"
+        android:layout_height="@dimen/contact_list_badge_size"
+        android:textAlignment="center"
+        android:layout_marginEnd="@dimen/contact_list_badge_margin_end"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@color/dialpad_toggle_btn_color"
+    android:height="@dimen/dialpad_toggle_btn_size"
+    android:width="@dimen/dialpad_toggle_btn_size"
+    android:drawable="@drawable/b5_cover_ic_toggle_btn_log"
+    class="com.samsung.android.dialtacts.common.photo.DrawableWrapper"/>

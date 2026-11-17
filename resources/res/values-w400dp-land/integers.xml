@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="dialpad_buttons_weight_dex">150</integer>
+    <integer name="dialpad_edit_text_weight_dex">450</integer>
+    <integer name="dialpad_keypad_weight_dex">400</integer>
+</resources>

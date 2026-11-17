@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialtacts.common.widget.RoundedCornerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/sign_in_to_samsung_account_card"
+    android:background="@color/detail_view_card_background_color"
+    android:paddingTop="@dimen/sign_in_to_samsung_account_card_padding"
+    android:paddingBottom="@dimen/sign_in_to_samsung_account_card_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/contact_detail_card_padding_start_end"
+    android:paddingEnd="@dimen/contact_detail_card_padding_start_end">
+    <TextView
+        android:textAppearance="@style/Regular"
+        android:textSize="@dimen/contact_detail_text_size_18"
+        android:textColor="@color/primary_text_color"
+        android:id="@+id/sign_in_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in_samsung_account_title"/>
+    <TextView
+        android:textAppearance="@style/Regular"
+        android:textSize="@dimen/contact_detail_text_size_13"
+        android:textColor="@color/secondary_text_color"
+        android:id="@+id/sign_in_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in_samsung_account_text"/>
+</com.samsung.android.dialtacts.common.widget.RoundedCornerLayout>

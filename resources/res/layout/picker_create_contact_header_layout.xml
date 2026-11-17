@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/dialtacts_background_color"
+    android:paddingTop="@dimen/create_button_padding_top"
+    android:focusable="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@+id/start_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.1"/>
+    <Button
+        android:textSize="@dimen/create_contact_button_text_size"
+        android:textColor="@color/create_button_text_color"
+        android:ellipsize="end"
+        android:id="@+id/create_contact_button"
+        android:background="@drawable/picker_create_contact_button_bg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/create_button_width"
+        android:minHeight="@dimen/create_button_height"
+        android:text="@string/pickerNewContactText"
+        android:maxLines="2"
+        android:paddingHorizontal="@dimen/create_contact_button_side_padding"
+        android:paddingVertical="@dimen/create_contact_button_vertical_padding"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/end_guideline"
+        app:layout_constraintStart_toStartOf="@+id/start_guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_default="wrap"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@+id/end_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.9"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

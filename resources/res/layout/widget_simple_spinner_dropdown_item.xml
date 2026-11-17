@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SeslDropDownItemTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="16sp"
+    android:ellipsize="marquee"
+    android:paddingTop="@dimen/widget_simple_spinner_padding"
+    android:paddingBottom="@dimen/widget_simple_spinner_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:checked="false"
+    android:minHeight="@dimen/widget_simple_spinner_min_height"
+    android:singleLine="true"
+    android:fontFamily="sec-roboto-light"
+    android:stateListAnimator="?attr/seslSmallTouchAnimator"
+    style="@style/ColorSpinnerDropDownItemStyle"/>

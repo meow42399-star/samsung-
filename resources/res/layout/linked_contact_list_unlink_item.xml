@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:id="@+id/unlink_all_container"
+    android:background="@color/dialtacts_background_color"
+    android:paddingBottom="@dimen/linked_contact_unlink_all_padding_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="20dp">
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/unlink_all_button"
+        android:background="@drawable/contact_detail_history_button_recoil_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unlink_all"
+        style="@style/ContactDetailButtonStyle"/>
+    <ProgressBar
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/unlink_all_progress"
+        android:visibility="gone"
+        android:layout_width="@dimen/linked_contact_unlink_all_progress_size"
+        android:layout_height="@dimen/linked_contact_unlink_all_progress_size"/>
+</FrameLayout>

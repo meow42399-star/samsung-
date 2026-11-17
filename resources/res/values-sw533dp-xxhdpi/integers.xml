@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="dialpad_keypadview_weight_percent_tab_delta">630</integer>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="#e46244"
+    android:drawable="@drawable/phone_smartcall_detail_ic_unsaved_spam_lv2"
+    class="com.samsung.android.dialtacts.common.photo.DrawableWrapper"/>

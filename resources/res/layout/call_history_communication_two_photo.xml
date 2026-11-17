@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/photo1"
+        android:layout_width="@dimen/call_history_photo_view_half_size"
+        android:layout_height="@dimen/call_history_photo_view_size"/>
+    <ImageView
+        android:id="@+id/photo2"
+        android:layout_width="@dimen/call_history_photo_view_half_size"
+        android:layout_height="@dimen/call_history_photo_view_size"
+        android:layout_toEndOf="@+id/photo1"/>
+</RelativeLayout>

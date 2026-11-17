@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialtacts.common.contactdetail.view.ProfilePictureAndSharingCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/profile_picture_and_sharing_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.samsung.android.dialtacts.common.widget.RoundedCornerLayout
+        android:orientation="vertical"
+        android:id="@+id/profile_picture_and_sharing_card_container"
+        android:background="@color/detail_view_card_background_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/profile_picture_item"
+            layout="@layout/profile_picture_card"/>
+        <View
+            android:id="@+id/profile_picture_and_sharing_card_divider"
+            android:visibility="gone"
+            style="@style/ContactDetailDividerStyle"/>
+        <include
+            android:id="@+id/profile_sharing_item"
+            layout="@layout/profile_sharing_card"/>
+        <View
+            android:id="@+id/profile_sharing_and_birthday_card_divider"
+            android:visibility="gone"
+            style="@style/ContactDetailDividerStyle"/>
+        <include
+            android:id="@+id/birthday_sharing_item"
+            layout="@layout/profile_sharing_card"/>
+    </com.samsung.android.dialtacts.common.widget.RoundedCornerLayout>
+</com.samsung.android.dialtacts.common.contactdetail.view.ProfilePictureAndSharingCardView>

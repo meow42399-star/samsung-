@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialer.calllog.view.widget.CallLogTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="@style/Regular"
+    android:textSize="@dimen/call_log_list_item_sub_badge_text_size"
+    android:textColor="@color/call_history_one_pane_cp_logo_button_text_color"
+    android:ellipsize="end"
+    android:id="@+id/text_call_log_sub_badge"
+    android:background="@drawable/call_log_sub_text_badge_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:singleLine="true"
+    android:textDirection="ltr"
+    android:paddingHorizontal="@dimen/call_log_list_item_sub_text_badge_padding_horizontal"
+    android:paddingVertical="@dimen/call_log_list_item_sub_text_badge_padding_vertical"
+    android:fallbackLineSpacing="false"/>

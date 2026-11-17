@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialtacts.common.contactslist.ContactListPhotoView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:importantForAccessibility="no">
+    <ImageView
+        android:id="@+id/round_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="no"
+        android:clipToOutline="true"/>
+    <FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/round_select"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/contact_list_select_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/contact_list_select_background"
+            android:alpha="0.85"/>
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_gravity="center"
+            android:id="@+id/contact_list_select_view"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:lottie_autoPlay="false"
+            app:lottie_fileName="checkBox_callerID.json"
+            app:lottie_loop="false"/>
+    </FrameLayout>
+</com.samsung.android.dialtacts.common.contactslist.ContactListPhotoView>

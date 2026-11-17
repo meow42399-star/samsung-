@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/action_bar_tab_color"
+    android:paddingTop="@dimen/smart_switch_service_tip_top_bottom_padding"
+    android:paddingBottom="@dimen/basic_token_sys_spacing_md_100"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/progress_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/w_list_left_right_padding"
+        android:layout_marginEnd="@dimen/smart_switch_service_tip_progress_margin_end"
+        style="?android:attr/progressBarStyleSmall"/>
+    <TextView
+        android:id="@+id/smart_switch_service_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/smart_switch_service_tip"
+        android:textDirection="locale"
+        android:paddingEnd="@dimen/w_list_left_right_padding"/>
+</LinearLayout>

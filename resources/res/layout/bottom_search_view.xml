@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/bottom_search_toolbar_outer_container"
+    android:clipChildren="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.samsung.android.dialtacts.common.widget.bottomsearchview.BottomSearchViewInnerContainer
+        android:orientation="vertical"
+        android:id="@+id/bottom_search_view_inner_container"
+        android:focusable="false"
+        android:clipChildren="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:gravity="center"
+            android:clipChildren="false"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+            <com.samsung.android.dialtacts.common.widget.bottomsearchview.BottomSearchView
+                android:layout_gravity="center"
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/bottom_search_view_height"
+                style="@style/BottomSearchViewStyle"/>
+        </FrameLayout>
+    </com.samsung.android.dialtacts.common.widget.bottomsearchview.BottomSearchViewInnerContainer>
+</com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout>

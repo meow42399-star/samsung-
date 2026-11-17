@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_circle_background"/>
+    <item
+        android:height="@dimen/expand_view_multi_number_next_size"
+        android:width="@dimen/expand_view_multi_number_next_size"
+        android:drawable="@drawable/ic_next_forward_chevron_right"
+        android:left="@dimen/expand_view_multi_number_next_padding"
+        android:top="@dimen/expand_view_multi_number_next_padding"
+        android:right="@dimen/expand_view_multi_number_next_padding"
+        android:bottom="@dimen/expand_view_multi_number_next_padding"/>
+</layer-list>

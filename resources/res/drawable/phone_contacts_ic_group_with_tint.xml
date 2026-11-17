@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="5dp"
+    android:insetRight="5dp"
+    android:insetTop="5dp"
+    android:insetBottom="5dp">
+    <drawable
+        android:tint="@color/basic_token_sys_on_surface_container_highest"
+        android:drawable="@drawable/ic_photo_id_person_2"
+        class="com.samsung.android.dialtacts.common.photo.DrawableWrapper"/>
+</inset>

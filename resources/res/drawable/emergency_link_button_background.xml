@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/dialpad_widget_search_list_bg_color"/>
+    <corners android:radius="24dp"/>
+    <padding
+        android:left="@dimen/dialpad_search_emergency_link_button_background_top_bottom_padding"
+        android:top="@dimen/dialpad_search_emergency_link_button_background_top_bottom_padding"
+        android:right="@dimen/dialpad_search_emergency_link_button_background_top_bottom_padding"
+        android:bottom="@dimen/dialpad_search_emergency_link_button_background_top_bottom_padding"/>
+</shape>

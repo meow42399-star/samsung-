@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.samsung.android.dialer.calllog.view.widget.CallLogItemLayout
+        android:orientation="vertical"
+        android:id="@+id/item_call_log"
+        android:background="@drawable/cover_screen_searchlist_item_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/w_list_one_line_min_height"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <LinearLayout
+        android:id="@+id/call_button_container"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/cover_screen_calllog_item_call_button"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/dialpad_widget_call_button"
+            android:contentDescription="@string/call"
+            android:layout_marginStart="@dimen/recents_widget_call_button_marginStart"
+            android:layout_marginEnd="@dimen/recent_widget_call_button_marginEnd"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/w_list_sub_header_margin_start"
+    android:paddingEnd="@dimen/w_list_item_padding_end">
+    <TextView
+        android:textSize="@dimen/permissions_header_text_size"
+        android:textColor="@color/primary_text_color"
+        android:id="@+id/name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

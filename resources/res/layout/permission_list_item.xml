@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/zxing_transparent"
+    android:focusable="false"
+    android:clickable="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/w_dialog_list_item_min_height">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_width="@dimen/permission_dialog_icon_container"
+        android:layout_height="@dimen/permission_dialog_icon_container"
+        android:layout_marginEnd="@dimen/permission_dialog_icon_right_margin">
+        <ImageView
+            android:id="@+id/permission_icon"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="@dimen/permission_dialog_icon_size"
+            android:layout_height="@dimen/permission_dialog_icon_size"
+            android:tint="@color/permission_list_item_color"/>
+    </LinearLayout>
+    <TextView
+        android:textAppearance="@style/textAppearancePermissionDialogListItem"
+        android:ellipsize="middle"
+        android:gravity="center_vertical"
+        android:id="@+id/permission_text_view"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"/>
+</LinearLayout>

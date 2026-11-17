@@ -1,0 +1,4 @@
+###### Class com.google.android.gms.kids.h (com.google.android.gms.kids.h)
+.class public abstract Lcom/google/android/gms/kids/h;
+.super Landroid/app/Service;
+.source "r8-map-id-a7353cfb79c11d52bee1cfbeda32e9327d9a3375cf680eb05b4dd51932f0324c"

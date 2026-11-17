@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/image_view_tag"
+    android:layout_width="@dimen/call_log_list_item_tag_icon_size"
+    android:layout_height="@dimen/call_log_list_item_tag_icon_size"
+    android:src="@drawable/phone_expand_ic_add_tag"
+    android:tint="@color/call_log_detail_memo_icon_color"
+    android:contentDescription="@string/tag_name"
+    android:paddingStart="@dimen/call_log_list_item_tag_margin_start"/>

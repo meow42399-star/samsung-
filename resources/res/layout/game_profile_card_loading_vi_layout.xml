@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:id="@+id/game_loading_view"
+    android:background="@drawable/game_profile_card_loading_vi"
+    android:visibility="gone"
+    android:layout_width="131dp"
+    android:layout_height="174.55dp"
+    android:elevation="2.46dp">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/person_icon"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:src="@drawable/game_profile_card_loading_person"
+        android:tint="#ddc6e6"
+        android:contentDescription="@null"/>
+    <FrameLayout
+        android:id="@+id/soft_glow_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:layout_gravity="center"
+            android:id="@+id/soft_glow_view"
+            android:layout_width="45dp"
+            android:layout_height="300dp"
+            android:alpha="0"
+            android:rotation="18"/>
+        <View
+            android:layout_gravity="center"
+            android:id="@+id/light_streak_view"
+            android:layout_width="8dp"
+            android:layout_height="300dp"
+            android:alpha="0"
+            android:rotation="18"/>
+    </FrameLayout>
+</FrameLayout>

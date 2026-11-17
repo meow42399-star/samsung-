@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/container_secondary_post_icon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ViewStub
+        android:id="@+id/image_call_log_validation_icon_secondary"
+        android:layout="@layout/layout_call_log_validation_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ViewStub
+        android:id="@+id/stub_phishing_icon_secondary"
+        android:layout="@layout/layout_call_log_phishing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ViewStub
+        android:id="@+id/stub_on_device_scam_cancel_icon"
+        android:layout="@layout/on_device_scam_cancel_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/expand_view_on_device_scam_delete_icon_start_margin"/>
+</LinearLayout>

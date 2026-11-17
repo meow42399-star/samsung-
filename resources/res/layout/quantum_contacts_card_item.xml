@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/dialtacts_ripple_button_bg"
+    android:paddingTop="@dimen/expanding_entry_card_item_padding_top_for_normal"
+    android:paddingBottom="@dimen/expanding_entry_card_item_padding_bottom_for_normal"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/contact_detail_card_padding_start_end"
+    android:paddingEnd="@dimen/contact_detail_card_padding_start_end">
+    <TextView
+        android:textAppearance="@style/Regular"
+        android:textSize="@dimen/quickcontact_sub_header_text_size"
+        android:textColor="@color/quickcontact_entry_sub_header_text_color"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:fontFamily="@style/Regular"
+        android:textAlignment="viewStart"/>
+</RelativeLayout>

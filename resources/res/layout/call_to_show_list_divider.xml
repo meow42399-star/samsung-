@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/w_section_divider_header_top_bottom_padding"
+        android:src="@drawable/dot_divider"
+        android:layerType="software"
+        android:paddingStart="@dimen/w_multiple_selection_checkbox_margin_start"
+        android:paddingEnd="@dimen/w_list_item_padding_end"/>
+</FrameLayout>

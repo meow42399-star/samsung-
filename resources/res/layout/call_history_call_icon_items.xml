@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout style="@style/callHistoryCallIconContainerLayout">
+        <LinearLayout style="@style/callHistoryCallIconTouchContainerLayout">
+            <ImageView
+                android:id="@+id/voice_call_icon"
+                style="@style/callHistoryCallIconLayout"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/callHistoryCallIconContainerLayout">
+        <LinearLayout style="@style/callHistoryCallIconTouchContainerLayout">
+            <ImageView
+                android:id="@+id/additional_icon"
+                style="@style/callHistoryCallIconLayout"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/callHistoryCallIconContainerLayout">
+        <LinearLayout style="@style/callHistoryCallIconTouchContainerLayout">
+            <ImageView
+                android:id="@+id/call_plus_icon"
+                style="@style/callHistoryCallIconLayout"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/callHistoryCallIconContainerLayout">
+        <LinearLayout style="@style/callHistoryCallIconTouchContainerLayout">
+            <ImageView
+                android:id="@+id/message_icon"
+                style="@style/callHistoryCallIconLayout"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/callHistoryCallIconContainerLayout">
+        <LinearLayout style="@style/callHistoryCallIconTouchContainerLayout">
+            <ImageView
+                android:id="@+id/video_call_icon"
+                style="@style/callHistoryCallIconLayout"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/callHistoryCallIconContainerLayout">
+        <LinearLayout style="@style/callHistoryCallIconTouchContainerLayout">
+            <ImageView
+                android:id="@+id/voicemail_icon"
+                style="@style/callHistoryCallIconLayout"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/callHistoryCallIconContainerLayout">
+        <LinearLayout style="@style/callHistoryCallIconTouchContainerLayout">
+            <ImageView
+                android:id="@+id/email_icon"
+                style="@style/callHistoryCallIconLayout"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

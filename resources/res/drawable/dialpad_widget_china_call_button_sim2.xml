@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/dialpad_widget_call_button_background_for_china"/>
+            <size
+                android:height="@dimen/dialpad_widget_china_call_button_container_size"
+                android:width="@dimen/dialpad_widget_china_call_button_container_size"/>
+            <corners android:radius="0dp"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="end"
+        android:height="@dimen/dialpad_widget_china_sim_type_size"
+        android:width="@dimen/dialpad_widget_china_sim_type_size"
+        android:drawable="@drawable/multi_sim_ic_16_psim_02"/>
+    <item
+        android:gravity="center"
+        android:height="@dimen/dialpad_widget_china_call_button_height"
+        android:width="@dimen/dialpad_widget_china_call_button_width"
+        android:drawable="@drawable/dialpad_widget_call_icon_wrapper"/>
+</layer-list>

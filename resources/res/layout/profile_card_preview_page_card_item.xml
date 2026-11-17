@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:id="@+id/profile_card_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.samsung.android.dialtacts.common.profilecard.widget.ProfileCardPreview
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/profile_card_view"
+        android:background="@drawable/profile_card_preview_card_outline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="@drawable/profile_card_preview_card_border"
+        android:tooltipText="@string/description_profile_card"
+        android:clipToOutline="true"
+        app:apply_screen_ratio="true"/>
+</FrameLayout>

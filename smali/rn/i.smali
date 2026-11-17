@@ -1,0 +1,149 @@
+###### Class rn.i (rn.i)
+.class public final Lrn/i;
+.super Lrn/l;
+.source "r8-map-id-a7353cfb79c11d52bee1cfbeda32e9327d9a3375cf680eb05b4dd51932f0324c"
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lrn/i;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public static final a:Lrn/i;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 2
+
+    .line 1
+    new-instance v0, Lrn/i;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lrn/i;->a:Lrn/i;
+
+    .line 7
+    .line 8
+    new-instance v0, Lof/j;
+
+    .line 9
+    .line 10
+    const/16 v1, 0x14
+
+    .line 11
+    .line 12
+    invoke-direct {v0, v1}, Lof/j;-><init>(I)V
+
+    .line 13
+    .line 14
+    .line 15
+    sput-object v0, Lrn/i;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    .line 16
+    .line 17
+    return-void
+.end method
+
+
+# virtual methods
+.method public final describeContents()I
+    .registers 1
+
+    .line 1
+    const/4 p0, 0x0
+
+    .line 2
+    return p0
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
+    .registers 3
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    if-ne p0, p1, :cond_4
+
+    .line 3
+    .line 4
+    return v0
+
+    .line 5
+    :cond_4
+    instance-of p0, p1, Lrn/i;
+
+    .line 6
+    .line 7
+    if-nez p0, :cond_a
+
+    .line 8
+    .line 9
+    const/4 p0, 0x0
+
+    .line 10
+    return p0
+
+    .line 11
+    :cond_a
+    return v0
+.end method
+
+.method public final hashCode()I
+    .registers 1
+
+    .line 1
+    const p0, 0x297e1410
+
+    .line 2
+    .line 3
+    .line 4
+    return p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .registers 1
+
+    .line 1
+    const-string p0, "ShowingGuide"
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final writeToParcel(Landroid/os/Parcel;I)V
+    .registers 3
+
+    .line 1
+    const-string p0, "dest"
+
+    .line 2
+    .line 3
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/l;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const/4 p0, 0x1
+
+    .line 7
+    invoke-virtual {p1, p0}, Landroid/os/Parcel;->writeInt(I)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+.end method

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.graphics.drawable.SeslRecoilDrawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" app:seslRecoilColor="@color/dialtacts_ripple_button_color">
+    <item>
+        <selector>
+            <item android:state_selected="false">
+                <shape android:shape="rectangle">
+                    <corners android:radius="18.5dp"/>
+                    <solid android:color="@color/zxing_transparent"/>
+                    <stroke
+                        android:width="1dp"
+                        android:color="@color/w_list_divider_color"/>
+                </shape>
+            </item>
+            <item android:state_selected="true">
+                <shape android:shape="rectangle">
+                    <corners android:radius="18.5dp"/>
+                    <solid android:color="@color/detail_playback_progress_tint"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+</androidx.appcompat.graphics.drawable.SeslRecoilDrawable>

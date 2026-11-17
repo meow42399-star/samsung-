@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="dialpad_buttons_ratio_foldable_2pane">850</integer>
+</resources>

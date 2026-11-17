@@ -1,0 +1,204 @@
+###### Class s1.m (s1.m)
+.class public final Ls1/m;
+.super Lkotlin/jvm/internal/m;
+.source "r8-map-id-a7353cfb79c11d52bee1cfbeda32e9327d9a3375cf680eb05b4dd51932f0324c"
+
+# interfaces
+.implements Lc70/k;
+
+
+# instance fields
+.field public final synthetic b:I
+
+.field public final synthetic c:Lu2/n;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lu2/n;I)V
+    .registers 3
+
+    .line 1
+    iput p2, p0, Ls1/m;->b:I
+
+    .line 2
+    .line 3
+    iput-object p1, p0, Ls1/m;->c:Lu2/n;
+
+    .line 4
+    .line 5
+    const/4 p1, 0x1
+
+    .line 6
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/m;-><init>(I)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 4
+
+    .line 1
+    iget v0, p0, Ls1/m;->b:I
+
+    .line 2
+    .line 3
+    packed-switch v0, :pswitch_data_44
+
+    .line 4
+    .line 5
+    .line 6
+    check-cast p1, Ly1/z0;
+
+    .line 7
+    .line 8
+    instance-of v0, p1, Lz1/p;
+
+    .line 9
+    .line 10
+    if-eqz v0, :cond_e
+
+    .line 11
+    .line 12
+    check-cast p1, Lz1/p;
+
+    .line 13
+    .line 14
+    goto :goto_f
+
+    .line 15
+    :cond_e
+    const/4 p1, 0x0
+
+    .line 16
+    :goto_f
+    iget-object p0, p0, Ls1/m;->c:Lu2/n;
+
+    .line 17
+    .line 18
+    if-eqz p1, :cond_25
+
+    .line 19
+    .line 20
+    new-instance v0, Lf1/n;
+
+    .line 21
+    .line 22
+    const/16 v1, 0xa
+
+    .line 23
+    .line 24
+    invoke-direct {v0, v1, p1, p0}, Lf1/n;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
+
+    .line 25
+    .line 26
+    .line 27
+    iget-object p1, p1, Lz1/p;->z0:Lr0/e;
+
+    .line 28
+    .line 29
+    invoke-virtual {p1, v0}, Lr0/e;->i(Ljava/lang/Object;)Z
+
+    .line 30
+    .line 31
+    .line 32
+    move-result v1
+
+    .line 33
+    if-nez v1, :cond_25
+
+    .line 34
+    .line 35
+    invoke-virtual {p1, v0}, Lr0/e;->b(Ljava/lang/Object;)V
+
+    .line 36
+    .line 37
+    .line 38
+    :cond_25
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->removeAllViewsInLayout()V
+
+    .line 39
+    .line 40
+    .line 41
+    sget-object p0, Lo60/a0;->a:Lo60/a0;
+
+    .line 42
+    .line 43
+    return-object p0
+
+    .line 44
+    :pswitch_2b
+    check-cast p1, Landroid/view/MotionEvent;
+
+    .line 45
+    .line 46
+    invoke-virtual {p1}, Landroid/view/MotionEvent;->getActionMasked()I
+
+    .line 47
+    .line 48
+    .line 49
+    move-result v0
+
+    .line 50
+    iget-object p0, p0, Ls1/m;->c:Lu2/n;
+
+    .line 51
+    .line 52
+    packed-switch v0, :pswitch_data_4a
+
+    .line 53
+    .line 54
+    .line 55
+    invoke-virtual {p0, p1}, Landroid/view/View;->dispatchGenericMotionEvent(Landroid/view/MotionEvent;)Z
+
+    .line 56
+    .line 57
+    .line 58
+    move-result p0
+
+    .line 59
+    goto :goto_3f
+
+    .line 60
+    :pswitch_3b
+    invoke-virtual {p0, p1}, Landroid/view/View;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
+
+    .line 61
+    .line 62
+    .line 63
+    move-result p0
+
+    .line 64
+    :goto_3f
+    invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    .line 65
+    .line 66
+    .line 67
+    move-result-object p0
+
+    .line 68
+    return-object p0
+
+    .line 69
+    :pswitch_data_44
+    .packed-switch 0x0
+        :pswitch_2b
+    .end packed-switch
+
+    .line 70
+    :pswitch_data_4a
+    .packed-switch 0x0
+        :pswitch_3b
+        :pswitch_3b
+        :pswitch_3b
+        :pswitch_3b
+        :pswitch_3b
+        :pswitch_3b
+        :pswitch_3b
+    .end packed-switch
+.end method

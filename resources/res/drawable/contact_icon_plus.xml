@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:tint="@color/editor_plus_icon_tint"
+        android:drawable="@drawable/tw_list_icon_add_mtrl_modified"/>
+    <item android:drawable="@drawable/dialtacts_ripple_button_bg_radius"/>
+</layer-list>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <vector
+            android:height="174.55dp"
+            android:width="131dp"
+            android:viewportWidth="131"
+            android:viewportHeight="175">
+            <path
+                android:fillColor="@drawable/_game_profile_card_loading_vi__0_res_0x7f08004d"
+                android:pathData="M14.7895,0.0573H116.2961A14.7467,14.7467 0,0 1,131.0428 14.804V159.8586A14.7467,14.7467 0,0 1,116.2961 174.6053H14.7895A14.7467,14.7467 0, 0 1,0.0428 159.8586V14.804A14.7467,14.7467 0, 0 1,14.7895 0.0573Z"/>
+            <path
+                android:fillColor="#00000000"
+                android:pathData="M14.7895,1.5573H116.2961A13.2467,13.2467 0,0 1,129.5428 14.804V159.8586A13.2467,13.2467 0,0 1,116.2961 173.1053H14.7895A13.2467,13.2467 0,0 1,1.5428 159.8586V14.804A13.2467,13.2467 0,0 1,14.7895 1.5573Z"
+                android:strokeColor="#ffddc6e6"
+                android:strokeWidth="3"/>
+        </vector>
+    </item>
+    <item
+        android:left="5.637dp"
+        android:top="5.774dp"
+        android:right="5.637dp"
+        android:bottom="5.774dp">
+        <vector
+            android:height="163dp"
+            android:width="120dp"
+            android:viewportWidth="120"
+            android:viewportHeight="163">
+            <path
+                android:fillColor="#00000000"
+                android:pathData="M14.75,1.4425H104.976A13.3075,13.3075 0,0 1,118.2835 14.75V148.25A13.3075,13.3075 0,0 1,104.976 161.5575H14.75A13.3075,13.3075 0,0 1,1.4425 148.25V14.75A13.3075,13.3075 0,0 1,14.75 1.4425Z"
+                android:strokeColor="#33ffffff"
+                android:strokeWidth="2.885"/>
+        </vector>
+    </item>
+</layer-list>

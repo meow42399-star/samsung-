@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@color/bottom_bar_button_icon_color"
+    android:height="@dimen/contact_detail_toolbar_menu_icon_size"
+    android:width="@dimen/contact_detail_toolbar_menu_icon_size"
+    android:drawable="@drawable/tw_ic_bb_edit"
+    class="com.samsung.android.dialtacts.common.photo.DrawableWrapper"/>

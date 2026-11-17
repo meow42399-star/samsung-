@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@color/dialtacts_home_as_up_indicator_color"
+    android:height="24dp"
+    android:width="24dp"
+    android:drawable="@drawable/tw_ic_ab_back_mtrl"
+    android:autoMirrored="true"
+    class="com.samsung.android.dialtacts.common.photo.DrawableWrapper"/>

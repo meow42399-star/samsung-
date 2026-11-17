@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="dialpad_button_size_ratio_dex">1000</integer>
+    <integer name="dialpad_keypadview_weight_percent_tab">650</integer>
+    <integer name="dialpad_search_list_visible_count">4</integer>
+</resources>

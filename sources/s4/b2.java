@@ -1,0 +1,18 @@
+package s4;
+
+import android.os.Trace;
+import java.util.concurrent.atomic.AtomicBoolean;
+
+/* JADX INFO: compiled from: r8-map-id-a7353cfb79c11d52bee1cfbeda32e9327d9a3375cf680eb05b4dd51932f0324c */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class b2 {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final AtomicBoolean f22916a = new AtomicBoolean(false);
+
+    public static void a() {
+        if (f22916a.get()) {
+            Trace.endAsyncSection("GlanceAppWidget::update", 0);
+        }
+    }
+}

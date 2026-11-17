@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:height="@dimen/sim_account_big_bg_size"
+        android:width="@dimen/sim_account_big_bg_size"
+        android:drawable="@drawable/contacts_drawer_ic_bg"/>
+    <item
+        android:gravity="center"
+        android:height="@dimen/sim_account_small_bg_size"
+        android:width="@dimen/sim_account_small_bg_size"
+        android:drawable="@drawable/multi_sim_ic_16_psim_business_trip"/>
+</layer-list>

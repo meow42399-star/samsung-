@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_settings"
+        android:background="@drawable/recoil_ripple_effect_circle"
+        android:tint="@color/places_detail_icon_color"
+        android:title="@string/search_settings"
+        android:showAsAction="never"
+        app:contentDescription="@string/search_settings"
+        app:showAsAction="never"/>
+</menu>

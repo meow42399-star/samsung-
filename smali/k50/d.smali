@@ -1,0 +1,12 @@
+###### Class k50.d (k50.d)
+.class public interface abstract Lk50/d;
+.super Ljava/lang/Object;
+.source "r8-map-id-a7353cfb79c11d52bee1cfbeda32e9327d9a3375cf680eb05b4dd51932f0324c"
+
+
+# virtual methods
+.method public abstract c(Ljava/lang/Object;)V
+.end method
+
+.method public abstract onComplete()V
+.end method

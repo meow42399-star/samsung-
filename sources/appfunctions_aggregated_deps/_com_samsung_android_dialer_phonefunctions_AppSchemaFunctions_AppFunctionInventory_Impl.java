@@ -1,0 +1,33 @@
+package appfunctions_aggregated_deps;
+
+import b8.a;
+import b8.b;
+import b8.c;
+import b8.d;
+import b8.e;
+import b8.f;
+import b8.g;
+import com.google.android.appfunctions.AppFunctionDataTypeMetadata;
+import com.google.android.appfunctions.AppFunctionMetadata;
+import com.google.android.appfunctions.AppFunctionParameterMetadata;
+import com.google.android.appfunctions.internal.AppFunctionInventory;
+import java.util.Map;
+import kotlin.Metadata;
+import o60.k;
+import os_migration_data_types.v1.ContactType;
+import p60.a0;
+
+/* JADX INFO: compiled from: r8-map-id-a7353cfb79c11d52bee1cfbeda32e9327d9a3375cf680eb05b4dd51932f0324c */
+/* JADX INFO: loaded from: classes.dex */
+@Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\b\u0007\u0018\u00002\u00020\u0001B\u0007¢\u0006\u0004\b\u0002\u0010\u0003¨\u0006\u0004"}, d2 = {"Lappfunctions_aggregated_deps/_com_samsung_android_dialer_phonefunctions_AppSchemaFunctions_AppFunctionInventory_Impl;", "Lcom/google/android/appfunctions/internal/AppFunctionInventory;", "<init>", "()V", "SamsungDialer_globalRelease"}, k = 1, mv = {2, 1, 0}, xi = ContactType.Preset.PRESET_YOUNGEST_SISTER_VALUE)
+public final class _com_samsung_android_dialer_phonefunctions_AppSchemaFunctions_AppFunctionInventory_Impl implements AppFunctionInventory {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final Object f2873a = a0.H(new k(a.f3376a, new AppFunctionMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_findCallRecords", "androidx.appsearch.functions", true, "findCallRecords schema impl", cx.a.u0(new AppFunctionParameterMetadata("findCallRecordsParams", "androidx.appsearch.functions", "findCallRecordsParams", "", new AppFunctionDataTypeMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_findCallRecords#PARAMETER_TYPE", "androidx.appsearch.functions", 3, false, false, "com.google.android.appfunctions.schema.common.v1.phone.FindCallRecordsParams"))), new AppFunctionDataTypeMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_findCallRecords#RETURN_TYPE", "androidx.appsearch.functions", 3, true, false, "com.google.android.appfunctions.schema.common.v1.phone.CallRecord"))), new k(b.f3377a, new AppFunctionMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_showCallRecord", "androidx.appsearch.functions", true, "showCallRecord schema impl", cx.a.u0(new AppFunctionParameterMetadata("callRecordId", "androidx.appsearch.functions", "callRecordId", "", new AppFunctionDataTypeMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_showCallRecord#PARAMETER_TYPE", "androidx.appsearch.functions", 8, false, false, null))), new AppFunctionDataTypeMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_showCallRecord#RETURN_TYPE", "androidx.appsearch.functions", 9, false, false, null))), new k(c.f3378a, new AppFunctionMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_deleteCallRecords", "androidx.appsearch.functions", true, "deleteCallRecords schema impl", cx.a.u0(new AppFunctionParameterMetadata("callRecordIds", "androidx.appsearch.functions", "callRecordIds", "", new AppFunctionDataTypeMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_deleteCallRecords#PARAMETER_TYPE", "androidx.appsearch.functions", 8, true, false, null))), new AppFunctionDataTypeMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_deleteCallRecords#RETURN_TYPE", "androidx.appsearch.functions", 8, true, false, null))), new k(d.f3379a, new AppFunctionMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_makeCall", "androidx.appsearch.functions", true, "makeCall schema impl", cx.a.u0(new AppFunctionParameterMetadata("makeCallParams", "androidx.appsearch.functions", "makeCallParams", "", new AppFunctionDataTypeMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_makeCall#PARAMETER_TYPE", "androidx.appsearch.functions", 3, false, false, "com.google.android.appfunctions.schema.common.v1.phone.MakeCallParams"))), new AppFunctionDataTypeMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_makeCall#RETURN_TYPE", "androidx.appsearch.functions", 9, false, false, null))), new k(e.f3380a, new AppFunctionMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_addToBlocklist", "androidx.appsearch.functions", true, "addToBlocklist schema impl", cx.a.u0(new AppFunctionParameterMetadata("addToBlocklistParams", "androidx.appsearch.functions", "addToBlocklistParams", "", new AppFunctionDataTypeMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_addToBlocklist#PARAMETER_TYPE", "androidx.appsearch.functions", 3, false, false, "com.google.android.appfunctions.schema.common.v1.phone.AddToBlocklistParams"))), new AppFunctionDataTypeMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_addToBlocklist#RETURN_TYPE", "androidx.appsearch.functions", 0, false, false, null))), new k(f.f3381a, new AppFunctionMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_findPersons", "androidx.appsearch.functions", true, "findPersons schema impl", cx.a.u0(new AppFunctionParameterMetadata("findPersonsParams", "androidx.appsearch.functions", "findPersonsParams", "", new AppFunctionDataTypeMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_findPersons#PARAMETER_TYPE", "androidx.appsearch.functions", 3, false, false, "com.google.android.appfunctions.schema.common.v1.persons.FindPersonsParams"))), new AppFunctionDataTypeMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_findPersons#RETURN_TYPE", "androidx.appsearch.functions", 3, true, false, "com.google.android.appfunctions.schema.common.v1.persons.Person"))), new k(g.f3382a, new AppFunctionMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_getPersons", "androidx.appsearch.functions", true, "getPersons schema impl", cx.a.u0(new AppFunctionParameterMetadata("personIds", "androidx.appsearch.functions", "personIds", "", new AppFunctionDataTypeMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_getPersons#PARAMETER_TYPE", "androidx.appsearch.functions", 8, true, false, null))), new AppFunctionDataTypeMetadata("com.samsung.android.dialer.phonefunctions#PhoneFunctions_getPersons#RETURN_TYPE", "androidx.appsearch.functions", 3, true, false, "com.google.android.appfunctions.schema.common.v1.persons.Person"))));
+
+    /* JADX WARN: Type inference failed for: r0v1, types: [java.lang.Object, java.util.Map] */
+    @Override // com.google.android.appfunctions.internal.AppFunctionInventory
+    public final Map a() {
+        return this.f2873a;
+    }
+}

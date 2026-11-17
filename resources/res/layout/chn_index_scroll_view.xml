@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="end"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:layout_width="50dp"
+    android:layout_height="wrap_content"
+    android:maxHeight="100dp"
+    android:fillViewport="true">
+    <TextView
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#fafafa"
+        android:gravity="center"
+        android:id="@+id/header_text"
+        android:background="?attr/colorPrimary"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <ListView
+        android:id="@+id/list"
+        android:focusable="true"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:maxHeight="100dp"/>
+</LinearLayout>

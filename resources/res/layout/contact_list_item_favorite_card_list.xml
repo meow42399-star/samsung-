@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialtacts.common.contactslist.Itemview.ContactListItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/contact_list_item_container"
+    android:background="@color/dialtacts_background_color"
+    android:visibility="visible"
+    android:descendantFocusability="afterDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:layout_gravity="start"
+            android:id="@+id/contact_list_item_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/contact_list_divider"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/favorite_card_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</com.samsung.android.dialtacts.common.contactslist.Itemview.ContactListItemView>

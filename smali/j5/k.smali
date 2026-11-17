@@ -1,0 +1,15 @@
+###### Class j5.k (j5.k)
+.class public interface abstract Lj5/k;
+.super Ljava/lang/Object;
+.source "r8-map-id-a7353cfb79c11d52bee1cfbeda32e9327d9a3375cf680eb05b4dd51932f0324c"
+
+
+# virtual methods
+.method public abstract e(F)V
+.end method
+
+.method public abstract g(I)V
+.end method
+
+.method public abstract l(F)V
+.end method

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/dialpad_button_ripple_color">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/dialpad_widget_china_bg_radius"/>
+            <solid android:color="@color/dialpad_widget_china_bg_color"/>
+        </shape>
+    </item>
+</ripple>

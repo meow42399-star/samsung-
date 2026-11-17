@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/contact_list_section_header_background_color"
+    android:paddingTop="@dimen/w_section_divider_header_margin_top"
+    android:focusable="false"
+    android:clickable="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="yes">
+    <TextView
+        android:gravity="center"
+        android:id="@+id/contacts_list_divider_text"
+        android:paddingTop="@dimen/w_section_divider_header_padding_top_bottom"
+        android:paddingBottom="@dimen/w_section_divider_header_padding_top_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/w_section_divider_header_min_height"
+        android:textDirection="firstStrongLtr"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/w_section_divider_header_start_margin"
+        android:layout_marginEnd="0dp"
+        style="@style/HeaderTextViewStyle"/>
+    <ImageView
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/contacts_list_divider_next_icon"
+        android:padding="@dimen/contact_list_divider_next_icon_padding"
+        android:visibility="gone"
+        android:layout_width="@dimen/contact_list_divider_next_icon_size"
+        android:layout_height="@dimen/contact_list_divider_next_icon_size"
+        android:src="@drawable/ic_next_forward_chevron_right"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/birthdayFriendsLabel"
+        android:layout_marginEnd="@dimen/contact_list_divider_next_icon_margin_end"/>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@color/sticker_reorder_icon_tint_color"
+    android:height="32dp"
+    android:width="32dp"
+    android:drawable="@drawable/tw_list_icon_reorder"
+    class="com.samsung.android.dialtacts.common.photo.DrawableWrapper"/>

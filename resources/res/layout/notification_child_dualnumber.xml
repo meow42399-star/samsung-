@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/notification_missedcall_child_margin_top">
+    <ImageView
+        android:id="@+id/notification_photo"
+        android:layout_width="@dimen/noti_dualnumber_icon_size"
+        android:layout_height="@dimen/noti_dualnumber_icon_size"
+        android:src="@drawable/voicecall_ic_dualnumberlite_kr_kt"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:tint="@color/dual_number_icon_color"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/notification_text_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_toEndOf="@+id/notification_photo">
+        <TextView
+            android:textAppearance="@style/NotificationContentTextAppearance"
+            android:ellipsize="end"
+            android:id="@+id/notification_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textDirection="ltr"/>
+    </LinearLayout>
+</RelativeLayout>

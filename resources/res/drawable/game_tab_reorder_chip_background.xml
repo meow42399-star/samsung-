@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/game_tab_reorder_chip_radius"/>
+            <solid android:color="@color/game_tab_reorder_chip_selected_bg_color"/>
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/game_tab_reorder_chip_radius"/>
+            <stroke
+                android:width="@dimen/game_tab_reorder_chip_stroke_width"
+                android:color="@color/game_tab_reorder_chip_selected_bg_color"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/game_tab_reorder_chip_radius"/>
+            <solid android:color="@color/dialtacts_ripple_button_color"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/game_tab_reorder_chip_radius"/>
+            <solid android:color="@color/game_tab_reorder_chip_bg_color"/>
+        </shape>
+    </item>
+</selector>

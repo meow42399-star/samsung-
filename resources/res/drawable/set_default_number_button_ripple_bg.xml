@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/contact_detail_contact_info_icon_bg"
+    android:insetRight="@dimen/set_default_number_button_ripple_bg_inset_right"/>

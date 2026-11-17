@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@color/editor_plus_icon_tint"
+    android:height="26dp"
+    android:width="26dp"
+    android:drawable="@drawable/tw_list_icon_add_mtrl"
+    class="com.samsung.android.dialtacts.common.photo.DrawableWrapper"/>

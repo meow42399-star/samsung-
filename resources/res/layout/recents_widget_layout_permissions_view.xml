@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/permission_view"
+    android:background="@drawable/cover_screen_permission_view_bg"
+    android:layout_width="@dimen/recents_widget_view_width"
+    android:layout_height="@dimen/recents_widget_view_height"
+    android:paddingHorizontal="@dimen/recents_widget_permission_view_horizontal_margin">
+    <TextView
+        android:textSize="@dimen/recents_widget_permission_title_size"
+        android:textColor="@color/cover_screen_widget_no_permission_text_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/recents_widget_permission_main_text_top_margin"
+        android:text="@string/recents_widget_permissions_view_title_text"
+        android:textAlignment="center"/>
+    <TextView
+        android:textSize="@dimen/recents_widget_permission_sub_title_size"
+        android:textColor="@color/cover_screen_widget_no_permission_sub_text_color"
+        android:gravity="center"
+        android:id="@+id/sub_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/recents_widget_permission_sub_text_top_margin"
+        android:text="@string/recents_widget_permission_view_sub_title_text"
+        android:textAlignment="center"/>
+</LinearLayout>

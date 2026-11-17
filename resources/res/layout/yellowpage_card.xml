@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/w_section_divider_header_height"
+    style="@style/ContactDetailCardStyle">
+    <com.samsung.android.dialer.callhistory.calllog.view.YellowPageCardView
+        android:orientation="vertical"
+        android:id="@+id/yellow_page_card"
+        android:background="@color/card_view_background_color"
+        android:paddingTop="@dimen/expanding_entry_card_view_padding_top"
+        android:paddingBottom="@dimen/expanding_entry_card_view_padding_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

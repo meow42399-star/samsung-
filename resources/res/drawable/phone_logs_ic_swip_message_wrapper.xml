@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@color/white"
+    android:height="@dimen/ims_swipe_icon_size"
+    android:width="@dimen/ims_swipe_icon_size"
+    android:drawable="@drawable/phone_logs_ic_expand_msg"
+    class="com.samsung.android.dialtacts.common.photo.DrawableWrapper"/>

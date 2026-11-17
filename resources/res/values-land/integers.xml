@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="dialpad_buttons_weight_dex">170</integer>
+    <integer name="dialpad_buttons_weight_tab">120</integer>
+    <integer name="dialpad_edit_text_height_weight_land">350</integer>
+    <integer name="dialpad_edit_text_height_weight_tab">350</integer>
+    <integer name="dialpad_edit_text_weight_dex">340</integer>
+    <integer name="dialpad_edit_text_weight_tab">420</integer>
+    <integer name="dialpad_keypad_topbottom_padding_weight_tab">150</integer>
+    <integer name="dialpad_keypad_weight_dex">490</integer>
+    <integer name="dialpad_keypad_weight_tab">360</integer>
+    <integer name="dialpad_padding_weight_dex">0</integer>
+    <integer name="dialpad_padding_weight_tab">110</integer>
+    <integer name="dialpad_sidepadding_dex">0</integer>
+    <integer name="dialpad_sidepadding_tab">50</integer>
+    <integer name="mtrl_calendar_header_orientation">0</integer>
+    <integer name="mtrl_calendar_selection_text_lines">6</integer>
+</resources>

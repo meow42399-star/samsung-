@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_vertical"
+    android:background="@color/contact_list_sub_header_background_color"
+    android:paddingTop="@dimen/recent_search_header_top_padding"
+    android:paddingBottom="@dimen/recent_search_header_bottom_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/w_section_divider_header_margin_top">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/section_header_container"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/w_list_left_right_padding"
+        android:accessibilityHeading="true">
+        <TextView
+            android:textAppearance="@style/RecentSearchHeader"
+            android:gravity="start|center_vertical"
+            android:id="@+id/section_header_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/recent_search_header_height"
+            android:text="@string/recent_search"
+            android:textAlignment="viewStart"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

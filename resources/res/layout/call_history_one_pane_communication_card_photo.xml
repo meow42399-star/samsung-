@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.dialer.calllog.view.widget.RoundedFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:id="@+id/call_history_one_pane_photo_container"
+    android:layout_width="@dimen/call_history_one_pane_photo_size"
+    android:layout_height="@dimen/call_history_one_pane_photo_size"
+    android:layout_marginEnd="@dimen/call_history_photo_start_end_margin">
+    <ImageView
+        android:id="@+id/one_pane_photo"
+        android:focusable="true"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+    <ViewStub
+        android:id="@+id/one_pane_two_photo_stub"
+        android:layout="@layout/call_history_one_pane_communication_two_photo"
+        android:inflatedId="@+id/one_pane_two_photo_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ViewStub
+        android:id="@+id/one_pane_three_photo_stub"
+        android:layout="@layout/call_history_one_pane_communication_three_photo"
+        android:inflatedId="@+id/one_pane_three_photo_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ViewStub
+        android:id="@+id/one_pane_four_photo_stub"
+        android:layout="@layout/call_history_one_pane_communication_four_photo"
+        android:inflatedId="@+id/one_pane_four_photo_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</com.samsung.android.dialer.calllog.view.widget.RoundedFrameLayout>

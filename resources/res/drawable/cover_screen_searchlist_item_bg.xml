@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/cover_screen_search_item_bg_color"/>
+    <stroke
+        android:width="0.5dp"
+        android:color="@color/recents_widget_bg_border"/>
+    <corners android:radius="20dp"/>
+</shape>

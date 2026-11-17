@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="@dimen/selected_item_rcs_dot_size"
+    android:width="@dimen/selected_item_rcs_dot_size"
+    android:shape="oval">
+    <solid android:color="@color/theme_rcs_indicator_bg_color"/>
+</shape>

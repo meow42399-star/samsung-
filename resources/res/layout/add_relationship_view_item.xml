@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SeslLinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:seslLayoutRoundedCorner="corner_none">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/add_relationship_view_container"
+        android:background="?android:attr/selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/contact_detail_card_padding_start_end"
+        android:paddingVertical="@dimen/expanding_entry_card_item_padding_top_for_normal">
+        <FrameLayout
+            android:layout_gravity="center"
+            android:id="@+id/add_relationship_icon_container"
+            android:layout_width="@dimen/relationship_add_icon_size"
+            android:layout_height="@dimen/relationship_add_icon_size"
+            android:layout_marginEnd="@dimen/relationship_add_icon_margin_end">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/contact_detail_thumbnail_icon_bg"/>
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/contact_thumbnail_ic_relationship"
+                android:layout_width="@dimen/contact_detail_contact_info_card_icon_size"
+                android:layout_height="@dimen/contact_detail_contact_info_card_icon_size"
+                android:src="@drawable/ic_add_create_new_plus"
+                android:tint="@color/detail_circle_icon_tint_color"/>
+        </FrameLayout>
+        <TextView
+            android:textAppearance="@style/textAppearanceContactsDetailItemPrimary"
+            android:textSize="@dimen/quickcontact_sub_header_text_size"
+            android:layout_gravity="center"
+            android:id="@+id/add_relationship_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_relationship_label"/>
+    </LinearLayout>
+</androidx.appcompat.widget.SeslLinearLayoutCompat>

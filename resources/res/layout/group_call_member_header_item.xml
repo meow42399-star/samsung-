@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/call_history_group_call_member_text_size"
+        android:gravity="start|center_vertical"
+        android:id="@+id/group_call_member_header"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:accessibilityHeading="true"
+        style="?android:attr/listSeparatorTextViewStyle"/>
+</LinearLayout>

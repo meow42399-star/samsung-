@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="@style/Regular"
+    android:textSize="@dimen/custom_dialog_warning_title_textsize"
+    android:textColor="?android:attr/textColorAlertDialogListItem"
+    android:gravity="start"
+    android:paddingTop="@dimen/custom_dialog_warning_textview_margin_top"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/custom_dialog_warning_textview_padding_left"
+    android:paddingEnd="@dimen/custom_dialog_warning_textview_padding_right"/>

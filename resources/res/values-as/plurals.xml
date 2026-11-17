@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="contact_list_pd_groups">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা গ্ৰুপ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা গ্ৰুপ</item>
+    </plurals>
+    <plurals name="count_calls">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা কল</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা কল</item>
+    </plurals>
+    <plurals name="delete_logs_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপোনাৰ কলৰ ইতিহাসৰ পৰা %d টা আইটেম বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপোনাৰ কলৰ ইতিহাসৰ পৰা %d টা আইটেম বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="delete_n_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা সম্পৰ্ক বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা সম্পৰ্ক বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="delete_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা টেগ বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা টেগ বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="group_chat_max_recipient_exceed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-এ গোট চাটত যোগদান কৰিব নোৱাৰে। সিহঁতক চয়নিত প্ৰাপ্তকর্তাসকলৰ পৰা আঁতৰাওক বা ইয়াৰ পৰিৱৰ্তে %2$d জন প্ৰাপ্তকর্তালৈকে এটা পাঠ মেচেজ প্ৰেৰণ কৰক।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s-এ গোট চাটত যোগদান কৰিব নোৱাৰে। সিহঁতক চয়নিত প্ৰাপ্তকর্তাসকলৰ পৰা আঁতৰাওক বা ইয়াৰ পৰিৱৰ্তে %2$d জন প্ৰাপ্তকর্তালৈকে এটা পাঠ মেচেজ প্ৰেৰণ কৰক।</item>
+    </plurals>
+    <plurals name="group_list_pd_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d জন সদস্য</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d জন সদস্য</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ফোন নম্বৰৰ সৈতে %d টা সম্পৰ্ক</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ফোন নম্বৰৰ সৈতে %d টা সম্পৰ্ক</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা সম্পর্ক</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা সম্পর্ক</item>
+    </plurals>
+    <plurals name="max_available_contacts_count_linked_contacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপোনাৰ SIM কাৰ্ডলৈ %d টাতকৈ অধিক সম্পৰ্ক লৈ যাব নোৱাৰে। চয়নিত সম্পৰ্কসমূহলৈ লিংক থকা সম্পৰ্কসমূহো গণনা কৰা হ&apos;ব।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপোনাৰ SIM কাৰ্ডলৈ %d টাতকৈ অধিক সম্পৰ্ক লৈ যাব নোৱাৰে। চয়নিত সম্পৰ্কসমূহলৈ লিংক থকা সম্পৰ্কসমূহো গণনা কৰা হ&apos;ব।</item>
+    </plurals>
+    <plurals name="merge_contact_tip_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপোনাৰ %d টা ডুপ্লিকেট সম্পৰ্ক আছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপোনাৰ %d টা ডুপ্লিকেট সম্পৰ্ক আছে।</item>
+    </plurals>
+    <plurals name="min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d মিনিট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d মিনিট</item>
+    </plurals>
+    <plurals name="missed_call_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা মিচ কল</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা মিচ কল</item>
+    </plurals>
+    <plurals name="missed_call_suggestion">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-ৰ পৰা %1$d টা মিচ কল।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s-ৰ পৰা %1$d টা মিচ কল।</item>
+    </plurals>
+    <plurals name="more_birthdays">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আৰু %d টা জন্মদিন</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আৰু %d টা জন্মদিন</item>
+    </plurals>
+    <plurals name="move_multi_contact_delete_one_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ট্ৰেচলৈ %d টা সম্পৰ্ক লৈ যাবনে আৰু 1 টা শেহতীয়া আইটেম বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ট্ৰেচলৈ %d টা সম্পৰ্ক লৈ যাবনে আৰু 1 টা শেহতীয়া আইটেম বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="move_n_contact_to_the_trash">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ট্ৰেচলৈ %d টা সম্পৰ্ক লৈ যাবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ট্ৰেচলৈ %d টা সম্পৰ্ক লৈ যাবনে?</item>
+    </plurals>
+    <plurals name="move_one_contact_delete_multi_log_confirmation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ট্ৰেচলৈ 1 টা সম্পৰ্ক লৈ যাবনে আৰু %d টা শেহতীয়া আইটেম বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ট্ৰেচলৈ 1 টা সম্পৰ্ক লৈ যাবনে আৰু %d টা শেহতীয়া আইটেম বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="my_profile_emergency_contacts_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা সম্পর্ক</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা সম্পর্ক</item>
+    </plurals>
+    <plurals name="new_voice_mail_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা নতুন ভইচমেইল</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা নতুন ভইচমেইল</item>
+    </plurals>
+    <plurals name="notification_contacts_export_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-লৈ %1$d টা সম্পৰ্ক ৰপ্তানি কৰিছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s-লৈ %1$d টা সম্পৰ্ক ৰপ্তানি কৰিছে</item>
+    </plurals>
+    <plurals name="notification_contacts_import_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা সম্পৰ্ক আমদানি কৰিছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা সম্পৰ্ক আমদানি কৰিছে</item>
+    </plurals>
+    <plurals name="notification_move_completed">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা সম্পৰ্ক লৈ গৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা সম্পৰ্ক লৈ গৈছে</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d জন ব্যক্তি</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d জন ব্যক্তি</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা বিচাৰি পালে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা বিচাৰি পালে</item>
+    </plurals>
+    <plurals name="sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ছেকেণ্ড</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ছেকেণ্ড</item>
+    </plurals>
+    <plurals name="some_contacts_not_Export_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা সম্পৰ্ক SIM-লৈ ৰপ্তানি কৰিব পৰা নগ&apos;ল কাৰণ তেওঁলোকৰ ফোন নম্বৰ 20 টা সংখ্যাতকৈ দীঘল।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা সম্পৰ্ক SIM-লৈ ৰপ্তানি কৰিব পৰা নগ&apos;ল কাৰণ তেওঁলোকৰ ফোন নম্বৰ 20 টা সংখ্যাতকৈ দীঘল।</item>
+    </plurals>
+    <plurals name="some_contacts_not_moved_to_sim">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা সম্পৰ্ক SIM-লৈ লৈ যাব পৰা নগ&apos;ল কাৰণ তেওঁলোকৰ ফোন নম্বৰ 20 টা সংখ্যাতকৈ দীঘল।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা সম্পৰ্ক SIM-লৈ লৈ যাব পৰা নগ&apos;ল কাৰণ তেওঁলোকৰ ফোন নম্বৰ 20 টা সংখ্যাতকৈ দীঘল।</item>
+    </plurals>
+    <plurals name="total_blocked_count_one">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">যোৱা %d দিনত 1 টা কল ব্লক কৰা হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">যোৱা %d দিনত 1 টা কল ব্লক কৰা হৈছে</item>
+    </plurals>
+    <plurals name="total_tag">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা টেগ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা টেগ</item>
+    </plurals>
+    <plurals name="trash_detail_delete_info">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-ত %1$s-ৰ পৰা বিলোপ কৰা হৈছে। সেইবোৰ চিৰদিনৰ বাবে বিলোপ হোৱালৈকে %3$d দিন।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s-ত %1$s-ৰ পৰা বিলোপ কৰা হৈছে। সেইবোৰ চিৰদিনৰ বাবে বিলোপ হোৱালৈকে %3$d দিন।</item>
+    </plurals>
+</resources>

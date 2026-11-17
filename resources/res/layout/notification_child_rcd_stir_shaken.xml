@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:id="@+id/container_notification_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/notification_missedcall_child_margin_top">
+    <TextView
+        android:textAppearance="@style/NotificationContentTextAppearance"
+        android:ellipsize="end"
+        android:id="@+id/text_view_content_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textDirection="ltr"/>
+    <LinearLayout
+        android:id="@+id/stir_shaken_container"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="@dimen/noti_validation_icon_size"
+            android:layout_height="@dimen/noti_validation_icon_size"
+            android:src="@drawable/stir_shaken_att_notification"
+            android:scaleType="centerInside"/>
+        <TextView
+            android:textAppearance="@style/NotificationContentTextAppearance"
+            android:id="@+id/text_valid_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"/>
+    </LinearLayout>
+</LinearLayout>

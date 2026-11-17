@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/w_list_one_line_height"
+    android:minHeight="40dp">
+    <ImageView
+        android:gravity="start|center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/videocall_type_icon"
+        android:layout_width="@dimen/ims_video_call_dialog_icon_size"
+        android:layout_height="@dimen/ims_video_call_dialog_icon_size"/>
+    <TextView
+        android:textAppearance="@style/Regular"
+        android:textSize="@dimen/w_dialog_main_text_size"
+        android:textColor="@color/alert_dialog_primary_text_color"
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/videocall_type_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/popup_list_item_padding_startend"
+        android:layout_marginStart="15dp"/>
+</LinearLayout>

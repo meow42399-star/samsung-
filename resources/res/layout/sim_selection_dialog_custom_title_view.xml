@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/sim_selection_custom_dialog_padding">
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Light.DialogWindowTitle"
+        android:textColor="@color/primary_text_color"
+        android:gravity="start"
+        android:id="@+id/sim_selection_title"
+        android:paddingTop="@dimen/sim_selection_custom_dialog_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_sim_popup_title"/>
+    <TextView
+        android:textAppearance="@style/Regular"
+        android:textSize="@dimen/sim_selection_custom_dialog_message_text_size"
+        android:textColor="@color/primary_text_color"
+        android:id="@+id/sim_selection_message"
+        android:paddingTop="@dimen/sim_selection_custom_dialog_message_top_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

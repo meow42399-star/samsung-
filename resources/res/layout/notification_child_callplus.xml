@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/important"
+        android:layout_width="@dimen/noti_callplus_icon_important_size"
+        android:layout_height="@dimen/noti_callplus_icon_important_size"
+        android:tint="@color/call_plus_notification_important_tint_color"/>
+    <TextView
+        android:textAppearance="@style/NotificationContentTextAppearance"
+        android:ellipsize="end"
+        android:id="@+id/subject"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_weight="1"
+        android:paddingStart="@dimen/noti_callplus_subject_padding"
+        android:paddingEnd="@dimen/noti_callplus_subject_padding"/>
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/location"
+        android:layout_width="@dimen/noti_callplus_icon_common_size"
+        android:layout_height="@dimen/noti_callplus_icon_common_size"
+        android:tint="@color/call_plus_notification_icon_tint_color"/>
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/image"
+        android:layout_width="@dimen/noti_callplus_icon_common_size"
+        android:layout_height="@dimen/noti_callplus_icon_common_size"
+        android:tint="@color/call_plus_notification_icon_tint_color"/>
+</LinearLayout>

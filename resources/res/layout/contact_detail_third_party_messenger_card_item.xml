@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SeslLinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:seslLayoutRoundedCorner="corner_none">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/content_view"
+        android:background="?android:attr/selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/w_list_one_line_height"
+        android:paddingStart="@dimen/contact_detail_card_padding_start_end"
+        android:paddingEnd="16dp">
+        <TextView
+            android:textAppearance="@style/textAppearanceContactsDetailItemPrimary"
+            android:textSize="@dimen/contact_detail_text_size_18"
+            android:id="@+id/third_party_messenger_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="viewStart"
+            android:paddingEnd="@dimen/space_between_third_party_messenger_text_and_icon"
+            android:paddingVertical="@dimen/expanding_entry_card_item_padding_top_for_normal"/>
+        <ImageButton
+            android:id="@+id/third_party_messenger_icon"
+            android:background="@android:color/transparent"
+            android:padding="12dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:foreground="@drawable/contact_detail_contact_info_icon_bg"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+</androidx.appcompat.widget.SeslLinearLayoutCompat>

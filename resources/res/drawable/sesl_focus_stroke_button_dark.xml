@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.oneui.graphics.drawable.SeslStrokeDrawable xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:seslInnerStrokeColor="@color/sesl_focus_stroke_inner_color_dark"
+    app:seslInnerStrokeWidth="@dimen/sesl_focus_stroke_width"
+    app:seslStrokeActiveState="focused"
+    app:seslStrokeCornerRadius="@dimen/sesl_button_corner_radius"/>

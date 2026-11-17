@@ -1,0 +1,9 @@
+package u8;
+
+/* JADX INFO: compiled from: r8-map-id-a7353cfb79c11d52bee1cfbeda32e9327d9a3375cf680eb05b4dd51932f0324c */
+/* JADX INFO: loaded from: classes.dex */
+public final class b extends RuntimeException {
+    public b(Throwable th2) {
+        super("Unexpected exception thrown by non-Glide code", th2);
+    }
+}
